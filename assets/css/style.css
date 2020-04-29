@@ -1,0 +1,208 @@
+heading {
+  font-family: "OSPDINDIN", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------colors*/
+
+a.hover_red:hover {
+  color: #ff3333 !important;
+}
+a.hover_blue:hover {
+  color: #0ebde8 !important;
+}
+a.hover_green:hover {
+  color: #33cc99 !important;
+}
+a.hover_orange:hover {
+  color: #f7a71c !important;
+}
+a.hover_purple:hover {
+  color: #6a42d0 !important;
+}
+a.hover_grey:hover {
+  color: #aaaaaa !important;
+}
+
+.grey {
+  background: #333333 !important;
+  color: #fff;
+}
+.black {
+  background: #000;
+}
+
+.red {
+  background: #ff3333;
+}
+
+.white {
+  background: #fff !important;
+}
+
+/*------------------Top*/
+
+#desk-main-menu {
+  font-family: "ospdindin", sans-serif;
+  text-transform: uppercase;
+}
+
+.top {
+  background: #555555;
+  width: 100vw;
+  height: 315px;
+  position: relative;
+  padding: 20px;
+  text-transform: uppercase;
+}
+.top .latLogo {
+  position: absolute;
+  top: 31px;
+  left: 31px;
+}
+.top ul {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  position: absolute;
+  top: 30px;
+  left: 271px;
+}
+.top ul li {
+  list-style: none;
+  padding: 1px 0px 2px 0;
+  margin: 0px 0px;
+}
+.top ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 23px;
+  line-height: 1;
+}
+
+.top-links {
+  width: 199px;
+  height: 253px;
+  position: absolute;
+  top: 0px;
+  right: 31px;
+ 
+}
+a.book-tickets {
+  position: absolute;
+  top: 38px;
+  right: 0px;
+}
+a.join-mailing-list {
+  position: absolute;
+  top: 161px;
+  right: 0px;
+}
+a.donate-to-little {
+  position: absolute;
+  top: 101px;
+  right: 0px;
+  font-family: "ospdindin";
+  font-size: 31px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #fff;
+}
+a.diary {
+  position: absolute;
+  top: 104px;
+  left: 0px;
+}
+a.facebook {
+  position: absolute;
+  top: 189px;
+  left: 0px;
+}
+a.twitter {
+  position: absolute;
+  top: 189px;
+  left: 53px;
+}
+a.youtube {
+  position: absolute;
+  top: 189px;
+  left: 105px;
+}
+a.instagram {
+  position: absolute;
+  top: 189px;
+  right: 1px;
+}
+/*
+	a.calendar-top-link {position: absolute; font-size: 64px; line-height:52px; color: #fff; font-family: 'osp-dindin'; text-decoration: none;}
+	*/
+a.calendar-top-link {
+  position: absolute;
+  font-size: 57px;
+  line-height: 52px;
+  color: #fff;
+  font-family: "ospdindin";
+  text-decoration: none;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.top-links strong {
+  position: absolute;
+  bottom: -7px;
+  left: 0px;
+  width: 199px;
+}
+.top-links strong a {
+  font-family: "ospdindin";
+  color: #fff;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+}
+
+.top-links .book-tickets.calendar-top-link:hover {
+  opacity: 0.7;
+}
+
+.top-links .join-mailing-list:hover {
+  opacity: 0.7;
+}
+
+.top-links a.facebook:hover,
+.top-links a.twitter:hover,
+.top-links a.youtube:hover,
+.top-links a.instagram:hover {
+  opacity: 0.7;
+}
+
+.bar {
+   height: 12px;
+    width: auto;
+    background: #fff;
+    position: relative;
+    top: 250px;
+    padding-right: 30px;
+    background: #fff;
+    margin-left: 250px;
+    margin-right: 15px;
+}
+
+
+/*------------------header*/
+
+/*------------------nav*/
+
+/*------------------donate overlay*/
+
+/*------------------jumbotrons*/
+
+/*------------------modal*/
+
+/*------------------scroll*/
+
+/*------------------tiles*/
+
+/*------------------footer*/

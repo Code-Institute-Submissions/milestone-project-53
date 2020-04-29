@@ -1,39 +1,77 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# 1. UX 
 
-Welcome USER_NAME,
+## 1.1 Who is this website for? 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This website is for parents and their children stuck at home due to school closures. It additionally for the theatre continue it's education and creative resources while the building is closed.
 
-## Gitpod Reminders
+## 1.2 What is it that they want to achieve? 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+They can come to the site for ideas on how to entertain their children with content such as read stories, mini-shows, projects and makes.
 
-`python3 -m http.server`
+## 1.3 How my project is the best way to help them achieve those things?
 
-A blue button should appear to click: *Make Public*,
+The website collates the output currently being created and posted in various places into one portal.
 
-Another blue button should appear to click: *Open Browser*.
+The website provides:
+* A welcome section with video explaining the content, and the current context.
+* Current shows streaming, with creative information available.
+* A scrollable selection of stories for children.
+* A selection of longer multi day projects for children to partake in.
+* A filterable selection of craft makes.
+* The website also prompts for donations, and links back to the main theatre site.
+* A styling desgined to tie in with the main theatre site.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+## 1.4 Website Wireframes 
+//
+# 2. Features 
 
-Another blue button should appear to click: *Open Browser*.
+//
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+# 3. Technologies Used 
 
-## Updates Since The Instructional Video
+## 3.1 Languages 
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### HTML/HTML5
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Semantic HTML 5 has been used for the web markup.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### CSS/CSS3
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+CSS/CSS3 to has been used to provide styling.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## 3.2 Frameworks
 
---------
+### BootStrap 4
 
-Happy coding!
+Bootstrap 4 components were used to save time on devolping the website.
+
+## 3.3 Integrated Development Environment 
+
+### Gitpod
+Gitpod was used as the IDE for this project.
+
+## 3.4 External Hostings
+
+//GitHub
+//The project used the GitHub hosting service to save the project in a repository.
+//Imgur
+//The project used the Imgur service to host and access images online.
+//Google Drive
+//The project used the Google Drive service to host and access others files and documents online.
+## 3.5 Other Tools 
+### Balsamiq Wireframes
+Wireframes built using Balsamiq.
+
+### Fonts
+Fonts OSP-DIN and Lato hosted from https://fontlibrary.org/
+
+# Credits
+## Content
+The text for section Y was copied from the Wikipedia article Z
+## Media
+
+Media has all come from Little Angel Theatre.
+
+## Acknowledgements
+I received inspiration for this project from Little Angel Theatre, and would like to thank Sophie Waddy for providing resources and a remit.
