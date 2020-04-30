@@ -4,6 +4,10 @@ heading {
   font-style: normal;
 }
 
+.lato {
+    font-family: "LatoRegular", sans-serif;
+}
+
 /*------------------colors*/
 
 a.hover_red:hover {
@@ -204,3 +208,8 @@ a.calendar-top-link {
 /*------------------tiles*/
 
 /*------------------footer*/
+footer {
+    position: fixed;
+    bottom: 0px;
+
+}
