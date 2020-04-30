@@ -133,9 +133,7 @@ a.instagram {
   top: 189px;
   right: 1px;
 }
-/*
-	a.calendar-top-link {position: absolute; font-size: 64px; line-height:52px; color: #fff; font-family: 'osp-dindin'; text-decoration: none;}
-	*/
+
 a.calendar-top-link {
   position: absolute;
   font-size: 57px;
