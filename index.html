@@ -209,7 +209,7 @@
         <!-- Nav -->
       </div>
       <!-- Navbar-->
-      <div class="row nav uppercase container-fluid grey">
+      <div class="row nav uppercase container-fluid grey fixed-top">
         <ul class="col-12 col-md-11 list-inline">
           <li>
             <a href="#home" class="hover_purple"><i class="fas fa-home"></i></a>
@@ -270,7 +270,7 @@
     </header>
 
     <!-- Welcome -->
-    <section id="welcome" class="container-fluid welcome">
+    <section id="welcome" class="container-fluid jumbotron welcome">
       <div class="row">
         <h2 class="heading">Welcome</h2>
       </div>
@@ -284,19 +284,24 @@
           generate a whole host of stay-at-home activity guides to help keep you
           and your little ones entertained.
         </p>
+        <div class="welcome-video col-md-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </div>
     </section>
     <!-- /Welcome -->
     <!-- Shows -->
-    <section id="shows" class="container-fluid shows">
+    <section id="shows" class="container-fluid jumbotron shows">
       <div class="row">
-        <h2 class="heading">Shows</h2>
-      </div>
-      <div class="row">
-        <p class="lato col-md-6">
-          Little Angel Theatre has partnered with theatre director Ian Nicholson
-          to stream an adaptation of Jon Klassen’s picture book I Want My Hat
-          Back.
+        <p class="lato">
+          Little Angel Theatre has partnered with director Ian Nicholson to
+          stream an adaptation of Jon Klassen’s picture book I Want My Hat Back.
           <br />The performance will be availbale from Easter Monday, 13 April
           at 11am BST and will be available until June 2nd.
           <br />
@@ -304,11 +309,100 @@
           will be directing and performing the show from home during lockdown,
           with set designed by Samuel Wilde and music by Jim Whitcher.
         </p>
+        <!--Scrolling shows - code from https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585 -->
+        <div class="app container-fluid">
+          <div class="row">
+            <h2 class="heading">Shows</h2>
+          </div>
+          <div class="container-fluid">
+            <div class="item">
+              <p>
+                Little Angel is partnering with creatives to create shows for
+                you to watch from the comfort of your own couch
+              </p>
+            </div>
+          </div>
+          <div class="full hide-scroll">
+            <ul class="hs">
+              <li class="item">
+                <div class="card" style="width: 33vw;" >
+                  <img class="card-img-top" src="..." alt="Card image cap" />
+                  <div class="card-body">
+                    <h5 class="card-title">I want my hat back</h5>
+                    <p class="card-text">
+                      Ian Nicholson directs an adaptation of Jon Klassen’s
+                      picture book I Want My Hat Back.
+                    </p>
+                    <a href="#" class="btn btn-primary">Credits</a>
+                    <a href="#" class="btn btn-primary">Watch</a>
+                  </div>
+                </div>
+              </li>
+               <li class="item">
+                <div class="card" style="width: 33vw;">
+                  <img class="card-img-top" src="..." alt="Card image cap" />
+                  <div class="card-body">
+                    <h5 class="card-title">I want my hat back</h5>
+                    <p class="card-text">
+                      Ian Nicholson directs an adaptation of Jon Klassen’s
+                      picture book I Want My Hat Back.
+                    </p>
+                    <a href="#" class="btn btn-primary">Credits</a>
+                    <a href="#" class="btn btn-primary">Watch</a>
+                  </div>
+                </div>
+              </li>
+               <li class="item">
+                <div class="card" style="width: 33vw;">
+                  <img class="card-img-top" src="..." alt="Card image cap" />
+                  <div class="card-body">
+                    <h5 class="card-title">I want my hat back</h5>
+                    <p class="card-text">
+                      Ian Nicholson directs an adaptation of Jon Klassen’s
+                      picture book I Want My Hat Back.
+                    </p>
+                    <a href="#" class="btn btn-primary">Credits</a>
+                    <a href="#" class="btn btn-primary">Watch</a>
+                  </div>
+                </div>
+              </li>
+               <li class="item">
+                <div class="card" style="width: 33vw;">
+                  <img class="card-img-top" src="..." alt="Card image cap" />
+                  <div class="card-body">
+                    <h5 class="card-title">I want my hat back</h5>
+                    <p class="card-text">
+                      Ian Nicholson directs an adaptation of Jon Klassen’s
+                      picture book I Want My Hat Back.
+                    </p>
+                    <a href="#" class="btn btn-primary">Credits</a>
+                    <a href="#" class="btn btn-primary">Watch</a>
+                  </div>
+                </div>
+              </li>
+              <li class="item">
+                <div class="card" style="width: 33vw;">
+                  <img class="card-img-top" src="..." alt="Card image cap" />
+                  <div class="card-body">
+                    <h5 class="card-title">I want my hat back</h5>
+                    <p class="card-text">
+                      Ian Nicholson directs an adaptation of Jon Klassen’s
+                      picture book I Want My Hat Back.
+                    </p>
+                    <a href="#" class="btn btn-primary">Credits</a>
+                    <a href="#" class="btn btn-primary">Watch</a>
+                  </div>
+                </div>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
     <!-- /Shows -->
     <!-- Stories -->
-    <section id="stories" class="container-fluid stories">
+    <section id="stories" class="container-fluid jumbotron stories">
       <div class="row">
         <h2 class="heading">Stories</h2>
       </div>
@@ -321,7 +415,7 @@
     </section>
     <!-- /Stories -->
     <!--Projects -->
-    <section id="projects" class="container-fluid projects">
+    <section id="projects" class="container-fluid jumbotron projects">
       <div class="row">
         <h2 class="heading">Projects</h2>
       </div>
@@ -335,7 +429,7 @@
     </section>
     <!-- /Projects -->
     <!-- activities -->
-    <section id="makes" class="container-fluid makes">
+    <section id="makes" class="container-fluid jumbotron makes">
       <div class="row">
         <h2 class="heading">Activities</h2>
       </div>
