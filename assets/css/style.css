@@ -1,14 +1,23 @@
-heading {
+
+/* Text-styling */
+.heading {
   font-family: "OSPDINDIN", sans-serif;
   font-weight: normal;
   font-style: normal;
+  font-size: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .lato {
     font-family: "LatoRegular", sans-serif;
 }
 
-/*------------------colors*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*------------------hovers----*/
 
 a.hover_red:hover {
   color: #ff3333 !important;
@@ -29,10 +38,12 @@ a.hover_grey:hover {
   color: #aaaaaa !important;
 }
 
+
+/*------------------backgrounds----*/
 .grey {
   background: #333333 !important;
-  color: #fff;
 }
+
 .black {
   background: #000;
 }
@@ -45,7 +56,7 @@ a.hover_grey:hover {
   background: #fff !important;
 }
 
-/*------------------Top*/
+/*------------------Top----sourced from littleangeltheatre.com------*/
 
 #desk-main-menu {
   font-family: "ospdindin", sans-serif;
@@ -81,8 +92,9 @@ a.hover_grey:hover {
   color: #fff;
   text-decoration: none;
   font-size: 23px;
-  line-height: 1;
+  line-height: 1;  
 }
+
 
 .top-links {
   width: 199px;
@@ -179,9 +191,9 @@ a.calendar-top-link {
 .top-links a.instagram:hover {
   opacity: 0.7;
 }
-
+/*----end of sourced code----*/
 .bar {
-   height: 12px;
+    height: 12px;
     width: auto;
     background: #fff;
     position: relative;
@@ -196,7 +208,26 @@ a.calendar-top-link {
 /*------------------header*/
 
 /*------------------nav*/
+.nav {
+    color: #fff;
+    background: #333;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+
+.nav li a{
+    padding: 2px 
+    }
+
+.nav-button {
+    color: #fff;
+    background: #333;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
 /*------------------donate overlay*/
 
 /*------------------jumbotrons*/
