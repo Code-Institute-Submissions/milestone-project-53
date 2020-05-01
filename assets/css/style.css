@@ -1,6 +1,14 @@
-
 /* Text-styling */
 .heading {
+  font-family: "OSPDINDIN", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 52px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav {
   font-family: "OSPDINDIN", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -10,11 +18,12 @@
 }
 
 .lato {
-    font-family: "LatoRegular", sans-serif;
+  font-family: "LatoRegular", sans-serif;
+  font-size: 14px;
 }
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /*------------------hovers----*/
@@ -37,7 +46,6 @@ a.hover_purple:hover {
 a.hover_grey:hover {
   color: #aaaaaa !important;
 }
-
 
 /*------------------backgrounds----*/
 .grey {
@@ -92,9 +100,8 @@ a.hover_grey:hover {
   color: #fff;
   text-decoration: none;
   font-size: 23px;
-  line-height: 1;  
+  line-height: 1;
 }
-
 
 .top-links {
   width: 199px;
@@ -102,7 +109,6 @@ a.hover_grey:hover {
   position: absolute;
   top: 0px;
   right: 31px;
- 
 }
 a.book-tickets {
   position: absolute;
@@ -193,41 +199,21 @@ a.calendar-top-link {
 }
 /*----end of sourced code----*/
 .bar {
-    height: 12px;
-    width: auto;
-    background: #fff;
-    position: relative;
-    top: 250px;
-    padding-right: 30px;
-    background: #fff;
-    margin-left: 250px;
-    margin-right: 15px;
+  height: 12px;
+  width: auto;
+  background: #fff;
+  position: relative;
+  top: 250px;
+  padding-right: 30px;
+  background: #fff;
+  margin-left: 250px;
+  margin-right: 15px;
 }
-
 
 /*------------------header*/
 
 /*------------------nav*/
-.nav {
-    color: #fff;
-    background: #333;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
 
-}
-
-.nav li a{
-    padding: 2px 
-    }
-
-.nav-button {
-    color: #fff;
-    background: #333;
-    text-align: left;
-    text-transform: uppercase;
-    
-}
 /*------------------donate overlay*/
 
 /*------------------jumbotrons*/
@@ -240,7 +226,6 @@ a.calendar-top-link {
 
 /*------------------footer*/
 footer {
-    position: fixed;
-    bottom: 0px;
-
+  position: fixed;
+  bottom: 0px;
 }
