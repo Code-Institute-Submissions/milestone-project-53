@@ -689,6 +689,108 @@
           info@littleangeltheatre.com or share them with us on Twitter, Facebook
           or Instagram.
         </p>
+        <!--Filterable contents: Original coding https://webdesign.tutsplus.com/tutorials/how-to-build-a-filtering-component-in-pure-css--cms-33111-->
+
+        <input type="radio" id="all" name="categories" value="all" checked />
+        <input type="radio" id="younger" name="categories" value="younger" />
+        <input type="radio" id="older" name="categories" value="older" />
+        <ol class="filters">
+          <li>
+            <label for="all">All</label>
+          </li>
+          <li>
+            <label for="younger">KS1 (age 3-6)</label>
+          </li>
+          <li>
+            <label for="older">KS2 (age 7-11)</label>
+          </li>
+        </ol>
+        <ol class="posts list-unstyled">
+          <li class="post" data-category="younger">
+            <article>
+              <figure>
+                <a
+                  href="https://littleangeltheatre.com/wp-content/uploads/2020/05/Magic-Cauldron-Sun-Catchers.pdf"
+                  target="_blank"
+                >
+                  <img src="assets/images/cauldron.png" alt="" />
+                </a>
+                <figcaption>
+                  <ol class="post-categories">
+                    <li>
+                      <a href="">younger</a>
+                    </li>
+                  </ol>
+                  <h2 class="post-title">
+                    <a
+                      href="https://littleangeltheatre.com/wp-content/uploads/2020/05/Magic-Cauldron-Sun-Catchers.pdf"
+                      target="_blank"
+                      >Magic Cauldron SunCatchers</a
+                    >
+                  </h2>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+          <li class="post" data-category="younger older">
+            <article>
+              <figure>
+                <a
+                  href="https://littleangeltheatre.com/wp-content/uploads/2020/04/Rapunzel-story-set.pdf"
+                  target="_blank"
+                >
+                  <img src="assets/images/rapunzel.png" alt="" />
+                </a>
+                <figcaption>
+                  <ol class="post-categories">
+                    <li>
+                      <a href="">older</a>
+                    </li>
+                      <li>
+                      <a href="">younger</a>
+                    </li>
+                  </ol>
+                  <h2 class="post-title">
+                    <a
+                      href="https://littleangeltheatre.com/wp-content/uploads/2020/04/Rapunzel-story-set.pdf"
+                      target="_blank"
+                      >Rapunzel story set</a
+                    >
+                  </h2>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+          <li class="post" data-category="younger older">
+            <article>
+              <figure>
+                <a
+                  href="https://littleangeltheatre.com/wp-content/uploads/2020/04/Guitar-Craft.pdf"
+                  target="_blank"
+                >
+                  <img src="assets/images/guitar.png" alt="" />
+                </a>
+                <figcaption>
+                  <ol class="post-categories">
+                    <li>
+                      <a href="">older</a>
+                    </li>
+                      <li>
+                      <a href="">younger</a>
+                    </li>
+                  </ol>
+                  <h2 class="post-title">
+                    <a
+                      href="https://littleangeltheatre.com/wp-content/uploads/2020/04/Guitar-Craft.pdf"
+                      target="_blank"
+                      >Guitar</a
+                    >
+                  </h2>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+        </ol>
       </div>
     </section>
     <!-- /activities -->
