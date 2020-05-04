@@ -309,3 +309,8 @@ footer {
   position: fixed;
   bottom: 0px;
 }
+
+
+
+/*------------------test styles*/
+.scroll-box   {  display: flex;    overflow-x: auto;}
