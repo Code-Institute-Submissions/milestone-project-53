@@ -294,7 +294,11 @@ a.calendar-top-link {
 
 
 
-
+.card-body2 {
+    min-height: 300px;
+    min-width: 500px;
+    margin-right: 5px;
+}
 
 
 
