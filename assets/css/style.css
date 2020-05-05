@@ -454,16 +454,24 @@ footer {
   z-index: 1000;
 }
 
-#sticky-alert {
+#sticky-alert-sm, #sticky-alert-lg {
   position: sticky!important;
   position: -webkit-sticky;
   width: 100%;
-  top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1000;
 }
+
+#sticky-alert-sm{
+      top: 30px;
+}
+
+#sticky-alert-lg {
+    vertical-align: bottom;
+}
+
 .non-sticky,
 #wrapper {
   margin: auto;

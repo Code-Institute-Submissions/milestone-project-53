@@ -295,16 +295,20 @@
           </ul>
         </div>
         <!-- /Navbar-->
-        
       </div>
       <!--/Sticky nav container-->
-<div
-          class="container-fluid alert alert-warning d-block d-md-none" id="sticky-alert"
-          role="alert"
-        >
-          We are offering these resources for free, but if you are able to make a small donation – even if it’s just £1 or £2 – it would be greatly appreciated.
-
-        </div>
+      <div
+        class="container-fluid alert alert-warning d-block d-md-none alert-dismissible fade show"
+        id="sticky-alert-sm"
+        role="alert"
+      >
+        We are offering these resources for free, but if you are able to make a
+        small donation – even if it’s just £1 or £2 – it would be greatly
+        appreciated.<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+      </div>
+      
       <!-- Welcome -->
       <section id="welcome" class="container-fluid jumbotron welcome">
         <div class="row">
@@ -857,6 +861,16 @@
       <!-- /activities -->
     </div>
     <!-- /wrapper -->
+
+    <div
+        class="container-fluid alert alert-warning d-none d-md-block fixed-bottom"
+        role="alert"
+      >
+        We are offering these resources for free, but if you are able to make a
+        small donation – even if it’s just £1 or £2 – it would be greatly
+        appreciated.
+      </div>
+
     <!-- Footer -->
     <footer>
       <div class="container-fluid grey lato">
