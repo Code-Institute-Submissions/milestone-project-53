@@ -309,7 +309,7 @@ a.calendar-top-link {
 }
 
 #makes img{
-    width: 150px;
+    width: 100%;
 }
 :root {
   --black: #1a1a1a;
