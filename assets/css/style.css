@@ -1,3 +1,8 @@
+body {
+ background-image: url("../images/princess.png") 100vw;
+  background-color: #cccccc;
+}
+
 /* Text-styling */
 .heading {
   font-family: "OSPDINDIN", sans-serif;
@@ -28,11 +33,11 @@
 }
 
 .card-text {
-     font-family: "LatoRegular", sans-serif;
-    font-size: 1em;
-    background: #333333;
-    color: #fff;
-    line-height: 1;
+  font-family: "LatoRegular", sans-serif;
+  font-size: 1em;
+  background: #333333;
+  color: #fff;
+  line-height: 1;
 }
 /*------------------hovers----*/
 
@@ -71,7 +76,6 @@ a.hover_grey:hover {
 .white {
   background: #fff !important;
 }
-
 
 /*------------------Top----sourced from littleangeltheatre.com------*/
 
@@ -219,27 +223,23 @@ a.calendar-top-link {
   margin-right: 15px;
 }
 
-
 .nav {
-    background: #555;
+  background: #555;
 }
 .nav a {
-color: #fff;
-text-decoration-line: none;
+  color: #fff;
+  text-decoration-line: none;
 }
-
-
 
 /*------------------donate overlay*/
 
 /*------------------jumbotrons*/
 .jumbotron {
-    background: #555;
+  background:rgba(55, 55, 55, 0.15);
 }
 /*------------------modal*/
 
 /*------------------scroll - code modified from https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585 --*/
-
 
 :root {
   --gutter: 20px;
@@ -268,24 +268,23 @@ text-decoration-line: none;
   grid-auto-flow: column;
   grid-auto-columns: calc(50% - var(--gutter) * 2);
   grid-template-rows: minmax(150px, 1fr);
-  
+
   overflow-x: scroll;
   scroll-snap-type: x proximity;
-  padding-bottom: calc(.75 * var(--gutter));
-  margin-bottom: calc(-.5 * var(--gutter));
+  padding-bottom: calc(0.75 * var(--gutter));
+  margin-bottom: calc(-0.5 * var(--gutter));
 }
 
 .hs:before,
 .hs:after {
   content: "";
-    width: 10px;
-    
+  width: 10px;
 }
 
 /* Hide scrollbar */
 .hide-scroll {
   overflow-y: hidden;
-  margin-bottom: calc(-.1 * var(--gutter));
+  margin-bottom: calc(-0.1 * var(--gutter));
 }
 
 .app {
@@ -293,7 +292,6 @@ text-decoration-line: none;
   height: 667px;
   overflow-y: scroll;
 }
-
 
 .hs > li,
 .item {
@@ -306,15 +304,11 @@ text-decoration-line: none;
   border-radius: 8px;
 }
 
-
-
 .card-body2 {
-    min-height: 300px;
-    min-width: 500px;
-    margin-right: 5px;
+  min-height: 300px;
+  min-width: 500px;
+  margin-right: 5px;
 }
-
-
 
 /*------------------filterable CSS*/
 #makes input[type="radio"] {
@@ -322,25 +316,25 @@ text-decoration-line: none;
   left: -9999px;
 }
 
-#makes img{
-    width: 100%;
-    padding: 2%;
+#makes img {
+  width: 100%;
+  padding: 2%;
 }
 :root {
   --black: #1a1a1a;
   --white: #fff;
   --green: #33cc99;
 }
- 
+
 .filters {
   text-align: center;
   margin-bottom: 2rem;
 }
- 
+
 .filters * {
   display: inline-block;
 }
- 
+
 .filters label {
   padding: 0.5rem 1rem;
   margin-bottom: 0.25rem;
@@ -350,7 +344,7 @@ text-decoration-line: none;
   cursor: pointer;
   transition: all 0.1s;
 }
- 
+
 .filters label:hover {
   background: var(--green);
   color: var(--white);
@@ -361,13 +355,13 @@ text-decoration-line: none;
   --white: #fff;
   --green: #49b293;
 }
- 
+
 .posts {
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: repeat(4, 1fr);
 }
- 
+
 .posts .post {
   background: #333;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -376,36 +370,36 @@ text-decoration-line: none;
   font-size: 1em;
 }
 
-.posts .post a{
+.posts .post a {
   color: #fff;
   font-family: "OSPDINDIN", sans-serif;
-} 
+}
 .posts .post-title {
   font-size: 2em;
 }
- 
+
 .posts .post-title:hover {
   color: #49b293;
 }
- 
+
 .posts figcaption {
   padding: 1rem;
 }
- 
+
 .posts .post-categories {
   margin-bottom: 0.75rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
 }
- 
+
 .posts .post-categories * {
   display: inline-block;
 }
- 
+
 .posts .post-categories li {
   margin-bottom: 0.2rem;
 }
- 
+
 .posts .post-categories a {
   padding: 0.2rem 0.5rem;
   border-radius: 1rem;
@@ -413,18 +407,18 @@ text-decoration-line: none;
   line-height: normal;
   background: all 0.1s;
 }
- 
+
 .posts .post-categories a:hover {
   background: var(--green);
   color: var(--white);
 }
- 
+
 @media screen and (max-width: 900px) {
   .posts {
     grid-template-columns: repeat(3, 1fr);
   }
 }
- 
+
 @media screen and (max-width: 650px) {
   .posts {
     grid-template-columns: repeat(2, 1fr);
@@ -436,16 +430,18 @@ text-decoration-line: none;
 }
 
 [value="younger"]:checked ~ .posts .post:not([data-category~="younger"]),
-[value="older"]:checked ~ .posts .post:not([data-category~="older"])
-[value="video"]:checked ~ .posts .post:not([data-category~="video"])
- {
+[value="older"]:checked
+  ~ .posts
+  .post:not([data-category~="older"])
+  [value="video"]:checked
+  ~ .posts
+  .post:not([data-category~="video"]) {
   display: none;
 }
- 
+
 [value="All"]:checked ~ .filters [for="All"],
 [value="older"]:checked ~ .filters [for="older"],
-[value="video"]:checked ~ .filters [for="video"],
- {
+[value="video"]:checked ~ .filters [for="video"] {
   background: var(--green);
   color: var(--white);
 }
@@ -456,14 +452,15 @@ footer {
   bottom: 0px;
 }
 
-
-
 /*------------------Horizontal scroll --*/
-.scroll-box   {  display: flex;    overflow-x: auto;}
+.scroll-box {
+  display: flex;
+  overflow-x: auto;
+}
 
 /*-- Sticky Menu --- code adapted from https://codepen.io/rpsthecoder/pen/zGYXEX --*/
 #sticky {
-  position: sticky!important;
+  position: sticky !important;
   position: -webkit-sticky;
   width: 100%;
   top: 0px;
@@ -474,8 +471,9 @@ footer {
   z-index: 1000;
 }
 
-#sticky-alert-sm, #sticky-alert-lg {
-  position: sticky!important;
+#sticky-alert-sm,
+#sticky-alert-lg {
+  position: sticky !important;
   position: -webkit-sticky;
   width: 100%;
   display: flex;
@@ -484,16 +482,13 @@ footer {
   z-index: 1000;
 }
 
-#sticky-alert-sm{
-      top: 30px;
+#sticky-alert-sm {
+  top: 30px;
 }
-
-
 
 .non-sticky,
 #wrapper {
   margin: auto;
-
 }
 #wrapper {
   height: 100%;
