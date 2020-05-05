@@ -232,7 +232,7 @@
         <div class="row nav uppercase container-fluid grey list-inline">
           <ul class="col-12 col-md-11 d-inline d-flex justify-content-around">
             <li class="d-inline">
-              <a href="#home" class="hover_purple"
+              <a href="#welcome" class="hover_purple"
                 ><i class="fas fa-home"></i
               ></a>
             </li>
@@ -755,10 +755,12 @@
             Facebook or Instagram.
           </p>
           <!--Filterable contents: Original coding https://webdesign.tutsplus.com/tutorials/how-to-build-a-filtering-component-in-pure-css--cms-33111-->
-
+<!-- Radio button selectors for filter -->
           <input type="radio" id="all" name="categories" value="all" checked />
           <input type="radio" id="younger" name="categories" value="younger" />
           <input type="radio" id="older" name="categories" value="older" />
+          <!-- /Radio button selectors for filter -->
+          <!-- Radio button lables act as filter buttons -->
           <ol class="filters">
             <li>
               <label for="all">All</label>
@@ -770,6 +772,8 @@
               <label for="older">KS2 (age 7-11)</label>
             </li>
           </ol>
+          <!-- /Radio button lables act as filter buttons -->
+          <!-- List of cards -->
           <ol class="posts list-unstyled">
             <li class="post" data-category="younger">
               <article>
@@ -856,12 +860,13 @@
               </article>
             </li>
           </ol>
+          <!-- /List of cards -->
         </div>
       </section>
       <!-- /activities -->
     </div>
     <!-- /wrapper -->
-
+<!-- Large Screen donate banner -->
     <div
         class="container-fluid alert alert-warning d-none d-md-block fixed-bottom"
         role="alert"
@@ -870,35 +875,14 @@
         small donation – even if it’s just £1 or £2 – it would be greatly
         appreciated.
       </div>
-
+<!-- /Large Screen donate banner -->
     <!-- Footer -->
     <footer>
       <div class="container-fluid grey lato">
         <p>Copyright 2020</p>
       </div>
     </footer>
-    <!-- Other scroll option --
-    
-        <div class="row container-fluid py-2">
-      <h2 class="font-weight-light">
-        Bootstrap 4 Horizontal Scrolling Cards with Flexbox
-      </h2>
-      <div class="col d-flex flex-row flex-nowrap">
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-        <div class="card card-body2">Card</div>
-      </div>
-    </div> -->
+  
+
   </body>
 </html>
