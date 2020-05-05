@@ -3,7 +3,7 @@
   font-family: "OSPDINDIN", sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 52px;
+  font-size: 2em;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -15,11 +15,12 @@
   font-size: 23px;
   text-decoration: none;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .lato {
   font-family: "LatoRegular", sans-serif;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 .uppercase {
@@ -28,7 +29,7 @@
 
 .card-text {
      font-family: "LatoRegular", sans-serif;
-  font-size: 10px;
+    font-size: 1em;
     background: #333333;
     color: #fff;
     line-height: 1;
@@ -56,7 +57,7 @@ a.hover_grey:hover {
 
 /*------------------backgrounds----*/
 .grey {
-  background: #333333 !important;
+  background: #333333;
 }
 
 .black {
@@ -219,10 +220,22 @@ a.calendar-top-link {
 }
 
 
+.nav {
+    background: #555;
+}
+.nav a {
+color: #fff;
+text-decoration-line: none;
+}
+
+
+
 /*------------------donate overlay*/
 
 /*------------------jumbotrons*/
-
+.jumbotron {
+    background: #555;
+}
 /*------------------modal*/
 
 /*------------------scroll - code modified from https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585 --*/
@@ -311,6 +324,7 @@ a.calendar-top-link {
 
 #makes img{
     width: 100%;
+    padding: 2%;
 }
 :root {
   --black: #1a1a1a;
@@ -355,16 +369,23 @@ a.calendar-top-link {
 }
  
 .posts .post {
-  background: #fafafa;
+  background: #333;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-family: "LatoRegular", sans-serif;
+  font-size: 1em;
 }
- 
+
+.posts .post a{
+  color: #fff;
+  font-family: "OSPDINDIN", sans-serif;
+} 
 .posts .post-title {
-  font-size: 1.3rem;
+  font-size: 2em;
 }
  
 .posts .post-title:hover {
-  text-decoration: underline;
+  color: #49b293;
 }
  
 .posts figcaption {
@@ -374,6 +395,7 @@ a.calendar-top-link {
 .posts .post-categories {
   margin-bottom: 0.75rem;
   font-size: .75rem;
+  text-transform: uppercase;
 }
  
 .posts .post-categories * {
