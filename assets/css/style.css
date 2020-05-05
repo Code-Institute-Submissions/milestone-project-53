@@ -415,17 +415,15 @@ a.calendar-top-link {
 
 [value="younger"]:checked ~ .posts .post:not([data-category~="younger"]),
 [value="older"]:checked ~ .posts .post:not([data-category~="older"])
+[value="video"]:checked ~ .posts .post:not([data-category~="video"])
  {
   display: none;
 }
  
 [value="All"]:checked ~ .filters [for="All"],
-[value="CSS"]:checked ~ .filters [for="CSS"],
-[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
-[value="jQuery"]:checked ~ .filters [for="jQuery"],
-[value="WordPress"]:checked ~ .filters [for="WordPress"],
-[value="Slider"]:checked ~ .filters [for="Slider"],
-[value="fullPage.js"]:checked ~ .filters [for="fullPage.js"] {
+[value="older"]:checked ~ .filters [for="older"],
+[value="video"]:checked ~ .filters [for="video"],
+ {
   background: var(--green);
   color: var(--white);
 }
