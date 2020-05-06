@@ -345,11 +345,11 @@ a.calendar-top-link {
 .filters label {
   padding: 0.5rem 1rem;
   margin-bottom: 0.25rem;
-  border-radius: 2rem;
   min-width: 50px;
   line-height: normal;
   cursor: pointer;
   transition: all 0.1s;
+  color: #ffffff;
 }
 
 .filters label:hover {
@@ -417,7 +417,6 @@ a.calendar-top-link {
 
 .posts .post-categories a {
   padding: 0.2rem 0.5rem;
-  border-radius: 1rem;
   border: 1px solid;
   line-height: normal;
   background: all 0.1s;
