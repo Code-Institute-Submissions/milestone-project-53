@@ -45,8 +45,23 @@
   line-height: 1;
 }
 
-.html5-video-player a {
-    font-family: "LatoRegular", sans-serif!important;
+.text-red {
+  color: #ff3333 ;
+}
+.text-blue {
+  color: #0ebde8 ;
+}
+.text-green {
+  color: #33cc99 ;
+}
+.text-orange {
+  color: #f7a71c;
+}
+.text-purple {
+  color: #6a42d0 ;
+}
+.text-grey {
+  color: #aaaaaa !important;
 }
 /*------------------hovers----*/
 
