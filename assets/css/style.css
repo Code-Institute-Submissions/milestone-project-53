@@ -435,28 +435,7 @@ a.calendar-top-link {
   }
 }
 
-/*------------------filter--*/
-
-[value="All"]:checked ~ .posts [data-category] {
-  display: block;
-}
-
-[value="younger"]:checked ~ .posts .post:not([data-category~="younger"]),
-[value="older"]:checked
-  ~ .posts
-  .post:not([data-category~="older"]),
-  [value="video"]:checked
-  ~ .posts
-  .post:not([data-category~="video"]), {
-  display: none;
-}
-
-[value="All"]:checked ~ .filters [for="All"],
-[value="older"]:checked ~ .filters [for="older"],
-[value="video"]:checked ~ .filters [for="video"] {
-  background: var(--green);
-  color: var(--white);
-}/* FILTERING RULES
+/* FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 [value="all"]:checked ~ .filters [for="all"],
 [value="younger"]:checked ~ .filters [for="younger"],
