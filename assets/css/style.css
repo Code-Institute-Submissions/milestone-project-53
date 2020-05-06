@@ -44,6 +44,10 @@
   color: #fff;
   line-height: 1;
 }
+
+.html5-video-player a {
+    font-family: "LatoRegular", sans-serif!important;
+}
 /*------------------hovers----*/
 
 a.hover_red:hover {
@@ -243,6 +247,7 @@ a.calendar-top-link {
   background:rgba(55, 55, 55, 0.9);
 }
 /*------------------modal*/
+
 
 /*------------------scroll - code modified from https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585 --*/
 
