@@ -1,6 +1,9 @@
-body {
- background-image: url("../images/princess.png") 100vw;
-  background-color: #cccccc;
+#wrapper {
+ background-image: url("../images/vom.jpg");
+  background-color: rgb(01, 01, 01);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Text-styling */
@@ -26,6 +29,7 @@ body {
 .lato {
   font-family: "LatoRegular", sans-serif;
   font-size: 1em;
+    color: #fff;
 }
 
 .uppercase {
@@ -235,7 +239,7 @@ a.calendar-top-link {
 
 /*------------------jumbotrons*/
 .jumbotron {
-  background:rgba(55, 55, 55, 0.15);
+  background:rgba(55, 55, 55, 0.9);
 }
 /*------------------modal*/
 
