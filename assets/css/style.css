@@ -265,6 +265,8 @@ a.calendar-top-link {
 /*------------------jumbotrons*/
 .jumbotron {
   background:rgba(55, 55, 55, 0.9);
+  margin-bottom: 50vh;
+  border-radius: 0;
 }
 /*------------------show styling*/
 
