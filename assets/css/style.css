@@ -310,78 +310,15 @@ a.calendar-top-link {
 }
 
 
-
-/*------------------scroll - code modified from https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585 --*/
+/*------------------Horizontal scroll --*/
 
 :root {
   --gutter: 20px;
 }
-
-.app {
-  padding: var(--gutter) 0;
-  display: grid;
-  grid-gap: var(--gutter) 0;
-  grid-template-columns: var(--gutter) 1fr var(--gutter);
-  align-content: start;
-}
-
-.app > * {
-  grid-column: 2 / -2;
-}
-
-.app > .full {
-  grid-column: 1 / -1;
-}
-
-.hs {
-  display: grid;
-  grid-gap: calc(var(--gutter) / 2);
-  grid-template-columns: 10px;
-  grid-auto-flow: column;
-  grid-auto-columns: calc(50% - var(--gutter) * 2);
-  grid-template-rows: minmax(150px, 1fr);
-
-  overflow-x: scroll;
-  scroll-snap-type: x proximity;
-  padding-bottom: calc(0.75 * var(--gutter));
-  margin-bottom: calc(-0.5 * var(--gutter));
-}
-
-.hs:before,
-.hs:after {
-  content: "";
-  width: 10px;
-}
-
-/* Hide scrollbar */
-.hide-scroll {
-  overflow-y: hidden;
-  margin-bottom: calc(-0.1 * var(--gutter));
-}
-
-.app {
-  width: 90%;
-  height: 667px;
-  overflow-y: scroll;
-}
-
-.hs > li,
-.item {
-  scroll-snap-align: center;
-  padding: calc(var(--gutter) / 2 * 1.5);
+.scroll-box {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
+  overflow-x: auto;
 }
-
-.card-body2 {
-  min-height: 300px;
-  min-width: 500px;
-  margin-right: 5px;
-}
-
 /*------------------filterable CSS*/
 
 /*------------------remove radio buttons*/
@@ -550,11 +487,7 @@ a.calendar-top-link {
 }
 
 
-/*------------------Horizontal scroll --*/
-.scroll-box {
-  display: flex;
-  overflow-x: auto;
-}
+
 
 /*-- Sticky Menu --- code adapted from https://codepen.io/rpsthecoder/pen/zGYXEX --*/
 #sticky {
