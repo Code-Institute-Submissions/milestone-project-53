@@ -108,6 +108,7 @@ a.hover_grey:hover {
   background: #fff !important;
 }
 
+
 /*------------------Alerts------*/
 .show-alert-text {
     font-family: "OSPDINDIN", sans-serif;
@@ -121,6 +122,15 @@ a.hover_grey:hover {
 .alert {
     border-radius: 0px;
 }
+
+.alert-warning {
+    background-color: #ffd283;
+    border-color: #ffd283;
+    font-family: "LatoRegular", sans-serif;
+    text-justify:  distribute-all-lines;
+    color: #333;
+}
+
 
 /*------------------Top----sourced from littleangeltheatre.com------*/
 
@@ -596,4 +606,23 @@ footer a {
 footer {
     padding-bottom: 100px;
   }
+}
+/*------------------donate btn*/
+.btn-warning-donate,  .btn-warning-donate a { 
+    text-decoration: none;
+    font-family: "OSPDINDIN", sans-serif;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 0;
+}
+
+.btn-warning-donate:hover,  .btn-warning-donate a:hover {
+    text-decoration: none;
+    font-family: "OSPDINDIN", sans-serif;
+    text-transform: uppercase;
+    border-radius: 0;
+    background-color: #333333;
+    color: #f7a71c;
+    border: 0;
+    text-decoration-line: none;
 }
