@@ -413,12 +413,8 @@ a.calendar-top-link {
   padding: 2%;
 }
 
-/*------------------grid*/
-.posts {
-  display: grid;
-  grid-gap: 1.5rem;
-  grid-template-columns: repeat(4, 1fr);
-}
+/*------------------grid-*/
+
 
 .posts .post {
   background: #333;
@@ -426,6 +422,11 @@ a.calendar-top-link {
   color: #fff;
   font-family: "LatoRegular", sans-serif;
   font-size: 1em;
+  display: inline-block;
+}
+
+.posts .card {
+    display: inline-block;
 }
 /*------------------link styling*/
 .posts .post a {
@@ -470,17 +471,38 @@ a.calendar-top-link {
   color: var(--white);
 }
 /*------------------responsive grid*/
-@media screen and (max-width: 900px) {
-  .posts {
-    grid-template-columns: repeat(3, 1fr);
+
+@media screen and (min-width: 300px) {
+.card-columns {
+    column-count: 2;
   }
 }
 
-@media screen and (max-width: 650px) {
-  .posts {
-    grid-template-columns: repeat(2, 1fr);
+@media screen and (min-width: 600px) {
+.card-columns {
+    column-count: 3;
   }
 }
+
+@media screen and (min-width: 700px) {
+.card-columns {
+     column-count: 4;
+  }
+}
+
+
+@media screen and (min-width: 800px) {
+.card-columns {
+     column-count: 5;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+.card-columns {
+     column-count: 6;
+  }
+}
+
 
 /* FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -493,7 +515,7 @@ a.calendar-top-link {
 }
 
 [value="all"]:checked ~ .posts [data-category] {
-  display: block;
+  display: inline-block;
 }
 
 [value="youger"]:checked ~ .posts .post:not([data-category~="younger"]),
