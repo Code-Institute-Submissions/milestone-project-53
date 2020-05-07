@@ -275,15 +275,29 @@ a.calendar-top-link {
   text-decoration-line: none;
 }
 
-/*------------------donate overlay*/
+/*------------------donate overlay----------------------*/
 
-/*------------------jumbotrons*/
-.jumbotron {
-  background:rgba(55, 55, 55, 0.9);
-  margin-bottom: 50vh;
+/*------------------jumbotrons---------------------------*/
+.jumbotron { background:rgba(55, 55, 55, 0.9);
+  border-radius: 0;
+  margin-top: 6.25em
+
+}
+
+.jumbotron.welcome, .jumbotron.shows, .jumbotron.stories, .jumbotron.projects{
+  margin-bottom: 40vh;
+
+}
+
+.jumbotron.makes {
   border-radius: 0;
 }
-/*------------------show styling*/
+/*------------------Trackback links------*/
+.trackback-link {
+  position: relative;
+  width: 400px;
+  height: 10px;
+}
 
 
 
