@@ -26,7 +26,7 @@ padding-left: 15px;
   font-family: "OSPDINDIN", sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 23px;
+  font-size: 1.438em;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -37,6 +37,7 @@ padding-left: 15px;
   font-size: 1em;
     color: #fff;
 }
+
 
 .uppercase {
   text-transform: uppercase;
@@ -104,6 +105,20 @@ a.hover_grey:hover {
 
 .white {
   background: #fff !important;
+}
+
+/*------------------Alerts------*/
+.show-alert-text {
+    font-family: "OSPDINDIN", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.alert {
+    border-radius: 0px;
 }
 
 /*------------------Top----sourced from littleangeltheatre.com------*/
