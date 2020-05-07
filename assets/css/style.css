@@ -338,13 +338,15 @@ a.calendar-top-link {
 /*------------------Projects section---------------------------------*/
 
 .accordion .card-header:after {
-    font-family: 'FontAwesome';  
+    font-family: 'FontAwesome';
+    color: #fff;  
     content: "\f068";
     float: right; 
 }
 .accordion .card-header.collapsed:after {
     /* symbol for "collapsed" panels */
     content: "\f067"; 
+        color: #fff;  
 }
 
 .accordion h2.heading {
