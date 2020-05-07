@@ -319,8 +319,15 @@ a.calendar-top-link {
   display: flex;
   overflow-x: auto;
 }
-/*------------------filterable CSS*/
 
+/*------------------Activitities section---------------------------------*/
+
+.mail-to a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+/*------------------filterable CSS---------------------------------*/
 /*------------------remove radio buttons*/
 #makes input[type="radio"] {
   position: absolute;
