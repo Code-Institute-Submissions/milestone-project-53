@@ -39,6 +39,13 @@ padding-left: 15px;
     color: #fff;
 }
 
+.osp {
+  font-family: "OSPDINDIN", sans-serif;
+  font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+}
+
 
 .uppercase {
   text-transform: uppercase;
@@ -308,9 +315,13 @@ a.calendar-top-link {
   width: 1px;
   height: 10px;
 }
+/*-----------------Shows-------------------*/
 
 
-/*------------------Horizontal scroll --*/
+.carousel-indicators {
+    bottom: -2em;}
+
+/*------------------Stories --- Horizontal scroll --*/
 
 :root {
   --gutter: 20px;
@@ -320,6 +331,50 @@ a.calendar-top-link {
   overflow-x: auto;
 }
 
+.embed-responsive-item {
+    border: 0;
+}
+
+/*------------------Projects section---------------------------------*/
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+
+.accordion h2.heading {
+    padding-left: 0;
+}
+
+.accordion .card-header {
+    padding: 0rem 0rem; 
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.0);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+#projects .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #333; 
+    background-clip: border-box;
+     border: 0; 
+     border-radius: 0;
+    }
+
+.project-scroll-box {
+    overflow-x: auto;
+}
 /*------------------Activitities section---------------------------------*/
 
 .mail-to a{
@@ -341,7 +396,7 @@ a.calendar-top-link {
 :root {
   --black: #1a1a1a;
   --white: #fff;
-  --green: #33cc99;
+  --green: #0ebde8;
 }
 
 .filters {
@@ -371,7 +426,7 @@ a.calendar-top-link {
 :root {
   --black: #1a1a1a;
   --white: #fff;
-  --green: #49b293;
+  --green: #0ebde8;
 }
 
 /*------------------filter cards*/
@@ -406,7 +461,7 @@ a.calendar-top-link {
 }
 
 .posts .post-title:hover {
-  color: #49b293;
+  color: #0ebde8;
   
   
 }
