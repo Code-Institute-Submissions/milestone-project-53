@@ -4,6 +4,7 @@
   background-size: 100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 0;
 }
 
 /* Text-styling */
@@ -15,6 +16,10 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+}
+
+h2.heading{
+padding-left: 15px;
 }
 
 .nav {
@@ -261,7 +266,8 @@ a.calendar-top-link {
 .jumbotron {
   background:rgba(55, 55, 55, 0.9);
 }
-/*------------------modal*/
+/*------------------show styling*/
+
 
 
 /*------------------scroll - code modified from https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585 --*/
