@@ -281,17 +281,16 @@ a.calendar-top-link {
 .jumbotron { background:rgba(55, 55, 55, 0.9);
   border-radius: 0;
   margin-top: 6.25em
-
 }
 
 .jumbotron.welcome, .jumbotron.shows, .jumbotron.stories, .jumbotron.projects{
   margin-bottom: 40vh;
-
 }
 
 .jumbotron.makes {
   border-radius: 0;
 }
+
 /*------------------Trackback links------*/
 .trackback-link {
   position: relative;
@@ -539,12 +538,6 @@ a.calendar-top-link {
 }
 
 
-/*------------------footer*/
-footer {
-  position: fixed;
-  bottom: 0px;
-}
-
 /*------------------Horizontal scroll --*/
 .scroll-box {
   display: flex;
@@ -585,4 +578,21 @@ footer {
 }
 #wrapper {
   height: 100%;
+}
+
+/*------------------footer*/
+footer {  
+    background: transparent;
+}
+
+footer a {
+    font-family: "OSPDINDIN", sans-serif;
+    color: #fff;
+
+}
+
+@media screen and (min-width: 768px) {
+footer {
+    padding-bottom: 100px;
+  }
 }
