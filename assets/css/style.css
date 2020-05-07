@@ -473,6 +473,7 @@ a.calendar-top-link {
   margin-bottom: 0.75rem;
   font-size: 0.75rem;
   text-transform: uppercase;
+  justify-content: space-between;
 }
 
 .posts .post-categories * {
