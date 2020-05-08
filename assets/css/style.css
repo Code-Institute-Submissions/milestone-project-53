@@ -357,7 +357,7 @@ a.calendar-top-link {
     padding: 0rem 0rem; 
     margin-bottom: 0;
     background-color: rgba(0,0,0,.0);
-    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(255,255,255,1);
 }
 
 #projects .card {
@@ -373,6 +373,13 @@ a.calendar-top-link {
      border: 0; 
      border-radius: 0;
     }
+.accordion button {
+    text-align: left;
+    font-size: 1.5em;
+    border: 0;
+
+}
+.accordion button:focus { outline-color: #33cc99; }
 
 .project-scroll-box {
     overflow-x: auto;
