@@ -68,6 +68,9 @@ The cards a filterable using a filter on the page for activities suitable for ol
 ## 2.9 Footer
 The footer contains social media links. For larger screens in which the donate alert is shown at the bottom of the screen, it uses a media query to add padding added to raise it above the donate alert.
 
+## 2.10 General features
+For accessibility the active link is highlighted in the same colour as the section of the page. This includes contrast as the deafault blue doesn't show well against the background, but also includes accessibility into the design thought process.
+
 # 3. Technologies Used
 
 
@@ -135,7 +138,7 @@ Images used on this site were run through http://tinypng.com for compression.
 - Little Angel Header: https://littleangeltheatre.com/
 - Sticky Header: https://css-tricks.com/creating-sliding-effects-using-sticky-positioning/
 - Carousel: https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600
-- Stories scroll:
+- Stories scroll: https://www.freecodecamp.org/news/horizontal-scrolling-using-flexbox-f9d16817f742/
 - Card Filter: https://webdesign.tutsplus.com/tutorials/how-to-build-a-filtering-component-in-pure-css--cms-33111
 - Youtube stop carousel JS script: https://stackoverflow.com/questions/47079195/youtube-video-iframe-in-a-bootstrap-carousel-stop-carousel-from-sliding-when-v
 
