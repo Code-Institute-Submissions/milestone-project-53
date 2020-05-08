@@ -117,6 +117,8 @@ a.hover_grey:hover {
 
 
 /*------------------Alerts------*/
+.alert>* :focus { outline-color: #333; }
+
 .show-alert-text {
     font-family: "OSPDINDIN", sans-serif;
   font-weight: normal;
@@ -140,6 +142,7 @@ a.hover_grey:hover {
 
 
 /*------------------Top----sourced from littleangeltheatre.com------*/
+header>* :focus, footer>* :focus { outline-color: #aaaaaa; }
 
 #desk-main-menu {
   font-family: "ospdindin", sans-serif;
@@ -315,13 +318,16 @@ a.calendar-top-link {
   width: 1px;
   height: 10px;
 }
+/*-----------------Welcome-------------------*/
+#shows>* :focus { outline-color:#6a42d0; }
 /*-----------------Shows-------------------*/
-
+#shows>* :focus { outline-color:#ff3333; }
 
 .carousel-indicators {
     bottom: -2em;}
 
 /*------------------Stories --- Horizontal scroll --*/
+#stories>* :focus { outline-color:#ff3333; }
 
 :root {
   --gutter: 20px;
@@ -336,6 +342,7 @@ a.calendar-top-link {
 }
 
 /*------------------Projects section---------------------------------*/
+#projects>* :focus { outline-color: #33cc99; }
 
 .accordion .card-header:after {
     font-family: 'FontAwesome';
@@ -384,11 +391,14 @@ a.calendar-top-link {
 
 }
 .accordion button:focus { outline-color: #33cc99; }
+#projects:focus { outline-color: #33cc99; }
 
 .project-scroll-box {
     overflow-x: auto;
 }
 /*------------------Activitities section---------------------------------*/
+
+#makes>* :focus { outline-color: #0ebde8; }
 
 .mail-to a{
     color: #fff;
@@ -619,15 +629,16 @@ footer {
   }
 }
 /*------------------donate btn*/
-.btn-warning-donate,  .btn-warning-donate a { 
+.btn-warning-donate  { 
     text-decoration: none;
     font-family: "OSPDINDIN", sans-serif;
     text-transform: uppercase;
     border-radius: 0;
     border: 0;
+    color: #333333;
 }
 
-.btn-warning-donate:hover,  .btn-warning-donate a:hover {
+.btn-warning-donate:hover {
     text-decoration: none;
     font-family: "OSPDINDIN", sans-serif;
     text-transform: uppercase;
