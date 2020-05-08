@@ -1,5 +1,5 @@
 #wrapper {
- background-image: url("../images/vom.jpg");
+  background-image: url("../images/vom.jpg");
   background-color: rgb(01, 01, 01);
   background-size: 100vw;
   background-repeat: no-repeat;
@@ -19,8 +19,8 @@
   color: #fff;
 }
 
-h2.heading{
-padding-left: 15px;
+h2.heading {
+  padding-left: 15px;
 }
 
 .nav {
@@ -36,16 +36,15 @@ padding-left: 15px;
 .lato {
   font-family: "LatoRegular", sans-serif;
   font-size: 1em;
-    color: #fff;
+  color: #fff;
 }
 
 .osp {
   font-family: "OSPDINDIN", sans-serif;
   font-size: 1em;
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
-
 
 .uppercase {
   text-transform: uppercase;
@@ -60,19 +59,19 @@ padding-left: 15px;
 }
 
 .text-red {
-  color: #ff3333 ;
+  color: #ff3333;
 }
 .text-blue {
-  color: #0ebde8 ;
+  color: #0ebde8;
 }
 .text-green {
-  color: #33cc99 ;
+  color: #33cc99;
 }
 .text-orange {
   color: #f7a71c;
 }
 .text-purple {
-  color: #6a42d0 ;
+  color: #6a42d0;
 }
 .text-grey {
   color: #aaaaaa !important;
@@ -115,12 +114,13 @@ a.hover_grey:hover {
   background: #fff !important;
 }
 
-
 /*------------------Alerts------*/
-.alert>* :focus { outline-color: #333; }
+.alert > * :focus {
+  outline-color: #333;
+}
 
 .show-alert-text {
-    font-family: "OSPDINDIN", sans-serif;
+  font-family: "OSPDINDIN", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1em;
@@ -129,20 +129,22 @@ a.hover_grey:hover {
 }
 
 .alert {
-    border-radius: 0px;
+  border-radius: 0px;
 }
 
 .alert-warning {
-    background-color: #ffd283;
-    border-color: #ffd283;
-    font-family: "LatoRegular", sans-serif;
-    text-justify:  distribute-all-lines;
-    color: #333;
+  background-color: #ffd283;
+  border-color: #ffd283;
+  font-family: "LatoRegular", sans-serif;
+  text-justify: distribute-all-lines;
+  color: #333;
 }
 
-
 /*------------------Top----sourced from littleangeltheatre.com------*/
-header>* :focus, footer>* :focus { outline-color: #aaaaaa; }
+header > * :focus,
+footer > * :focus {
+  outline-color: #aaaaaa;
+}
 
 #desk-main-menu {
   font-family: "ospdindin", sans-serif;
@@ -297,12 +299,16 @@ a.calendar-top-link {
 }
 
 /*------------------jumbotrons---------------------------*/
-.jumbotron { background:rgba(55, 55, 55, 0.9);
+.jumbotron {
+  background: rgba(55, 55, 55, 0.9);
   border-radius: 0;
-  margin-top: 6.25em
+  margin-top: 6.25em;
 }
 
-.jumbotron.welcome, .jumbotron.shows, .jumbotron.stories, .jumbotron.projects{
+.jumbotron.welcome,
+.jumbotron.shows,
+.jumbotron.stories,
+.jumbotron.projects {
   margin-bottom: 30vh;
 }
 
@@ -317,15 +323,22 @@ a.calendar-top-link {
   height: 10px;
 }
 /*-----------------Welcome-------------------*/
-#shows>* :focus { outline-color:#6a42d0; }
+#shows > * :focus {
+  outline-color: #6a42d0;
+}
 /*-----------------Shows-------------------*/
-#shows>* :focus { outline-color:#ff3333; }
+#shows > * :focus {
+  outline-color: #ff3333;
+}
 
 .carousel-indicators {
-    bottom: -2em;}
+  bottom: -2em;
+}
 
 /*------------------Stories --- Horizontal scroll --*/
-#stories>* :focus { outline-color:#ff3333; }
+#stories > * :focus {
+  outline-color: #ff3333;
+}
 
 :root {
   --gutter: 20px;
@@ -336,89 +349,101 @@ a.calendar-top-link {
 }
 
 .embed-responsive-item {
-    border: 0;
+  border: 0;
 }
 
 /*------------------Projects section---------------------------------*/
-#projects>* :focus { outline-color: #33cc99; }
+#projects > * :focus {
+  outline-color: #33cc99;
+}
 
 .accordion .card-header:after {
-    font-family: 'FontAwesome';
-    color: #fff;  
-    content: "\f068";
-    float: right; 
+  font-family: "FontAwesome";
+  color: #fff;
+  content: "\f068";
+  float: right;
 }
 .accordion .card-header.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content: "\f067"; 
-        color: #fff;  
+  /* symbol for "collapsed" panels */
+  content: "\f067";
+  color: #fff;
 }
 
 .accordion h2.heading {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .accordion .card-header {
-    padding: 0rem 0rem; 
-    margin-bottom: 0;
-    background-color: rgba(0,0,0,.0);
-    border-bottom: 1px solid rgba(255,255,255,1);
+  padding: 0rem 0rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
 #projects .card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #333; 
-    background-clip: border-box;
-     border: 0; 
-     border-radius: 0;
-    }
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #333;
+  background-clip: border-box;
+  border: 0;
+  border-radius: 0;
+}
 
 #projects card-title {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 .accordion button {
-    text-align: left;
-    font-size: 1.5em;
-    border: 0;
+  text-align: left;
+  font-size: 1.5em;
+  border: 0;
   border-radius: 0;
   text-transform: uppercase;
-    font-family: "OSPDINDIN", sans-serif;
-    color: #fff;
-
+  font-family: "OSPDINDIN", sans-serif;
+  color: #fff;
 }
 .btn-success:hover {
-    color: #33cc99;}
+  color: #33cc99;
+}
 /*------------------button outline---------------------------------*/
-btn-success.focus, .btn-success:focus, .btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgb(51, 204, 153,.5);
+btn-success.focus,
+.btn-success:focus,
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgb(51, 204, 153, 0.5);
 }
 
 /*------------------button active--------------------------------*/
-btn-success.focus, .btn-success:active, .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
-    background-color: #33cc99;
-    color: #fff;
+btn-success.focus,
+.btn-success:active,
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+  background-color: #33cc99;
+  color: #fff;
 }
-.accordion button:focus {   
-    border-color: #33cc99;
-    box-shadow:     #33cc99}
+.accordion button:focus {
+  border-color: #33cc99;
+  box-shadow: #33cc99;
+}
 
 .project-scroll-box {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 /*------------------Activitities section---------------------------------*/
 
-#makes>* :focus { outline-color: #0ebde8; }
+#makes > * :focus {
+  outline-color: #0ebde8;
+}
 
-.mail-to a{
-    color: #fff;
-    text-decoration: none;
-    
+.mail-to a {
+  color: #fff;
+  text-decoration: none;
 }
 /*------------------filterable CSS---------------------------------*/
 /*------------------remove radio buttons*/
@@ -426,9 +451,6 @@ btn-success.focus, .btn-success:active, .btn-success:not(:disabled):not(.disable
   position: absolute;
   left: -9999px;
 }
-
-
-
 
 /*------------------toggle filters --*/
 :root {
@@ -476,7 +498,6 @@ btn-success.focus, .btn-success:active, .btn-success:not(:disabled):not(.disable
 
 /*------------------grid-*/
 
-
 .posts .post {
   background: #333;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -487,7 +508,7 @@ btn-success.focus, .btn-success:active, .btn-success:not(:disabled):not(.disable
 }
 
 .posts .card {
-    display: inline-block;
+  display: inline-block;
 }
 /*------------------link styling*/
 .posts .post a {
@@ -500,8 +521,6 @@ btn-success.focus, .btn-success:active, .btn-success:not(:disabled):not(.disable
 
 .posts .post-title:hover {
   color: #0ebde8;
-  
-  
 }
 
 .posts figcaption {
@@ -537,36 +556,34 @@ btn-success.focus, .btn-success:active, .btn-success:not(:disabled):not(.disable
 /*------------------responsive grid*/
 
 @media screen and (min-width: 300px) {
-.card-columns {
+  .card-columns {
     column-count: 2;
   }
 }
 
 @media screen and (min-width: 600px) {
-.card-columns {
+  .card-columns {
     column-count: 3;
   }
 }
 
 @media screen and (min-width: 700px) {
-.card-columns {
-     column-count: 4;
+  .card-columns {
+    column-count: 4;
   }
 }
 
-
 @media screen and (min-width: 800px) {
-.card-columns {
-     column-count: 5;
+  .card-columns {
+    column-count: 5;
   }
 }
 
 @media screen and (min-width: 1000px) {
-.card-columns {
-     column-count: 6;
+  .card-columns {
+    column-count: 6;
   }
 }
-
 
 /* FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -587,9 +604,6 @@ btn-success.focus, .btn-success:active, .btn-success:not(:disabled):not(.disable
 [value="video"]:checked ~ .posts .post:not([data-category~="video"]) {
   display: none;
 }
-
-
-
 
 /*-- Sticky Menu --- code adapted from https://codepen.io/rpsthecoder/pen/zGYXEX --*/
 #sticky {
@@ -623,43 +637,44 @@ btn-success.focus, .btn-success:active, .btn-success:not(:disabled):not(.disable
 #wrapper {
   margin: auto;
 }
+
 #wrapper {
   height: 100%;
 }
 
 /*------------------footer*/
-footer {  
-    background: transparent;
+footer {
+  background: transparent;
 }
 
 footer a {
-    font-family: "OSPDINDIN", sans-serif;
-    color: #fff;
-
+  font-family: "OSPDINDIN", sans-serif;
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
-footer {
+  footer {
     padding-bottom: 100px;
   }
 }
+
 /*------------------donate btn*/
-.btn-warning-donate  { 
-    text-decoration: none;
-    font-family: "OSPDINDIN", sans-serif;
-    text-transform: uppercase;
-    border-radius: 0;
-    border: 0;
-    color: #333333;
+.btn-warning-donate {
+  text-decoration: none;
+  font-family: "OSPDINDIN", sans-serif;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: 0;
+  color: #333333;
 }
 
 .btn-warning-donate:hover {
-    text-decoration: none;
-    font-family: "OSPDINDIN", sans-serif;
-    text-transform: uppercase;
-    border-radius: 0;
-    background-color: #333333;
-    color: #f7a71c;
-    border: 0;
-    text-decoration-line: none;
+  text-decoration: none;
+  font-family: "OSPDINDIN", sans-serif;
+  text-transform: uppercase;
+  border-radius: 0;
+  background-color: #333333;
+  color: #f7a71c;
+  border: 0;
+  text-decoration-line: none;
 }
