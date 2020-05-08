@@ -386,10 +386,27 @@ a.calendar-top-link {
     text-align: left;
     font-size: 1.5em;
     border: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+    font-family: "OSPDINDIN", sans-serif;
+    color: #fff;
 
 }
-.accordion button:focus { outline-color: #33cc99; }
-#projects:focus { outline-color: #33cc99; }
+.btn-success:hover {
+    color: #33cc99;}
+/*------------------button outline---------------------------------*/
+btn-success.focus, .btn-success:focus, .btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(51, 204, 153,.5);
+}
+
+/*------------------button active--------------------------------*/
+btn-success.focus, .btn-success:active, .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    background-color: #33cc99;
+    color: #fff;
+}
+.accordion button:focus {   
+    border-color: #33cc99;
+    box-shadow:     #33cc99}
 
 .project-scroll-box {
     overflow-x: auto;
