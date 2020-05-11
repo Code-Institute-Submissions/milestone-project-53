@@ -615,8 +615,7 @@ btn-success.focus,
 /* Sticky Menu - code adapted from https://codepen.io/rpsthecoder/pen/zGYXEX */
 #sticky {
   position: sticky !important;
-  position: -webkit-sticky;
-  width: 100%;
+  position: -webkit-sticky; /* Safari */
   top: 0px;
   display: flex;
   justify-content: center;
@@ -628,7 +627,7 @@ btn-success.focus,
 #sticky-alert-sm,
 #sticky-alert-lg {
   position: sticky !important;
-  position: -webkit-sticky;
+  position: -webkit-sticky; /* Safari */
   width: 100%;
   display: flex;
   justify-content: center;
