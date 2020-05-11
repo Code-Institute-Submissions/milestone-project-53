@@ -322,7 +322,7 @@ a.calendar-top-link {
 
 /* jumbotrons */
 .jumbotron {
-  background: rgba(55, 55, 55, 0.9);
+  background: rgba(55, 55, 55, 0.7);
   border-radius: 0;
   margin-top: 6.25em;
 }
@@ -356,6 +356,8 @@ a.calendar-top-link {
 .carousel-indicators {
   bottom: -2em;
 }
+
+
 
 /* Section: Stories */
 #stories > * :focus {
