@@ -45,40 +45,50 @@ Its built to Aesthetically tie this site into the main site and includes the ori
 For mobile, just the logo is displayed.
 
 ## 2.2 Nav Bar
-Below this is a sticky nav bar which sticks to the top of the screen once the main header scrolls off the page. 
+
+Below this is a sticky nav bar which sticks to the top of the screen once the main header scrolls off the page.
 
 This features quick navigation to all the sections on this website, along with social media sites. The links change colour on hover as a continuation of the header. For mobile screens, the social media links are dropped, and the text so just icons are used in the bar.
 
 ## 2.3 Donate Alert
-Below the nav bar is a dismissable donate request which only loads on first entry to the site. 
+
+Below the nav bar is a dismissable donate request which only loads on first entry to the site.
 
 For larger screens this is moved to the bottom of the page, and a donate button replaces the ability to dismiss the alert. to make better use of screen space.
 
 ## 2.4 Welcome section
+
 A welcome section includes a welcome text, which is reduced for smaller screens, and a video introduction to the resources.
 
 ## 2.5 Shows section
+
 The shows section features a Bootstrap carousel displaying a screen width card for each show streaming. The carousel scrolls between slides every 5 seconds.
 The card contains information about each show, and uses alerts to attract attention to new shows, or shows coming soon.
 Addionally each card contains a YouTube iframe with the ability to watch the show without leaving the page.
 
 ## 2.6 Stories section
+
 The stories section features a horizontal scroll of all the stories being created. This saves sceen space scrolling, and ties into standards of horizontal scrolling for video selection which is currently widely deployed on popular video sites.
 
 ## 2.7 Projects section
+
 The projects are multi video or document sections, so have been placed into an accordian showing one project at a time. The "episodes" of the projects are in a horizontal scroll, echoing the stories sections.
 
 ## 2.8 Makes section
+
 The makes section features cards in a masonry style column of cards which link to PDF downloads or Youtube videos of activities for kids.
 The cards a filterable using a filter on the page for activities suitable for older/younger children, or for video entries. This feature is created through show/hide variables using CSS only.
 
 ## 2.9 Footer
+
 The footer contains social media links. For larger screens in which the donate alert is shown at the bottom of the screen, it uses a media query to add padding added to raise it above the donate alert.
 
 ## 2.10 General features
+
 For accessibility the active link is highlighted in the same colour as the section of the page. This includes contrast as the deafault blue doesn't show well against the background, but also includes accessibility into the design thought process.
 
 ### 2.11 Future improvements
+
 - Video playback: As there's a lot of video on the page, it would be helpful if a script could be applied to ensure playing one video would pause all others.
 - Nav Bar indication of active location on page would have been a nice feature. This was considered too late into the project to implement.
 - The theatre is getting a lot of feedback with many children sending in their creations, as such a gallery page to exhibit these may be a nice idea.
@@ -116,14 +126,16 @@ Gitpod was used as the IDE for this project.
 ## 3.4 External Hostings
 
 #### GitHub
+
 The project used the GitHub hosting service to save the project in a repository.
 
 #### Little Angel Theatre
+
 Many of the resources used in the site (PDF downloads, Header images) are hosted on the Little Anger Theatre domain.
 
 ### Imgur
-Imgur service to hosts images and screen shots for the ReadME.
 
+Imgur service to hosts images and screen shots for the ReadME.
 
 ## 3.5 Other Tools
 
@@ -140,8 +152,11 @@ Fonts OSP-DIN and Lato hosted from https://fontlibrary.org/
 Images used on this site were run through http://tinypng.com for compression.
 
 # 4 Testing
+
 ## 4.1 Validation
-### HTML5  validator
+
+### HTML5 validator
+
 Validates the code aheres to HTML standards
 
 The HTML validator throws up a warning about a double hyphen in a comment, however as this is part of URL to copied code, I have left it in place.
@@ -149,6 +164,7 @@ The HTML validator throws up a warning about a double hyphen in a comment, howev
 ![Screenshot of HTML warning](https://i.imgur.com/71C5dCI.png)
 
 ### CSS validator
+
 Validates the code aheres to CSS standards.
 
 The code has been run through the W3 CSS validator.
@@ -164,34 +180,36 @@ Additonally the validator highlighted the use of some "Unknown Vendor Extnension
 ![CSS validator warnings](https://i.imgur.com/bkfq6yA.png)
 
 ### [Contrast validator](https://color.a11y.com/Contrast/)
+
 The contrast validator checks contrast between text and background to ensure it's visible to people with vision impairments.
 
 One issue was found on the site, but on further eximanation, it references a hidden form, and as such is not visible to any user.
 
 [Colour Contrast result](https://i.imgur.com/LguREGJ.png)
 
-
 ## 4.2 UX Stories
+
 // Write about how each part of your responsive website behaves on different screen sizes.
 And if you want to knock the grade for testing all the way up to the max:
 
-
 ## 4.3 Manual Testing
+
 // Manually go though every part of your site and write out how you confirmed that each link, hover effect and other interactive parts of the site work as you expect.
 
-
 ## 4.4 Bugs
+
 ### Active Bugs
+
 - A [script was found](https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video) to prevent carousel scrolling while video was playing and to pause the video on manual control to the next page. However it required Bootstrap 4.4.1, which broke other Bootstrap functionality on the page. Ideally a fix can be found.
 
 ### Squashed Bugs
 
-
-# Deployment 
-
+# Deployment
 
 # Credits
+
 ## Code snippets
+
 - Little Angel Header: https://littleangeltheatre.com/
 - Sticky Header: https://css-tricks.com/creating-sliding-effects-using-sticky-positioning/
 - Carousel: https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600
