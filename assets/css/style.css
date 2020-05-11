@@ -407,9 +407,9 @@ a.calendar-top-link {
 
 #projects .card {
   position: relative;
-  display: -ms-flexbox;
+  display: -ms-flexbox; /*IE*/
   display: flex;
-  -ms-flex-direction: column;
+  -ms-flex-direction: column; /*IE*/
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
