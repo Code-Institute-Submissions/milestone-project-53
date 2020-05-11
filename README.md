@@ -155,11 +155,13 @@ Images used on this site were run through http://tinypng.com for compression.
 
 ## 4.1 Validation
 
-### HTML5 validator
+### [HTML5 validator](https://validator.w3.org/)
 
 Validates the code aheres to HTML standards
 
 The HTML validator throws up a warning about a double hyphen in a comment, however as this is part of URL to copied code, I have left it in place.
+
+Additional validation from confirms all images have "alt" caption. 
 
 ![Screenshot of HTML warning](https://i.imgur.com/71C5dCI.png)
 
@@ -188,25 +190,291 @@ One issue was found on the site, but on further eximanation, it references a hid
 [Colour Contrast result](https://i.imgur.com/LguREGJ.png)
 
 ## 4.2 UX Stories
+### A Parent wants to homeschool and is looking for an educational project
+
+1.  Click on projects in menu bar
+1.  They will be presented with some information about projects and (currently) a choice of 2 to choose from.
+1.  On choosing a project the steps are broken down into videos with daily activities which build to a show at the end and teach making skills.
+
+![Desktop demonstration](https://media.giphy.com/media/XEs5aQIcdZEUr9903y/giphy.gif)
+
+
+### A Parent wants to find out more about the shows streaming.
+1.  Click on shows or stories in the menu bar
+1.  They will be presented either a selection of short shows which are being streamed, or an array of stories which are being added to daily.
+1. The show tiles include credits for information.
+
+![Desktop example](https://media0.giphy.com/media/Yrfk9mYHKNVAq0Jsz6/giphy.gif)
+
+### A Parent wants to entertain their child so that they can get on with something
+
+1.  Click on shows or stories in the menu bar
+1.  They will be presented either a selection of short shows which are being streamed, or an array of stories which are being added to daily.
+1. The child can then peruse at will and hopefully remain preoccupied.
+
+
+
+### A Parent is looking for inspiration for a craft/activity with their child to spend quality time with their child
+
+1.  Click on makes in the menu bar
+1.  They are presented some information on basic craft supplies that can be recycled from common household waste which make up the essentials for the crafts section.
+1.  They can then choose, and click on a make which will provide a YouTube or written tutorial.
+
+### A Parent wants to donate to the organisation.
+
+1. Click on donate in the menu bar (or on desktop the dontate button at the bottom of the screen). 
+1. This will open the doantion page of the main Little Angel Theatre website where donations can be made through the ticketing system.
+
+![Desktop demonstration](https://media2.giphy.com/media/Y34vGpX1cHP22uTw9M/giphy.gif)
+
+### A Parent wants to find out more about the shows streaming.
+A child wants
+- to find something to do
+-- so that they’re not bored
+- to find something to watch
+-- so that they’re not bored
+- to find inspiration
+-- to play
+- to make something
+-- so I have an activity for quality time with my child
+
 
 // Write about how each part of your responsive website behaves on different screen sizes.
 And if you want to knock the grade for testing all the way up to the max:
 
 ## 4.3 Manual Testing
+### Chrome
+#### Hovers
+right colour/right time
+##### Header:
+ |Chrome | Safari | Firefox | MS| link|
+-|-------| -------| --------| --|------|
+ |[x]|[]|[]|[]| What's on
+ |[x]|[]|[]|[]| Courses and classes
+ |[x]|[]|[]|[]| Schools
+ |[x]|[]|[]|[]| Support us
+ |[x]|[]|[]|[]| About us
+ |[x]|[]|[]|[]| Visiting us
+ |[x]|[]|[]|[]| shop
+ |[x]|[]|[]|[]| book tickets
+ |[x]|[]|[]|[]| mailing list
+ |[x]|[]|[]|[]| FB
+ |[x]|[]|[]|[]| Twitter
+ |[x]|[]|[]|[]| Youtube
+ |[x]|[]|[]|[]| instagram
 
-// Manually go though every part of your site and write out how you confirmed that each link, hover effect and other interactive parts of the site work as you expect.
+##### Nav bar
+ |Chrome | Safari | Firefox | MS| link|
+-|-------| -------| --------| --|------|
+|[]|[]|[]| [ ] Home
+|[]|[]|[]| [ ] Shows
+|[]|[]|[]| [ ] Stories
+|[]|[]|[]| [ ] Projects
+|[]|[]|[]| [ ] Makes
+|[]|[]|[]| [ ] mailing list
+|[]|[]|[]| [ ] Donate
+|[]|[]|[]| [ ] FB
+|[]|[]|[]| [ ] Twitter
+|[]|[]|[]| [ ] Youtube
+|[]|[]|[]| [ ] instagram
+
+##### Shows
+ |Chrome | Safari | Firefox | MS| link|
+-|-------| -------| --------| --|------|
+|[]|[]|[]| [ ] Right Chevron
+|[]|[]|[]| [ ] Left Chevron
+
+##### Projects
+ |Chrome | Safari | Firefox | MS| link|
+-|-------| -------| --------| --|------|
+|[]|[]|[]| [ ] Project 1
+|[]|[]|[]| [ ] Project 2
+|[]|[]|[]| [ ] Project 3
+|[]|[]|[]| [ ] Project 2 download 1
+|[]|[]|[]| [ ] Project 2 download 2
+|[]|[]|[]| [ ] Project 2 download 3
+|[]|[]|[]| [ ] Project 2 download 4
+
+##### Activities
+ |Chrome | Safari | Firefox | MS| link|
+-|-------| -------| --------| --|------|
+|[]|[]|[]| [ ] mailto
+|[]|[]|[]| [ ] Filter
+|[]|[]|[]| [ ] Filter
+|[]|[]|[]| [ ] Filter
+|[]|[]|[]| [ ] Filter
+
+##### Activities cards (x31)
+ |Chrome | Safari | Firefox | MS| link|
+-|-------| -------| --------| --|------|
+|[]|[]|[]| [ ] title hover
+|[]|[]|[]| [ ] Younger tag hover
+|[]|[]|[]| [ ] older tag hover
+|[]|[]|[]| [ ] video tag hover
+|[]|[]|[]| [ ] download hover
+
+##### Footer
+ |Chrome | Safari | Firefox | MS| link|
+-|-------| -------| --------| --|------|
+|[]|[]|[]| [] Donate
+|[]|[]|[]| [] FB
+|[]|[]|[]| [] Twitter
+|[]|[]|[]| [] Youtube
+|[]|[]|[]| [] instagram
+
+![Desktop demonstration of hovers, random links and features working on the site](https://i.imgur.com/3Ho8z6k.gifv)
+
+### Links - External
+new tab/correct URL
+##### Header:
+- [x] news
+- [x] What's on
+- [x]  Courses and classes
+- [x] Schools
+- [x] Support us
+- [x] About us
+- [x] Visiting us
+- [x] shop
+- [x] book tickets
+- [x] mailing list
+- [x] FB
+- [x] Twitter
+- [x] Youtube
+- [x] instagram
+
+##### Nav bar
+- [] mailing list
+- [] Donate
+- [] FB
+- [] Twitter
+- [] Youtube
+- [] instagram
+
+##### Welcome
+- [] video
+
+##### Shows
+- [] video
+- [] video
+- [] video
+
+##### Stories
+- [] All videos play
+
+##### Projects
+- [ ] Project 1 video 1
+- [ ] Project 1 video 2
+- [ ] Project 1 video 3
+- [ ] Project 1 video 4
+- [ ] Project 1 video 5
+- [ ] Project 1 video 6
+- [ ] Project 1 video 7
+- [ ] Project 1 video 8
+- [ ] Project 1 video 9
+- [ ] Project 1 video 10
+- [ ] Project 1 video 11
+- [ ] Project 2 video 1
+- [ ] Project 2 video 2
+- [ ] Project 2 video 3
+- [ ] Project 2 download 1
+- [ ] Project 2 download 2
+- [ ] Project 2 download 3
+- [ ] Project 2 download 4
+
+##### Activities
+- [ ] mailto
+
+
+##### Activities cards (x31)
+- [ ] title link
+- [ ] image link
+- [ ] download link
+
+##### Footer
+- [] Donate
+- [] FB
+- [] Twitter
+- [] Youtube
+- [] instagram
+
+### Links - Internal
+correct URL
+##### Nav bar
+- [ ] Home
+- [ ] Shows
+- [ ] Stories
+- [ ] Projects
+- [ ] Makes
+
+##### Shows
+ |Chrome | Safari | Firefox | MS|ios |link|
+-|-------| -------| --------| --|----|--|
+|[]|[]|[]|[]|[]| Forward
+|[]|[]|[]|[]|[]| Background
+Played video pauses on pressing:
+ |Chrome | Safari | Firefox | MS|ios |link|
+-|-------| -------| --------| --|----|--|
+|[]|[]|[]|[]|[]| Forward
+|[]|[]|[]|[]|[]| Background
+Scroll stops on
+ |Chrome | Safari | Firefox | MS|ios |link|
+-|-------| -------| --------| --|----|--|
+|[]|[]|[]|[]|[]| Hover
+|[]|[]|[]|[]|[]| video play
+
+##### Projects
+- [ ] Project 1
+- [ ] Project 2
+- [ ] Project 3
+
+##### Activities
+|[]|[]|[]|[ ] Filter
+|[]|[]|[]|[ ] Filter
+|[]|[]|[]|[ ] Filter
+|[]|[]|[]|[ ] Filter
+
+##### Activities cards (x31)
+- [ ] Younger tag 
+- [ ] older tag 
+- [ ] video tag 
+
+
+### Proofread
+Spelling/Content
+
+### Mobile version (iphone 8)
+Aesthetics/Content
+
+## Platform testing
+### Chrome
+Aesthetics/Content
+
+### Safari
+Aesthetics/Content
+
+### Firefox
+Aesthetics/Content
+
+### Edge
+Aesthetics/Content
+
 
 ## 4.4 Bugs
 
 ### Active Bugs
-
+- [ ] bad crop on goldilocks bear image
+- [ ] carousel chevrons cover text
+- [ ] carousel chevrons active  border looks ugly
+- [ ] Makes filter tracks to begininning of activities
+- [ ] Project 2 card 1 size
 
 ### Squashed Bugs
-- A [script was found](https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video) to prevent carousel scrolling while video was playing and to pause the video on manual control to the next page. However it required Bootstrap 4.4.1, which broke other Bootstrap functionality on the page. Ideally a fix can be found.
-- Project download links
-- Borders on story videos
-- Story video size
-- No video makes 
+- [x] A [script was found](https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video) to prevent carousel scrolling while video was playing and to pause the video on manual control to the next page. However it required Bootstrap 4.4.1, which broke other Bootstrap functionality on the page. Ideally a fix can be found.
+- [x] Project download links
+- [x] Borders on story videos
+- [x] Story video size
+- [x] No video makes 
+- [x] Sticky carousel arrows
 
 # Deployment
 
