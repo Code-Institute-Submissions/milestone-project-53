@@ -357,6 +357,35 @@ a.calendar-top-link {
   bottom: -2em;
 }
 
+#shows button {
+  text-align: left;
+  font-size: 1.5em;
+  border: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: "OSPDINDIN", sans-serif;
+  color: #fff;
+}
+
+.embed-responsive::before{
+    display: inline-block;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+  font-size: 2em;
+  top: 30px;
+  position: fixed center;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  color: #ff3333;
+  font-size: 4em;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
 
 
 /* Section: Stories */
