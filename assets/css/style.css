@@ -357,11 +357,12 @@ a.calendar-top-link {
   bottom: -2em;
 }
 .carousel {
-    position: relative;
-    padding: 0px;
+  position: relative;
+  padding: 0px;
 }
-.carousel-indicators li{
-cursor: default;}
+.carousel-indicators li {
+  cursor: default;
+}
 
 #shows button {
   text-align: left;
@@ -373,14 +374,13 @@ cursor: default;}
   color: #fff;
 }
 
-.embed-responsive::before{
-    display: inline-block;
+.embed-responsive::before {
+  display: inline-block;
 }
-
 
 .carousel-control-prev:focus,
 .carousel-control-next:focus {
-      box-shadow: 0 0 0 0.2rem rgb(255, 51, 51, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(255, 51, 51, 0.5);
 }
 
 .carousel-control-next,
@@ -398,7 +398,6 @@ cursor: default;}
   transition-timing-function: ease-in-out;
 }
 
-
 /* Section: Stories */
 #stories > * :focus {
   outline-color: #ff3333;
@@ -415,32 +414,30 @@ cursor: default;}
 }
 
 .scroll-box .embed-responsive {
-    overflow: auto;
-    }
+  overflow: auto;
+}
 
 .embed-responsive-item {
   border: 0;
 }
 
 #stories .card-block {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 #stories .card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    background-color: #333;
-    word-wrap: break-word;
-    background-clip: border-box;
-    border: 0;
-    border-radius: 0;
-
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  background-color: #333;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 0;
+  border-radius: 0;
 }
-
 
 /* Section: Projects */
 #projects > * :focus {
