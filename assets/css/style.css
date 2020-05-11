@@ -701,4 +701,6 @@ footer a {
   color: #f7a71c;
   border: 0;
   text-decoration-line: none;
+    transition: 0.3s;
+transition-timing-function: ease-in-out;
 }
