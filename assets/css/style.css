@@ -378,6 +378,12 @@ cursor: default;}
 }
 
 
+@media screen and (min-width: 1000px) {
+.embed-responsive-16by9::before {
+    padding-top: 0;
+}
+}
+
 .carousel-control-next,
 .carousel-control-prev {
   font-size: 2em;
