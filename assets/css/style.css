@@ -356,6 +356,12 @@ a.calendar-top-link {
 .carousel-indicators {
   bottom: -2em;
 }
+.carousel {
+    position: relative;
+    padding: 0px;
+}
+.carousel-indicators li{
+cursor: default;}
 
 #shows button {
   text-align: left;
