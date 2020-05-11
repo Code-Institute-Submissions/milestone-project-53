@@ -212,7 +212,7 @@ And if you want to knock the grade for testing all the way up to the max:
 
 - Little Angel Header: https://littleangeltheatre.com/
 - Sticky Header: https://css-tricks.com/creating-sliding-effects-using-sticky-positioning/
-- Carousel: https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600
+- Carousel: https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600 and https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video
 - Stories scroll: https://www.freecodecamp.org/news/horizontal-scrolling-using-flexbox-f9d16817f742/
 - Card Filter: https://webdesign.tutsplus.com/tutorials/how-to-build-a-filtering-component-in-pure-css--cms-33111
 - Youtube stop carousel JS script: https://stackoverflow.com/questions/47079195/youtube-video-iframe-in-a-bootstrap-carousel-stop-carousel-from-sliding-when-v
