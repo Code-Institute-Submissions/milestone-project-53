@@ -82,28 +82,32 @@ h2.heading {
 a.hover_red:hover {
   color: #ff3333 !important;
   transition: 0.3s;
-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 a.hover_blue:hover {
   color: #0ebde8 !important;
-    transition: 0.3s;
-transition-timing-function: ease-in-out;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 a.hover_green:hover {
-  color: #33cc99 !important;  transition: 0.3s;
-transition-timing-function: ease-in-out;
+  color: #33cc99 !important;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 a.hover_orange:hover {
-  color: #f7a71c !important;  transition: 0.3s;
-transition-timing-function: ease-in-out;
+  color: #f7a71c !important;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 a.hover_purple:hover {
-  color: #6a42d0 !important;  transition: 0.3s;
-transition-timing-function: ease-in-out;
+  color: #6a42d0 !important;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 a.hover_grey:hover {
-  color: #aaaaaa !important;  transition: 0.3s;
-transition-timing-function: ease-in-out;
+  color: #aaaaaa !important;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 /* backgrounds */
@@ -274,13 +278,15 @@ a.calendar-top-link {
 }
 
 .top-links .book-tickets.calendar-top-link:hover {
-  opacity: 0.7;  transition: 0.3s;
-transition-timing-function: ease-in-out;
+  opacity: 0.7;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .top-links .join-mailing-list:hover {
-  opacity: 0.7;  transition: 0.3s;
-transition-timing-function: ease-in-out;
+  opacity: 0.7;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .top-links a.facebook:hover,
@@ -288,8 +294,8 @@ transition-timing-function: ease-in-out;
 .top-links a.youtube:hover,
 .top-links a.instagram:hover {
   opacity: 0.7;
-    transition: 0.3s;
-transition-timing-function: ease-in-out;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 /* end of sourced code */
 /* Responsive horizontal bar */
@@ -426,8 +432,9 @@ transition-timing-function: ease-in-out;
   color: #fff;
 }
 .btn-success:hover {
-  color: #33cc99;  transition: 0.3s;
-transition-timing-function: ease-in-out;
+  color: #33cc99;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 /* button outline */
 btn-success.focus,
@@ -501,8 +508,8 @@ btn-success.focus,
 .filters label:hover {
   background: var(--teal);
   color: var(--black);
-    transition: 0.3s;
-transition-timing-function: ease-in-out;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 :root {
@@ -543,8 +550,8 @@ transition-timing-function: ease-in-out;
 
 .posts .post-title:hover {
   color: #0ebde8;
-    transition: 0.3s;
-transition-timing-function: ease-in-out;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .posts figcaption {
@@ -575,8 +582,8 @@ transition-timing-function: ease-in-out;
 .posts .post-categories a:hover {
   background: var(--teal);
   color: var(--black);
-    transition: 0.3s;
-transition-timing-function: ease-in-out;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 /* responsive masonry grid */
 
@@ -701,6 +708,6 @@ footer a {
   color: #f7a71c;
   border: 0;
   text-decoration-line: none;
-    transition: 0.3s;
-transition-timing-function: ease-in-out;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
