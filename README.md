@@ -46,7 +46,7 @@ This features quick navigation to all the sections on this website, along with s
 ## 2.3 Donate Alert
 Below the nav bar is a dismissable donate request which only loads on first entry to the site. 
 
-For larger screens this is moved to the bottom of the page, and a donate button replaces the ability to dismiss the alert.
+For larger screens this is moved to the bottom of the page, and a donate button replaces the ability to dismiss the alert. to make better use of screen space.
 
 ## 2.4 Welcome section
 A welcome section includes a welcome text, which is reduced for smaller screens, and a video introduction to the resources.
@@ -55,11 +55,12 @@ A welcome section includes a welcome text, which is reduced for smaller screens,
 The shows section features a Bootstrap carousel displaying a screen width card for each show streaming. The carousel scrolls between slides every 5 seconds.
 The card contains information about each show, and uses alerts to attract attention to new shows, or shows coming soon.
 Addionally each card contains a YouTube iframe with the ability to watch the show without leaving the page.
-JavaScript has been used to makes sure the carousel stops scrolling while the video is playing, and that the video will stop if the user manually slides to the next slide.
 
 ## 2.6 Stories section
+The stories section features a horizontal scroll of all the stories being created. This saves sceen space scrolling, and ties into standards of horizontal scrolling for video selection which is currently widely deployed on popular video sites.
 
 ## 2.7 Projects section
+The projects are multi video or document sections, so have been placed into an accordian showing one project at a time. The "episodes" of the projects are in a horizontal scroll, echoing the stories sections.
 
 ## 2.8 Makes section
 The makes section features cards in a masonry style column of cards which link to PDF downloads or Youtube videos of activities for kids.
@@ -72,13 +73,13 @@ The footer contains social media links. For larger screens in which the donate a
 For accessibility the active link is highlighted in the same colour as the section of the page. This includes contrast as the deafault blue doesn't show well against the background, but also includes accessibility into the design thought process.
 
 ### 2.11 Future improvements
+- Video playback: As there's a lot of video on the page, it would be helpful if a script could be applied to ensure playing one video would pause all others.
 - Nav Bar indication of active location on page would have been a nice feature. This was considered too late into the project to implement.
 - The theatre is getting a lot of feedback with many children sending in their creations, as such a gallery page to exhibit these may be a nice idea.
 - JavaScript could be used to make the filters for makes more user friendly, and could combine filters allowing for more detailed categories, perhaps based around the common materials used in the makes, or the time required. This is beyond the scope of this project.
 - As more makes are added, it will make the page longer, perhaps calling for pagination or infinate scroll. This is beyond the scope of this project.
 
 # 3. Technologies Used
-
 
 ## 3.1 Languages
 
@@ -150,6 +151,11 @@ Manual testing shows the code responding on the webpage as anticipated:
 Additonally the validator highlighted the use of some "Unknown Vendor Extnensions". These are browser specific extensions, namely Safari and Internet Explorer.
 
 ![CSS validator warnings](https://imgur.com/PIA2Vze)
+
+
+### Bugs
+- A [script was found](https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video) to prevent carousel scrolling while video was playing and to pause the video on manual control to the next page. However it required Bootstrap 4.4.1, which broke other Bootstrap functionality on the page. Ideally a fix can be found.
+
 
 # Deployment 
 
