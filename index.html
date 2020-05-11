@@ -410,12 +410,13 @@
             into yours for limited time. Watch them here.
           </p>
         </div>
+          
 
     <!-- Code from https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video-->
     <!-- The carousel containing the Youtube iframe videos -->
     <!-- Remember to add the ?enablejsapi=1 in the Youtube embed link as described in: -->
     <!-- https://developers.google.com/youtube/iframe_api_reference#Example_Video_Player_Constructors -->
-    <div id="moviesCarousel" class="carousel slide col-lg-12" data-ride="carousel" data-interval="2000">
+    <div id="moviesCarousel" class="carousel slide col-lg-12" data-ride="carousel" data-interval="6000">
     <!--Controls-->
           <a
             class="carousel-control-prev" id="prevMovie"
@@ -437,6 +438,13 @@
             <span class="sr-only">Next</span>
           </a>
           <!--/.Controls-->
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#moviesCarousel" data-slide-to="" class="active"></li>
+            <li data-target="#moviesCarousel" data-slide-to=""></li>
+            <li data-target="#moviesCarousel" data-slide-to=""></li>
+          </ol>
+          <!--/.Indicators--> 
       <div class="carousel-inner embed-responsive embed-responsive-16by9">
         <!-- embed is used for responsive size regardless of device -->
             <!--Slide 1-->
