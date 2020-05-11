@@ -543,6 +543,7 @@ btn-success.focus,
   color: #fff;
   text-decoration: none;
 }
+
 /* filterable CSS - https://webdesign.tutsplus.com/tutorials/how-to-build-a-filtering-component-in-pure-css--cms-33111 */
 /* remove radio buttons */
 #makes input[type="radio"] {
@@ -574,6 +575,7 @@ btn-success.focus,
   cursor: pointer;
   transition: all 0.1s;
   color: #ffffff;
+  font-family: "LatoRegular", sans-serif;
 }
 
 .filters label:hover {
