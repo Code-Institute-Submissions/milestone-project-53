@@ -137,7 +137,7 @@ Images used on this site were run through http://tinypng.com for compression.
 ### HTML5  validator
 The HTML validator throws up a warnign about a double hyphen in a comment, however as this is part of URL to copied code, I have left it in place.
 
-![Screenshot of HTML warning](https://imgur.com/NaA2Qch)
+![Screenshot of HTML warning](https://i.imgur.com/71C5dCI.png)
 
 ### CSS validator
 The code has been run through the W3 CSS validator.
@@ -146,11 +146,11 @@ It has thrown up some issues with the use of variables, however further research
 
 Manual testing shows the code responding on the webpage as anticipated:
 
-![GIF showing select boxes changing colour on hover and the filter operating as expected](https://imgur.com/CXpKELg)
+![GIF showing select boxes changing colour on hover and the filter operating as expected](https://i.imgur.com/VibCtU2.gif)
 
 Additonally the validator highlighted the use of some "Unknown Vendor Extnensions". These are browser specific extensions, namely Safari and Internet Explorer.
 
-![CSS validator warnings](https://imgur.com/PIA2Vze)
+![CSS validator warnings](https://i.imgur.com/bkfq6yA.png)
 
 
 ### Bugs
