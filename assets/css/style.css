@@ -468,7 +468,7 @@ a.calendar-top-link {
   border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
-#projects .card {
+.accordion .card {
   position: relative;
   display: -ms-flexbox; /*IE*/
   display: flex;
@@ -481,8 +481,16 @@ a.calendar-top-link {
   border: 0;
   border-radius: 0;
 }
-
-#projects card-title {
+.accordion .card-body {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.accordion .card-body h5,
+.accordion .card-body p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.accordion .card-title {
   font-size: 1.5em;
 }
 .accordion button {
