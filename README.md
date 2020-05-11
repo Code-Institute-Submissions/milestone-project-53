@@ -71,8 +71,12 @@ The footer contains social media links. For larger screens in which the donate a
 ## 2.10 General features
 For accessibility the active link is highlighted in the same colour as the section of the page. This includes contrast as the deafault blue doesn't show well against the background, but also includes accessibility into the design thought process.
 
-# 3. Technologies Used
+### 2.11 Future improvements
+- The theatre is getting a lot of feedback with many children sending in their creations, as such a gallery page to exhibit these may be a nice idea.
+- JavaScript could be used to make the filters for makes more user friendly, and could combine filters allowing for more detailed categories, perhaps based around the common materials used in the makes, or the time required. This is beyond the scope of this project.
+- As more makes are added, it will make the page longer, perhaps calling for pagination or infinate scroll. This is beyond the scope of this project.
 
+# 3. Technologies Used
 
 
 ## 3.1 Languages
@@ -105,11 +109,13 @@ Gitpod was used as the IDE for this project.
 
 #### GitHub
 The project used the GitHub hosting service to save the project in a repository.
+
 #### Little Angel Theatre
 Many of the resources used in the site (PDF downloads, Header images) are hosted on the Little Anger Theatre domain.
 
-//Imgur
-//The project used the Imgur service to host and access images online.
+### Imgur
+Imgur service to hosts images and screen shots for the ReadME.
+
 //Google Drive
 //The project used the Google Drive service to host and access others files and documents online.
 
@@ -128,7 +134,19 @@ Fonts OSP-DIN and Lato hosted from https://fontlibrary.org/
 Images used on this site were run through http://tinypng.com for compression.
 
 # Testing
+### HTML5  validator
+The HTML validator throws up a warnign about a double hyphen in a comment, however as this is part of URL to copied code, I have left it in place.
 
+![Screenshot of HTML warning](https://imgur.com/NaA2Qch)
+
+### CSS validator
+The code has been run through the W3 CSS validator.
+
+It has thrown up some issues with the use of variables, however further research implies this is a feature not supported by the validator: https://github.com/w3c/css-validator/issues/111
+
+Manual testing shows the code responding on the webpage as anticipated:
+
+![GIF showing select boxes changing colour on hover and the filter operating as expected](https://imgur.com/CXpKELg)
 
 # Deployment 
 
@@ -154,3 +172,5 @@ Background photo of Little Angel's 2018 production of Angelo. Photo by Ellie Kur
 ## Acknowledgements
 
 I received inspiration for this project from Little Angel Theatre, and would like to thank Sophie Waddy for providing resources and a remit.
+
+I would also like to thank Akshat Garg for his support as a mentor and Cormac Lawlor for his support as Code Institute Tutor.
