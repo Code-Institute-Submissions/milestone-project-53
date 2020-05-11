@@ -378,7 +378,6 @@ cursor: default;}
 }
 
 
-
 .carousel-control-prev:focus,
 .carousel-control-next:focus {
       box-shadow: 0 0 0 0.2rem rgb(255, 51, 51, 0.5);
@@ -415,9 +414,33 @@ cursor: default;}
   overflow-x: auto;
 }
 
+.scroll-box .embed-responsive {
+    overflow: auto;
+    }
+
 .embed-responsive-item {
   border: 0;
 }
+
+#stories .card-block {
+    border-radius: 0;
+}
+
+#stories .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #333;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 0;
+    border-radius: 0;
+
+}
+
 
 /* Section: Projects */
 #projects > * :focus {
