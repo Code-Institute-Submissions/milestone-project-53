@@ -140,7 +140,6 @@ a.hover_grey:hover {
   color: #333;
 }
 
-
 /* Header/Footer link focus */
 header > * :focus,
 footer > * :focus {
@@ -340,7 +339,7 @@ a.calendar-top-link {
   bottom: -2em;
 }
 
-/* Section: Stories */ 
+/* Section: Stories */
 #stories > * :focus {
   outline-color: #ff3333;
 }
