@@ -81,21 +81,33 @@ h2.heading {
 
 a.hover_red:hover {
   color: #ff3333 !important;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 a.hover_blue:hover {
   color: #0ebde8 !important;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 a.hover_green:hover {
   color: #33cc99 !important;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 a.hover_orange:hover {
   color: #f7a71c !important;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 a.hover_purple:hover {
   color: #6a42d0 !important;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 a.hover_grey:hover {
   color: #aaaaaa !important;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 /* backgrounds */
@@ -267,10 +279,14 @@ a.calendar-top-link {
 
 .top-links .book-tickets.calendar-top-link:hover {
   opacity: 0.7;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .top-links .join-mailing-list:hover {
   opacity: 0.7;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .top-links a.facebook:hover,
@@ -278,6 +294,8 @@ a.calendar-top-link {
 .top-links a.youtube:hover,
 .top-links a.instagram:hover {
   opacity: 0.7;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 /* end of sourced code */
 /* Responsive horizontal bar */
@@ -304,7 +322,7 @@ a.calendar-top-link {
 
 /* jumbotrons */
 .jumbotron {
-  background: rgba(55, 55, 55, 0.9);
+  background: rgba(55, 55, 55, 0.7);
   border-radius: 0;
   margin-top: 6.25em;
 }
@@ -338,6 +356,8 @@ a.calendar-top-link {
 .carousel-indicators {
   bottom: -2em;
 }
+
+
 
 /* Section: Stories */
 #stories > * :focus {
@@ -389,9 +409,9 @@ a.calendar-top-link {
 
 #projects .card {
   position: relative;
-  display: -ms-flexbox;
+  display: -ms-flexbox; /*IE*/
   display: flex;
-  -ms-flex-direction: column;
+  -ms-flex-direction: column; /*IE*/
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
@@ -415,6 +435,8 @@ a.calendar-top-link {
 }
 .btn-success:hover {
   color: #33cc99;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 /* button outline */
 btn-success.focus,
@@ -488,6 +510,8 @@ btn-success.focus,
 .filters label:hover {
   background: var(--teal);
   color: var(--black);
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 :root {
@@ -528,6 +552,8 @@ btn-success.focus,
 
 .posts .post-title:hover {
   color: #0ebde8;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .posts figcaption {
@@ -558,6 +584,8 @@ btn-success.focus,
 .posts .post-categories a:hover {
   background: var(--teal);
   color: var(--black);
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 /* responsive masonry grid */
 
@@ -682,4 +710,6 @@ footer a {
   color: #f7a71c;
   border: 0;
   text-decoration-line: none;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
