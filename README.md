@@ -22,9 +22,15 @@ The website provides:
 - The website also prompts for donations, and links back to the main theatre site.
 - A styling desgined to tie in with the main theatre site.
 
-## 1.4 Website Wireframes
+## 1.4 Website Planning and Wireframes
 
-//
+![User Stories](https://i.imgur.com/fn7KZba.png)
+
+![Data Architecture](https://i.imgur.com/DHOopcQ.png)
+
+![Wireframe](https://i.imgur.com/28dFqtY.png)
+
+![Design elements](https://i.imgur.com/glU3pRn.png)
 
 # 2. Features
 
@@ -133,13 +139,18 @@ Fonts OSP-DIN and Lato hosted from https://fontlibrary.org/
 
 Images used on this site were run through http://tinypng.com for compression.
 
-# Testing
+# 4 Testing
+## 4.1 Validation
 ### HTML5  validator
-The HTML validator throws up a warnign about a double hyphen in a comment, however as this is part of URL to copied code, I have left it in place.
+Validates the code aheres to HTML standards
+
+The HTML validator throws up a warning about a double hyphen in a comment, however as this is part of URL to copied code, I have left it in place.
 
 ![Screenshot of HTML warning](https://i.imgur.com/71C5dCI.png)
 
 ### CSS validator
+Validates the code aheres to CSS standards.
+
 The code has been run through the W3 CSS validator.
 
 It has thrown up some issues with the use of variables, however further research implies this is a feature not supported by the validator: https://github.com/w3c/css-validator/issues/111
@@ -152,9 +163,28 @@ Additonally the validator highlighted the use of some "Unknown Vendor Extnension
 
 ![CSS validator warnings](https://i.imgur.com/bkfq6yA.png)
 
+### [Contrast validator](https://color.a11y.com/Contrast/)
+The contrast validator checks contrast between text and background to ensure it's visible to people with vision impairments.
 
-### Bugs
+One issue was found on the site, but on further eximanation, it references a hidden form, and as such is not visible to any user.
+
+[Colour Contrast result](https://i.imgur.com/LguREGJ.png)
+
+
+## 4.2 UX Stories
+// Write about how each part of your responsive website behaves on different screen sizes.
+And if you want to knock the grade for testing all the way up to the max:
+
+
+## 4.3 Manual Testing
+// Manually go though every part of your site and write out how you confirmed that each link, hover effect and other interactive parts of the site work as you expect.
+
+
+## 4.4 Bugs
+### Active Bugs
 - A [script was found](https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video) to prevent carousel scrolling while video was playing and to pause the video on manual control to the next page. However it required Bootstrap 4.4.1, which broke other Bootstrap functionality on the page. Ideally a fix can be found.
+
+### Squashed Bugs
 
 
 # Deployment 
