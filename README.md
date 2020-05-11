@@ -72,6 +72,7 @@ The footer contains social media links. For larger screens in which the donate a
 For accessibility the active link is highlighted in the same colour as the section of the page. This includes contrast as the deafault blue doesn't show well against the background, but also includes accessibility into the design thought process.
 
 ### 2.11 Future improvements
+- Nav Bar indication of active location on page would have been a nice feature. This was considered too late into the project to implement.
 - The theatre is getting a lot of feedback with many children sending in their creations, as such a gallery page to exhibit these may be a nice idea.
 - JavaScript could be used to make the filters for makes more user friendly, and could combine filters allowing for more detailed categories, perhaps based around the common materials used in the makes, or the time required. This is beyond the scope of this project.
 - As more makes are added, it will make the page longer, perhaps calling for pagination or infinate scroll. This is beyond the scope of this project.
@@ -116,8 +117,6 @@ Many of the resources used in the site (PDF downloads, Header images) are hosted
 ### Imgur
 Imgur service to hosts images and screen shots for the ReadME.
 
-//Google Drive
-//The project used the Google Drive service to host and access others files and documents online.
 
 ## 3.5 Other Tools
 
@@ -147,6 +146,10 @@ It has thrown up some issues with the use of variables, however further research
 Manual testing shows the code responding on the webpage as anticipated:
 
 ![GIF showing select boxes changing colour on hover and the filter operating as expected](https://imgur.com/CXpKELg)
+
+Additonally the validator highlighted the use of some "Unknown Vendor Extnensions". These are browser specific extensions, namely Safari and Internet Explorer.
+
+![CSS validator warnings](https://imgur.com/PIA2Vze)
 
 # Deployment 
 
