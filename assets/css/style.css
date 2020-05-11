@@ -1,3 +1,4 @@
+/* background image */
 #wrapper {
   background-image: url("../images/vom.jpg");
   background-color: rgb(01, 01, 01);
@@ -97,7 +98,7 @@ a.hover_grey:hover {
   color: #aaaaaa !important;
 }
 
-/*------------------backgrounds----*/
+/* backgrounds */
 .grey {
   background: #333333;
 }
@@ -136,21 +137,23 @@ a.hover_grey:hover {
   background-color: #ffd283;
   border-color: #ffd283;
   font-family: "LatoRegular", sans-serif;
-  text-justify: distribute-all-lines;
   color: #333;
 }
 
-/*------------------Top----sourced from littleangeltheatre.com------*/
+
+/* Header/Footer link focus */
 header > * :focus,
 footer > * :focus {
   outline-color: #aaaaaa;
 }
 
+/* Header */
 #desk-main-menu {
   font-family: "ospdindin", sans-serif;
   text-transform: uppercase;
 }
 
+/* Adapted from littleangeltheatre.com */
 .top {
   background: #555555;
   width: 100vw;
@@ -277,7 +280,8 @@ a.calendar-top-link {
 .top-links a.instagram:hover {
   opacity: 0.7;
 }
-/*----end of sourced code----*/
+/* end of sourced code */
+/* Responsive horizontal bar */
 .bar {
   height: 12px;
   width: auto;
@@ -290,6 +294,7 @@ a.calendar-top-link {
   margin-right: 15px;
 }
 
+/* Nav bar */
 .nav {
   background: #555;
 }
@@ -298,7 +303,7 @@ a.calendar-top-link {
   text-decoration-line: none;
 }
 
-/*------------------jumbotrons---------------------------*/
+/* jumbotrons */
 .jumbotron {
   background: rgba(55, 55, 55, 0.9);
   border-radius: 0;
@@ -316,17 +321,17 @@ a.calendar-top-link {
   border-radius: 0;
 }
 
-/*------------------Trackback links------*/
+/* Trackback links */
 .trackback-link {
   position: relative;
   width: 1px;
   height: 10px;
 }
-/*-----------------Welcome-------------------*/
+/* Section: Welcome */
 #shows > * :focus {
   outline-color: #6a42d0;
 }
-/*-----------------Shows-------------------*/
+/* Section: Shows */
 #shows > * :focus {
   outline-color: #ff3333;
 }
@@ -335,10 +340,12 @@ a.calendar-top-link {
   bottom: -2em;
 }
 
-/*------------------Stories --- Horizontal scroll --*/
+/* Section: Stories */ 
 #stories > * :focus {
   outline-color: #ff3333;
 }
+
+/* Horizontal scroll - https://www.freecodecamp.org/news/horizontal-scrolling-using-flexbox-f9d16817f742/*/
 
 :root {
   --gutter: 20px;
@@ -352,11 +359,12 @@ a.calendar-top-link {
   border: 0;
 }
 
-/*------------------Projects section---------------------------------*/
+/* Section: Projects */
 #projects > * :focus {
   outline-color: #33cc99;
 }
 
+/* Acordian */
 .accordion .card-header:after {
   font-family: "FontAwesome";
   color: #fff;
@@ -409,7 +417,7 @@ a.calendar-top-link {
 .btn-success:hover {
   color: #33cc99;
 }
-/*------------------button outline---------------------------------*/
+/* button outline */
 btn-success.focus,
 .btn-success:focus,
 .btn-success:not(:disabled):not(.disabled).active:focus,
@@ -418,7 +426,7 @@ btn-success.focus,
   box-shadow: 0 0 0 0.2rem rgb(51, 204, 153, 0.5);
 }
 
-/*------------------button active--------------------------------*/
+/* button active */
 btn-success.focus,
 .btn-success:active,
 .btn-success:not(:disabled):not(.disabled).active,
@@ -429,13 +437,13 @@ btn-success.focus,
 }
 .accordion button:focus {
   border-color: #33cc99;
-  box-shadow: #33cc99;
+  box-shadow: 0 0 0 0.2rem rgb(51, 204, 153, 0.5);
 }
 
 .project-scroll-box {
   overflow-x: auto;
 }
-/*------------------Activitities section---------------------------------*/
+/* Section: Activitities */
 
 #makes > * :focus {
   outline-color: #0ebde8;
@@ -445,18 +453,18 @@ btn-success.focus,
   color: #fff;
   text-decoration: none;
 }
-/*------------------filterable CSS---------------------------------*/
-/*------------------remove radio buttons*/
+/* filterable CSS - https://webdesign.tutsplus.com/tutorials/how-to-build-a-filtering-component-in-pure-css--cms-33111 */
+/* remove radio buttons */
 #makes input[type="radio"] {
   position: absolute;
   left: -9999px;
 }
 
-/*------------------toggle filters --*/
+/* toggle filters */
 :root {
   --black: #1a1a1a;
   --white: #fff;
-  --green: #0ebde8;
+  --teal: #0ebde8;
 }
 
 .filters {
@@ -479,24 +487,24 @@ btn-success.focus,
 }
 
 .filters label:hover {
-  background: var(--green);
+  background: var(--teal);
   color: var(--black);
 }
 
 :root {
   --black: #1a1a1a;
   --white: #fff;
-  --green: #0ebde8;
+  --teal: #0ebde8;
 }
 
-/*------------------filter cards*/
-/*------------------card image*/
+/* filter cards */
+/* card image */
 #makes img {
   width: 100%;
   padding: 2%;
 }
 
-/*------------------grid-*/
+/* grid */
 
 .posts .post {
   background: #333;
@@ -510,7 +518,7 @@ btn-success.focus,
 .posts .card {
   display: inline-block;
 }
-/*------------------link styling*/
+/* link styling */
 .posts .post a {
   color: #fff;
   font-family: "OSPDINDIN", sans-serif;
@@ -546,14 +554,13 @@ btn-success.focus,
   padding: 0.2rem 0.5rem;
   border: 1px solid;
   line-height: normal;
-  background: all 0.1s;
 }
 
 .posts .post-categories a:hover {
-  background: var(--green);
+  background: var(--teal);
   color: var(--black);
 }
-/*------------------responsive grid*/
+/* responsive masonry grid */
 
 @media screen and (min-width: 300px) {
   .card-columns {
@@ -591,7 +598,7 @@ btn-success.focus,
 [value="younger"]:checked ~ .filters [for="younger"],
 [value="older"]:checked ~ .filters [for="older"],
 [value="video"]:checked ~ .filters [for="video"] {
-  background: var(--green);
+  background: var(--teal);
   color: var(--black);
 }
 
@@ -605,7 +612,7 @@ btn-success.focus,
   display: none;
 }
 
-/*-- Sticky Menu --- code adapted from https://codepen.io/rpsthecoder/pen/zGYXEX --*/
+/* Sticky Menu - code adapted from https://codepen.io/rpsthecoder/pen/zGYXEX */
 #sticky {
   position: sticky !important;
   position: -webkit-sticky;
@@ -642,7 +649,7 @@ btn-success.focus,
   height: 100%;
 }
 
-/*------------------footer*/
+/* Footer */
 footer {
   background: transparent;
 }
@@ -658,7 +665,7 @@ footer a {
   }
 }
 
-/*------------------donate btn*/
+/* donate btn */
 .btn-warning-donate {
   text-decoration: none;
   font-family: "OSPDINDIN", sans-serif;
