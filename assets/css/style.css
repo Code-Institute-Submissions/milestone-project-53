@@ -387,7 +387,6 @@ a.calendar-top-link {
 .carousel-control-prev {
     font-size: 2em;
     top: 30px;
-    position: fixed;
 }
 
 .carousel-control-next:hover,
