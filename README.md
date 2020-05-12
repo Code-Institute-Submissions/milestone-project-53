@@ -69,6 +69,7 @@
 [6.3 Media](##-6.3-Media)
 
 [6.4 Acknowledgements](##-6.4-Acknowledgements)
+
 # 1. UX
 
 ## 1.1 Who is this website for?
@@ -248,7 +249,6 @@ Additional validation from confirms all images have "alt" caption.
 
 [Report here](assets/docs/images.md)
 
-
 ### CSS validator
 
 Validates the code aheres to CSS standards.
@@ -316,7 +316,6 @@ One issue was found on the site, but on further eximanation, it references a hid
 
 ### A Parent wants to find out more about the shows streaming.
 
-
 ![Desktop example](https://media0.giphy.com/media/Yrfk9mYHKNVAq0Jsz6/giphy.gif)
 
 // Write about how each part of your responsive website behaves on different screen sizes.
@@ -328,14 +327,13 @@ And if you want to knock the grade for testing all the way up to the max:
 
 [Check external links open in new tabs and link to correct URL](docs/external-link-testing.md)
 
-
 ### [Compatibility Report](https://try.powermapper.com/demo/Report/c74986ce-1e2b-4cbb-99bb-0cd92cf02a0c)
 
-| -            | IE 11     | Edge 79   | Firefox 72 | Safari ≤ 12 | Safari 13 | Opera 66  | Chrome 79 | iOS ≤ 11  | iOS 12    | Ios 13    | Android 3 | Android 4 |
-| ------------ | --------- | --------- | ---------- | ----------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
-| Critical     | no issues | no issues | no issues  | no issues   | no issues | no issues | no issues | no issues | no issues | no issues | no issues  |no issues  |
-| Major Issues |       no issues    | no issues |      no issues      | no issues   |  no issues         | no issues |     no issues      | no issues |     no issues  |    no issues  |    no issues  |     no issues  |
-| Minor Issues |        no issues      | no issues |        no issues   |  `fig` and `figcacption` not supported  |        no issues   |   no issues| no issues | no issues | no issues | no issues | `fig` and `figcacption` not supported  |  no issues| 
+| -            | IE 11     | Edge 79   | Firefox 72 | Safari ≤ 12                           | Safari 13 | Opera 66  | Chrome 79 | iOS ≤ 11  | iOS 12    | Ios 13    | Android 3                             | Android 4 |
+| ------------ | --------- | --------- | ---------- | ------------------------------------- | --------- | --------- | --------- | --------- | --------- | --------- | ------------------------------------- | --------- |
+| Critical     | no issues | no issues | no issues  | no issues                             | no issues | no issues | no issues | no issues | no issues | no issues | no issues                             | no issues |
+| Major Issues | no issues | no issues | no issues  | no issues                             | no issues | no issues | no issues | no issues | no issues | no issues | no issues                             | no issues |
+| Minor Issues | no issues | no issues | no issues  | `fig` and `figcacption` not supported | no issues | no issues | no issues | no issues | no issues | no issues | `fig` and `figcacption` not supported | no issues |
 
 #### Hovers
 
@@ -344,16 +342,17 @@ Checking links show correct colour and use correct transition timings
 [Progress report here](docs/hover-testing.md)
 
 Desktop demonstration of hovers, random links and features working on the site using Chrome:
-![Desktop demonstration of hovers, random links and features working on the site using Chrome](https://i.imgur.com/3Ho8z6k.gif)[external host link[(https://imgur.com/3Ho8z6k)
+![Desktop demonstration of hovers, random links and features working on the site using Chrome](https://i.imgur.com/3Ho8z6k.gif)
+[external host link](https://imgur.com/3Ho8z6k)
 
 ![Desktop demonstration of hovers, random links and features working on the site using Safari](https://i.imgur.com/PS6CwFS.gif)
-[external host link[(https://imgur.com/PS6CwFS)
+[external host link](https://imgur.com/PS6CwFS)
+
 ### Links - Internal
 
 Check internal links work and reference correctly
 
 [Progress report](docs/internal-link-testing.md)
-
 
 ### Proofread
 
@@ -382,10 +381,10 @@ Expected responsive features:
 
 ### Testing Responsive Features: Mobile version (iphone 8)
 ![iphone responsiveness testing](https://i.imgur.com/o7sNLsc.gif)
-[external host link[(https://imgur.com/o7sNLsc)
+[external host link](https://imgur.com/o7sNLsc)
 
 ![Safari browser respnsive demonstation](https://i.imgur.com/8M4Icpq.gifv)
-[external host link[(https://imgur.com/8M4Icpq)
+[external host link](https://imgur.com/8M4Icpq)
 
 A bug was found that `background-attachment: fixed` is disabled on iOS. This has been added to the bugs list.
 
@@ -394,6 +393,7 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 ## 4.6 Bugs
 
 ### Active Bugs
+
 - [ ] Project 2 card 1 size
 - []on iphone background image not sticky
 
@@ -417,14 +417,14 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 - [x] bad crop on goldilocks bear image
 
 # 5. Deployment
-  
+
 Repo URL: https://github.com/c-marsh/milestone-project-1.
+
 1. Using Gitpod's Chrome extension, the project was launched from within the repository, based on [CodeInstitutes template](https://github.com/Code-Institute-Org/gitpod-full-template).
 1. Code was developed through Gitpod’s IDE, and develpoments regularly commited and pushed to the Github repository.
 1. A branch was created to experiment with some code conflicts, and was merged back into the master branch once bugs were ironed out.
 
 The project be viewed by following this URL: https://c-marsh.github.io/milestone-project-1/, or run locally by following [these instructions](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-
 
 # 6. Credits
 
