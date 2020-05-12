@@ -360,6 +360,7 @@ a.calendar-top-link {
     position: relative;
     padding: 0px;
 }
+/* remove pointer */
 .carousel-indicators li {
     cursor: default;
 }
@@ -377,16 +378,14 @@ a.calendar-top-link {
 .embed-responsive::before {
     display: inline-block;
 }
+/* carousel controls */
 
-.carousel-control-prev:focus,
-.carousel-control-next:focus {
-    box-shadow: 0 0 0 0.2rem rgb(255, 51, 51, 0.5);
-}
 
 .carousel-control-next,
 .carousel-control-prev {
     font-size: 2em;
     top: 30px;
+    width: 10%;
 }
 
 .carousel-control-next:hover,
