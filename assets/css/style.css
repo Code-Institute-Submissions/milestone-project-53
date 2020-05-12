@@ -640,7 +640,6 @@ btn-success.focus,
     font-size: 0.75rem;
     text-transform: uppercase;
     justify-content: center;
-    display: flex;
     padding: 0;
 }
 
@@ -671,35 +670,55 @@ btn-success.focus,
 }
 /* responsive masonry grid */
 
-@media screen and (min-width: 300px) {
+
+
+
+
+@media screen and (max-width: 1200px) {
     .card-columns {
-        column-count: 2;
+        column-count: 6;
     }
 }
 
-@media screen and (min-width: 600px) {
-    .card-columns {
-        column-count: 3;
-    }
-}
 
-@media screen and (min-width: 700px) {
-    .card-columns {
-        column-count: 4;
-    }
-}
-
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 900px) {
     .card-columns {
         column-count: 5;
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 800px) {
     .card-columns {
-        column-count: 6;
+        column-count: 4;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+@media screen and (max-width: 500px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .card-columns {
+        column-count: 7;
+    }
+}
+
 
 /* FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
