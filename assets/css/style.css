@@ -264,10 +264,11 @@ a.calendar-top-link {
 
 .top-links strong {
   position: absolute;
-  bottom: -7px;
+      bottom: -7px;
   left: 0px;
   width: 199px;
 }
+.phone,
 .top-links strong a {
   font-family: "ospdindin";
   color: #fff;
@@ -276,6 +277,7 @@ a.calendar-top-link {
   font-weight: normal;
   letter-spacing: 0.6px;
 }
+
 
 .top-links .book-tickets.calendar-top-link:hover {
   opacity: 0.7;
