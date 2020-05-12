@@ -639,7 +639,9 @@ btn-success.focus,
     margin-bottom: 0.75rem;
     font-size: 0.75rem;
     text-transform: uppercase;
-    justify-content: space-between;
+    justify-content: center;
+    display: flex;
+    padding: 0;
 }
 
 .posts .post-categories * {
@@ -648,19 +650,24 @@ btn-success.focus,
 
 .posts .post-categories li {
     margin-bottom: 0.2rem;
+    align-items: center;
 }
 
 .posts .post-categories a {
     padding: 0.2rem 0.5rem;
     border: 1px solid;
     line-height: normal;
+    align-items: center;
+
 }
 
 .posts .post-categories a:hover {
     background: var(--teal);
     color: var(--black);
+    border-color: var(--white);
     transition: 0.3s;
     transition-timing-function: ease-in-out;
+    text-decoration: none;
 }
 /* responsive masonry grid */
 
