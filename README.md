@@ -1,3 +1,35 @@
+# Table of Contents
+## [# 1. UX](#1.-UX)
+
+ [1.1 Who is this website for?](##1.1-Who-is-this-website-for?)
+
+ [1.2 What is it that they want to achieve?](##1.2-What-is-it-that-they-want-to-achieve?)
+
+[1.3 How my project is the best way to help them achieve those things?](##-1.3-How-my-project-is-the-best-way-to-help-them-achieve-those-things?)
+
+[1.4 Website Planning and Wireframes](##-1.4-Website-Planning-and-Wireframes)
+
+## [2. Features](#2.-Features)
+[2.1 Top Section](##-2.1-Top-Section)
+
+[2.2 Nav Bar](##-2.2-Nav-Bar)
+
+[2.3 Donate Alert](##-2.3-Donate-Alert)
+
+[2.4 Welcome section](##-2.4-Welcome-section)
+
+[2.5 Shows section](##-2.5-Shows-section)
+
+[2.6 Stories section](##-2.6-Stories-section)
+
+[2.7 Projects section](##-2.7-Projects-section)
+
+[2.8 Makes section](##-2.8-Makes-section)
+
+[2.10 General features](##-2.10-General-features)
+
+[2.11 Future improvements](###-2.11-Future-improvements)
+
 # 1. UX
 
 ## 1.1 Who is this website for?
@@ -99,15 +131,15 @@ For accessibility the active link is highlighted in the same colour as the secti
 
 ## 3.1 Languages
 
-### HTML/HTML5
+### 3.1.1 HTML/HTML5
 
 Semantic HTML 5 has been used for the web markup.
 
-### CSS/CSS3
+### 3.1.2 CSS/CSS3
 
 CSS/CSS3 to has been used to provide styling.
 
-### JavaScript
+### 3.1.3 JavaScript
 
 A few snippets of JavaScript have been used to improve the user experience.
 
@@ -137,6 +169,11 @@ Many of the resources used in the site (PDF downloads, Header images) are hosted
 
 Imgur service to hosts images and screen shots for the ReadME.
 
+### giphy
+
+Giphy makes and hosts giphs for the ReadME.
+
+
 ## 3.5 Other Tools
 
 ### Balsamiq Wireframes
@@ -161,9 +198,55 @@ Validates the code aheres to HTML standards
 
 The HTML validator throws up a warning about a double hyphen in a comment, however as this is part of URL to copied code, I have left it in place.
 
-Additional validation from confirms all images have "alt" caption. 
-
 ![Screenshot of HTML warning](https://i.imgur.com/71C5dCI.png)
+
+### [Image validation](https://validator.w3.org/)
+Additional validation from confirms all images have "alt" caption:
+
+Image textual alternative|Location
+-|-
+Little Angel Logo|From line 44, column 12; to line 49, column 10
+Little Angel Logo	|From line 55, column 12; to line 60, column 10
+Book tickets button	|From line 140, column 13; to line 145, column 14
+join our mailing list button	|From line 153, column 13; to line 158, column 14
+facebook logo	|From line 167, column 13; to line 172, column 14
+twitter logo	|From line 180, column 13; to line 185, column 14
+youtube logo	|From line 193, column 13; to line 198, column 14
+Intstagram logo	|From line 206, column 13; to line 211, column 14
+picture of a shadow theatre	|From line 1495, column 25; to line 1499, column 26
+goldilocks bear puppet	|From line 1710, column 21; to line 1713, column 22
+Paper Plate Hatching Chicks	|From line 1753, column 21; to line 1756, column 22
+Paper Mache Easter Eggs	|From line 1800, column 21; to line 1803, column 22
+Troll puppet	|From line 1851, column 21; to line 1851, column 76
+Woven Paper Basket|From line 1895, column 21; to line 1898, column 22
+Star Mobile	|From line 1944, column 21; to line 1944, column 76
+Origami pig puppet	|From line 1990, column 21; to line 1993, column 22
+Little Red Hen	|From line 2034, column 21; to line 2034, column 80
+Fish puppet	|From line 2081, column 21; to line 2081, column 74
+gingerbread man puppet	|From line 2126, column 21; to line 2129, column 22
+Paper Frog puppet	|From line 2174, column 21; to line 2174, column 80
+egg box hen puppet	|From line 2220, column 21; to line 2220, column 80
+spider headband	|From line 2262, column 21; to line 2265, column 22
+Frog Fly Catcher	|From line 2305, column 21; to line 2308, column 22
+paper doll elves around a show	|From line 2348, column 21; to line 2351, column 22
+crocodile hand puppet	|From line 2391, column 21; to line 2394, column 22
+Sock Bunny	|From line 2431, column 21; to line 2431, column 79
+a woodland setting make	|From line 2467, column 21; to line 2470, column 22
+hare and tortoise puppets	|From line 2508, column 21; to line 2511, column 22
+ugly duckling make	|From line 2552, column 21; to line 2555, column 22
+a puppet princess	|From line 2597, column 21; to line 2600, column 22
+lion mask	|From line 2638, column 21; to line 2638, column 77
+easter wreath	|From line 2673, column 21; to line 2676, column 22
+pop out chick card	|From line 2712, column 21; to line 2715, column 22
+paper daffodil	|From line 2752, column 21; to line 2755, column 22
+magic beastalk make	|From line 2794, column 21; to line 2797, column 22
+cinderlellas wand make	|From line 2836, column 21; to line 2839, column 22
+mouse finger puppet	|From line 2876, column 21; to line 2879, column 22
+a cauldron sun cather	|From line 2916, column 21; to line 2919, column 22
+decorated porridge with a bear face	|From line 2955, column 21; to line 2958, column 22
+rapunzels tower make	|From line 2998, column 21; to line 3001, column 22
+homemade guitar	|From line 3040, column 21; to line 3040, column 80
+
 
 ### CSS validator
 
