@@ -506,6 +506,11 @@ a.calendar-top-link {
     transition: 0.3s;
     transition-timing-function: ease-in-out;
 }
+
+.accordion a:hover {
+    text-decoration: none;
+}
+
 /* button outline */
 btn-success.focus,
 .btn-success:focus,
