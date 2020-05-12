@@ -393,7 +393,7 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 ### Active Bugs
 
 - [ ] Project 2 card 1 size
-- [ ]on iphone background image not sticky
+- [ ] on iphone background image not sticky
 
 ### Squashed Bugs
 
