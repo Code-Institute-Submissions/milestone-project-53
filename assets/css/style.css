@@ -551,7 +551,7 @@ btn-success.focus,
 /* filterable CSS - https://webdesign.tutsplus.com/tutorials/how-to-build-a-filtering-component-in-pure-css--cms-33111 */
 /* remove radio buttons */
 #makes input[type="radio"] {
-    position: absolute;
+    position: relative;
     left: -9999px;
 }
 
