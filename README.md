@@ -259,7 +259,7 @@ It has thrown up some issues with the use of variables, however further research
 
 Manual testing shows the code responding on the webpage as anticipated:
 
-![GIF showing select boxes changing colour on hover and the filter operating as expected](https://i.imgur.com/VibCtU2.gif)
+![GIF showing select boxes changing colour on hover and the filter operating as expected](https://i.imgur.com/VibCtU2.gif) [external gif link](https://imgur.com/VibCtU2)
 
 Additonally the validator highlighted the use of some "Unknown Vendor Extnensions". These are browser specific extensions, namely Safari and Internet Explorer.
 
@@ -297,13 +297,15 @@ One issue was found on the site, but on further eximanation, it references a hid
 1.  They will be presented either a selection of short shows which are being streamed, or an array of stories which are being added to daily.
 1.  The child can then peruse at will and hopefully remain preoccupied.
 
-![Desktop Example](https://i.imgur.com/8sYsS4U.gif)
+![Desktop Example](https://i.imgur.com/8sYsS4U.gif) [external host link[(https://imgur.com/8sYsS4U)
 
 ### A Parent is looking for inspiration for a craft/activity with their child to spend quality time with their child
 
 1.  Click on makes in the menu bar
 1.  They are presented some information on basic craft supplies that can be recycled from common household waste which make up the essentials for the crafts section.
 1.  They can then choose, and click on a make which will provide a YouTube or written tutorial.
+
+![Desktop Example](https://media.giphy.com/media/S99X26zc9GjrlWsOqv/giphy.gif)
 
 ### A Parent wants to donate to the organisation.
 
@@ -324,7 +326,7 @@ And if you want to knock the grade for testing all the way up to the max:
 
 ### Links - External
 
-[Check external links open in new tabs and link to correct URL](assets/docs/external-link-testing.md)
+[Check external links open in new tabs and link to correct URL](docs/external-link-testing.md)
 
 
 ### [Compatibility Report](https://try.powermapper.com/demo/Report/c74986ce-1e2b-4cbb-99bb-0cd92cf02a0c)
@@ -339,18 +341,18 @@ And if you want to knock the grade for testing all the way up to the max:
 
 Checking links show correct colour and use correct transition timings
 
-[Progress report here](assets/docs/hover-testing.md)
+[Progress report here](docs/hover-testing.md)
 
 Desktop demonstration of hovers, random links and features working on the site using Chrome:
-![Desktop demonstration of hovers, random links and features working on the site using Chrome](https://i.imgur.com/3Ho8z6k.gif)
+![Desktop demonstration of hovers, random links and features working on the site using Chrome](https://i.imgur.com/3Ho8z6k.gif)[external host link[(https://imgur.com/3Ho8z6k)
 
-![Desktop demonstration of hovers, random links and features working on the site using Safari]()
-
+![Desktop demonstration of hovers, random links and features working on the site using Safari](https://i.imgur.com/PS6CwFS.gif)
+[external host link[(https://imgur.com/PS6CwFS)
 ### Links - Internal
 
 Check internal links work and reference correctly
 
-[Progress report](assets/docs/internal-link-testing.md)
+[Progress report](docs/internal-link-testing.md)
 
 
 ### Proofread
@@ -380,8 +382,10 @@ Expected responsive features:
 
 ### Testing Responsive Features: Mobile version (iphone 8)
 ![iphone responsiveness testing](https://i.imgur.com/o7sNLsc.gif)
+[external host link[(https://imgur.com/o7sNLsc)
 
 ![Safari browser respnsive demonstation](https://i.imgur.com/8M4Icpq.gifv)
+[external host link[(https://imgur.com/8M4Icpq)
 
 A bug was found that `background-attachment: fixed` is disabled on iOS. This has been added to the bugs list.
 
