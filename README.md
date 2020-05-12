@@ -185,6 +185,10 @@ Wireframes built using Balsamiq.
 
 Fonts OSP-DIN and Lato hosted from https://fontlibrary.org/
 
+### Icons
+
+Icons are from https://fontawesome.com/
+
 ### Images
 
 Images used on this site were run through http://tinypng.com for compression.
@@ -203,51 +207,10 @@ The HTML validator throws up a warning about a double hyphen in a comment, howev
 
 ### [Image validation](https://validator.w3.org/)
 
-Additional validation from confirms all images have "alt" caption:
+Additional validation from confirms all images have "alt" caption.
 
-| Image textual alternative           | Location                                           |
-| ----------------------------------- | -------------------------------------------------- |
-| Little Angel Logo                   | From line 44, column 12; to line 49, column 10     |
-| Little Angel Logo                   | From line 55, column 12; to line 60, column 10     |
-| Book tickets button                 | From line 140, column 13; to line 145, column 14   |
-| join our mailing list button        | From line 153, column 13; to line 158, column 14   |
-| facebook logo                       | From line 167, column 13; to line 172, column 14   |
-| twitter logo                        | From line 180, column 13; to line 185, column 14   |
-| youtube logo                        | From line 193, column 13; to line 198, column 14   |
-| Intstagram logo                     | From line 206, column 13; to line 211, column 14   |
-| picture of a shadow theatre         | From line 1495, column 25; to line 1499, column 26 |
-| goldilocks bear puppet              | From line 1710, column 21; to line 1713, column 22 |
-| Paper Plate Hatching Chicks         | From line 1753, column 21; to line 1756, column 22 |
-| Paper Mache Easter Eggs             | From line 1800, column 21; to line 1803, column 22 |
-| Troll puppet                        | From line 1851, column 21; to line 1851, column 76 |
-| Woven Paper Basket                  | From line 1895, column 21; to line 1898, column 22 |
-| Star Mobile                         | From line 1944, column 21; to line 1944, column 76 |
-| Origami pig puppet                  | From line 1990, column 21; to line 1993, column 22 |
-| Little Red Hen                      | From line 2034, column 21; to line 2034, column 80 |
-| Fish puppet                         | From line 2081, column 21; to line 2081, column 74 |
-| gingerbread man puppet              | From line 2126, column 21; to line 2129, column 22 |
-| Paper Frog puppet                   | From line 2174, column 21; to line 2174, column 80 |
-| egg box hen puppet                  | From line 2220, column 21; to line 2220, column 80 |
-| spider headband                     | From line 2262, column 21; to line 2265, column 22 |
-| Frog Fly Catcher                    | From line 2305, column 21; to line 2308, column 22 |
-| paper doll elves around a show      | From line 2348, column 21; to line 2351, column 22 |
-| crocodile hand puppet               | From line 2391, column 21; to line 2394, column 22 |
-| Sock Bunny                          | From line 2431, column 21; to line 2431, column 79 |
-| a woodland setting make             | From line 2467, column 21; to line 2470, column 22 |
-| hare and tortoise puppets           | From line 2508, column 21; to line 2511, column 22 |
-| ugly duckling make                  | From line 2552, column 21; to line 2555, column 22 |
-| a puppet princess                   | From line 2597, column 21; to line 2600, column 22 |
-| lion mask                           | From line 2638, column 21; to line 2638, column 77 |
-| easter wreath                       | From line 2673, column 21; to line 2676, column 22 |
-| pop out chick card                  | From line 2712, column 21; to line 2715, column 22 |
-| paper daffodil                      | From line 2752, column 21; to line 2755, column 22 |
-| magic beastalk make                 | From line 2794, column 21; to line 2797, column 22 |
-| cinderlellas wand make              | From line 2836, column 21; to line 2839, column 22 |
-| mouse finger puppet                 | From line 2876, column 21; to line 2879, column 22 |
-| a cauldron sun cather               | From line 2916, column 21; to line 2919, column 22 |
-| decorated porridge with a bear face | From line 2955, column 21; to line 2958, column 22 |
-| rapunzels tower make                | From line 2998, column 21; to line 3001, column 22 |
-| homemade guitar                     | From line 3040, column 21; to line 3040, column 80 |
+[Report here](assets/docs/images.md)
+
 
 ### CSS validator
 
@@ -271,7 +234,7 @@ The contrast validator checks contrast between text and background to ensure it'
 
 One issue was found on the site, but on further eximanation, it references a hidden form, and as such is not visible to any user.
 
-[Colour Contrast result](https://i.imgur.com/LguREGJ.png)
+![Colour Contrast result](https://i.imgur.com/LguREGJ.png)
 
 ## 4.2 UX Stories
 
@@ -297,7 +260,7 @@ One issue was found on the site, but on further eximanation, it references a hid
 1.  They will be presented either a selection of short shows which are being streamed, or an array of stories which are being added to daily.
 1.  The child can then peruse at will and hopefully remain preoccupied.
 
-![Desktop Example](https://i.imgur.com/8sYsS4U.gifv)
+![Desktop Example](https://i.imgur.com/8sYsS4U.gif)
 
 ### A Parent is looking for inspiration for a craft/activity with their child to spend quality time with their child
 
@@ -314,16 +277,8 @@ One issue was found on the site, but on further eximanation, it references a hid
 
 ### A Parent wants to find out more about the shows streaming.
 
-A child wants
 
-- to find something to do
-  -- so that they’re not bored
-- to find something to watch
-  -- so that they’re not bored
-- to find inspiration
-  -- to play
-- to make something
-  -- so I have an activity for quality time with my child
+![Desktop example](https://media0.giphy.com/media/Yrfk9mYHKNVAq0Jsz6/giphy.gif)
 
 // Write about how each part of your responsive website behaves on different screen sizes.
 And if you want to knock the grade for testing all the way up to the max:
@@ -332,177 +287,25 @@ And if you want to knock the grade for testing all the way up to the max:
 
 ### Links - External
 
-Check external links open in new tabs and link to correct URL
+[Check external links open in new tabs and link to correct URL](assets/docs/external-link-testing.md)
 
-##### Header:
 
-- [x] news
-- [x] What's on
-- [x] Courses and classes
-- [x] Schools
-- [x] Support us
-- [x] About us
-- [x] Visiting us
-- [x] shop
-- [x] book tickets
-- [x] mailing list
-- [x] FB
-- [x] Twitter
-- [x] Youtube
-- [x] instagram
+### [Compatibility Report](https://try.powermapper.com/demo/Report/c74986ce-1e2b-4cbb-99bb-0cd92cf02a0c)
 
-##### Nav bar
-
-- [x] mailing list
-- [x] Donate
-- [x] FB
-- [x] Twitter
-- [x] Youtube
-- [x] instagram
-
-##### Welcome
-
-- [x] video
-
-##### Shows
-
-- [x] video
-- [x] video
-- [x] video
-
-##### Stories
-
-- [x] All videos play
-
-##### Projects
-
-- [x] Project 1 video 1
-- [x] Project 1 video 2
-- [x] Project 1 video 3
-- [x] Project 1 video 4
-- [x] Project 1 video 5
-- [x] Project 1 video 6
-- [x] Project 1 video 7
-- [x] Project 1 video 8
-- [x] Project 1 video 9
-- [x] Project 1 video 10
-- [x] Project 1 video 11
-- [x] Project 2 video 1
-- [x] Project 2 video 2
-- [x] Project 2 video 3
-- [x] Project 2 download 1
-- [x] Project 2 download 2
-- [x] Project 2 download 3
-- [x] Project 2 download 4
-
-##### Activities
-
-- [x] mailto
-
-##### Activities cards (x31)
-
-- [x] title link
-- [x] image link
-- [x] download link
-
-##### Footer
-
-- [x] Donate
-- [x] FB
-- [x] Twitter
-- [x] Youtube
-- [x] instagram
-
-### Compatibility
+| -            | IE 11     | Edge 79   | Firefox 72 | Safari ≤ 12 | Safari 13 | Opera 66  | Chrome 79 | iOS ≤ 11  | iOS 12    | Ios 13    | Android 3 | Android 4 |
+| ------------ | --------- | --------- | ---------- | ----------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| Critical     | no issues | no issues | no issues  | no issues   | no issues | no issues | no issues | no issues | no issues | no issues | no issues  |no issues  |
+| Major Issues |       no issues    | no issues |      no issues      | no issues   |  no issues         | no issues |     no issues      | no issues |     no issues  |    no issues  |    no issues  |     no issues  |
+| Minor Issues |        no issues      | no issues |        no issues   |  `fig` and `figcacption` not supported  |        no issues   |   no issues| no issues | no issues | no issues | no issues | `fig` and `figcacption` not supported  |  no issues| 
 
 #### Hovers
 
 Checking links show correct colour and use correct transition timings
 
-##### Header:
+[Progress report here](assets/docs/hover-testing.md)
 
-| Chrome | Safari | Firefox | MS  | link                |
-| ------ | ------ | ------- | --- | ------------------- |
-| [x]    | [x]    | []      | []  | What's on           |
-| [x]    | [x]    | []      | []  | Courses and classes |
-| [x]    | [x]    | []      | []  | Schools             |
-| [x]    | [x]    | []      | []  | Support us          |
-| [x]    | [x]    | []      | []  | About us            |
-| [x]    | [x]    | []      | []  | Visiting us         |
-| [x]    | [x]    | []      | []  | shop                |
-| [x]    | [x]    | []      | []  | book tickets        |
-| [x]    | [x]    | []      | []  | mailing list        |
-| [x]    | [x]    | []      | []  | FB                  |
-| [x]    | [x]    | []      | []  | Twitter             |
-| [x]    | [x]    | []      | []  | Youtube             |
-| [x]    | [x]    | []      | []  | instagram           |
-
-##### Nav bar
-
-| Chrome | Safari | Firefox | MS  | link         |
-| ------ | ------ | ------- | --- | ------------ |
-| [x]    | [x]    | []      | [ ] | Home         |
-| [x]    | [x]    | []      | [ ] | Shows        |
-| [x]    | [x]    | []      | [ ] | Stories      |
-| [x]    | [x]    | []      | [ ] | Projects     |
-| [x]    | [x]    | []      | [ ] | Makes        |
-| [x]    | [x]    | []      | [ ] | mailing list |
-| [x]    | [x]    | []      | [ ] | Donate       |
-| [x]    | [x]    | []      | [ ] | FB           |
-| [x]    | [x]    | []      | [ ] | Twitter      |
-| [x]    | [x]    | []      | [ ] | Youtube      |
-| [x]    | [x]    | []      | [ ] | instagram    |
-
-##### Shows
-
-| Chrome | Safari | Firefox | MS  | link          |
-| ------ | ------ | ------- | --- | ------------- |
-| [x]    | [x]    | []      | [ ] | Right Chevron |
-| [x]    | [x]    | []      | [ ] | Left Chevron  |
-
-##### Projects
-
-| Chrome | Safari | Firefox | MS  | link                 |
-| ------ | ------ | ------- | --- | -------------------- |
-| [x]    | [x]    | []      | [ ] | Project 1            |
-| [x]    | [x]    | []      | [ ] | Project 2            |
-| [x]    | [x]    | []      | [ ] | Project 3            |
-| [x]    | [x]    | []      | [ ] | Project 2 download 1 |
-| [x]    | [x]    | []      | [ ] | Project 2 download 2 |
-| [x]    | [x]    | []      | [ ] | Project 2 download 3 |
-| [x]    | [x]    | []      | [ ] | Project 2 download 4 |
-
-##### Activities
-
-| Chrome | Safari | Firefox | MS  | link   |
-| ------ | ------ | ------- | --- | ------ |
-| [x]    | [x]    | []      | [ ] | mailto |
-| [x]    | [x]    | []      | [ ] | Filter |
-| [x]    | [x]    | []      | [ ] | Filter |
-| [x]    | [x]    | []      | [ ] | Filter |
-| [x]    | [x]    | []      | [ ] | Filter |
-
-##### Activities cards (x31)
-
-| Chrome | Safari | Firefox | MS  | link              |
-| ------ | ------ | ------- | --- | ----------------- |
-| [x]    | [x]    | []      | [ ] | title hover       |
-| [x]    | [x]    | []      | [ ] | Younger tag hover |
-| [x]    | [x]    | []      | [ ] | older tag hover   |
-| [x]    | [x]    | []      | [ ] | video tag hover   |
-| [x]    | [x]    | []      | [ ] | download hover    |
-
-##### Footer
-
-| Chrome | Safari | Firefox | MS  | link      |
-| ------ | ------ | ------- | --- | --------- |
-| [x]    | [x]    | []      | []  | Donate    |
-| [x]    | [x]    | []      | []  | FB        |
-| [x]    | [x]    | []      | []  | Twitter   |
-| [x]    | [x]    | []      | []  | Youtube   |
-| [x]    | [x]    | []      | []  | instagram |
-
-![Desktop demonstration of hovers, random links and features working on the site using Chrome](https://i.imgur.com/3Ho8z6k.gifv)
+Desktop demonstration of hovers, random links and features working on the site using Chrome:
+![Desktop demonstration of hovers, random links and features working on the site using Chrome](https://i.imgur.com/3Ho8z6k.gif)
 
 ![Desktop demonstration of hovers, random links and features working on the site using Safari]()
 
@@ -510,60 +313,15 @@ Checking links show correct colour and use correct transition timings
 
 Check internal links work and reference correctly
 
-##### Nav bar
+[Progress report](assets/docs/internal-link-testing.md)
 
-- [x] Home
-- [x] Shows
-- [x] Stories
-- [x] Projects
-- [x] Makes
-
-##### Shows
-
-| Chrome | Safari | Firefox | MS  | ios | link       |
-| ------ | ------ | ------- | --- | --- | ---------- |
-| - [x]  | [x]     | []      | []  | [x] | Forward    |
-| - [x]  | [x]     | []      | []  | [x] | Background |
-
-Played video pauses on pressing:
-Chrome | Safari | Firefox | MS|ios |link|
--------| -------| --------| --|----|--|
-[x]|[x]| [] |[] |[x] | Forward|
-[x]|[x]| [] |[] |[x] | Background|
-
-Scroll stops on
-|Chrome | Safari | Firefox | MS|ios |link|
-|-------| -------| --------| --|----|--|
-[x]|[x] |[] |[] |[x]| Hover|
-[x]|[x] |[] |[] |[x]| video play|
-
-##### Projects
-
-- [x] Project 1
-- [x] Project 2
-- [x] Project 3
-
-##### Activities
-
-| Chrome | Safari | Firefox | MS  | ios | link   |
-| ------ | ------ | ------- | --- | --- | ------ |
-| [x]    | [x]    | []      | [ ] | [x] | Filter |
-| [x]    | [x]    | []      | [ ] | [x] | Filter |
-| [x]    | [x]    | []      | [ ] | [x] | Filter |
-| [x]    | [x]    | []      | [ ] | [x] | Filter |
-
-##### Activities cards (x31)
-
-- [x] Younger tag
-- [x] older tag
-- [x] video tag
 
 ### Proofread
 
 - [x] Spelling checked via https://www.internetmarketingninjas.com/online-spell-checker.php
 - [x] Maually Proof read
 
-### Mobile version (iphone 8)
+### Responsive Features
 
 All responsive features are working. The gif below deomnstrates testing on iphone 8.
 Expected responsive features:
@@ -583,8 +341,12 @@ Expected responsive features:
 - [x] No body text on make cards
 - [x] No donate footer at bottom of page
 
-[iphone responsiveness testing]()
-[Safari browser respnsive demonstation](https://i.imgur.com/8M4Icpq.gifv)
+### Testing Responsive Features: Mobile version (iphone 8)
+![iphone responsiveness testing](https://i.imgur.com/o7sNLsc.gif)
+
+![Safari browser respnsive demonstation](https://i.imgur.com/8M4Icpq.gifv)
+
+A bug was found that `background-attachment: fixed` is disabled on iOS. This has been added to the bugs list.
 
 ## 4.4 Testing on network speeds
 
@@ -611,6 +373,8 @@ Expected responsive features:
 - [x] Makes filter tracks to begininning of activities
 - [x] carousel chevrons cover text
 - [x] carousel chevrons active border looks ugly
+- [x] iframes lacking titles for screen readers
+- [x] href telephone number
 
 # Deployment
 
