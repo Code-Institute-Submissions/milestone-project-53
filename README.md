@@ -328,7 +328,7 @@ And if you want to knock the grade for testing all the way up to the max:
 ## 4.3 Manual Testing
 ### Chrome
 #### Hovers
-right colour/right time
+Checking links show correct colour and use correct transition timings
 ##### Header:
  |Chrome | Safari | Firefox | MS| link|
 -|-------| -------| --------| --|------|
@@ -349,61 +349,61 @@ right colour/right time
 ##### Nav bar
  |Chrome | Safari | Firefox | MS| link|
 -|-------| -------| --------| --|------|
-|[]|[]|[]| [ ] Home
-|[]|[]|[]| [ ] Shows
-|[]|[]|[]| [ ] Stories
-|[]|[]|[]| [ ] Projects
-|[]|[]|[]| [ ] Makes
-|[]|[]|[]| [ ] mailing list
-|[]|[]|[]| [ ] Donate
-|[]|[]|[]| [ ] FB
-|[]|[]|[]| [ ] Twitter
-|[]|[]|[]| [ ] Youtube
-|[]|[]|[]| [ ] instagram
+|[x]|[]|[]| [ ] Home
+|[x]|[]|[]| [ ] Shows
+|[x]|[]|[]| [ ] Stories
+|[x]|[]|[]| [ ] Projects
+|[x]|[]|[]| [ ] Makes
+|[x]|[]|[]| [ ] mailing list
+|[x]|[]|[]| [ ] Donate
+|[x]|[]|[]| [ ] FB
+|[x]|[]|[]| [ ] Twitter
+|[x]|[]|[]| [ ] Youtube
+|[x]|[]|[]| [ ] instagram
 
 ##### Shows
  |Chrome | Safari | Firefox | MS| link|
 -|-------| -------| --------| --|------|
-|[]|[]|[]| [ ] Right Chevron
-|[]|[]|[]| [ ] Left Chevron
+|[x]|[]|[]| [ ] Right Chevron
+|[x]|[]|[]| [ ] Left Chevron
 
 ##### Projects
  |Chrome | Safari | Firefox | MS| link|
 -|-------| -------| --------| --|------|
-|[]|[]|[]| [ ] Project 1
-|[]|[]|[]| [ ] Project 2
-|[]|[]|[]| [ ] Project 3
-|[]|[]|[]| [ ] Project 2 download 1
-|[]|[]|[]| [ ] Project 2 download 2
-|[]|[]|[]| [ ] Project 2 download 3
-|[]|[]|[]| [ ] Project 2 download 4
+|[x]|[]|[]| [ ] Project 1
+|[x]|[]|[]| [ ] Project 2
+|[x]|[]|[]| [ ] Project 3
+|[x]|[]|[]| [ ] Project 2 download 1
+|[x]|[]|[]| [ ] Project 2 download 2
+|[x]|[]|[]| [ ] Project 2 download 3
+|[x]|[]|[]| [ ] Project 2 download 4
 
 ##### Activities
  |Chrome | Safari | Firefox | MS| link|
 -|-------| -------| --------| --|------|
-|[]|[]|[]| [ ] mailto
-|[]|[]|[]| [ ] Filter
-|[]|[]|[]| [ ] Filter
-|[]|[]|[]| [ ] Filter
-|[]|[]|[]| [ ] Filter
+|[x]|[]|[]| [ ] mailto
+|[x]|[]|[]| [ ] Filter
+|[x]|[]|[]| [ ] Filter
+|[x]|[]|[]| [ ] Filter
+|[x]|[]|[]| [ ] Filter
 
 ##### Activities cards (x31)
  |Chrome | Safari | Firefox | MS| link|
 -|-------| -------| --------| --|------|
-|[]|[]|[]| [ ] title hover
-|[]|[]|[]| [ ] Younger tag hover
-|[]|[]|[]| [ ] older tag hover
-|[]|[]|[]| [ ] video tag hover
-|[]|[]|[]| [ ] download hover
+|[x]|[]|[]| [ ] title hover
+|[x]|[]|[]| [ ] Younger tag hover
+|[x]|[]|[]| [ ] older tag hover
+|[x]|[]|[]| [ ] video tag hover
+|[x]|[]|[]| [ ] download hover
 
 ##### Footer
  |Chrome | Safari | Firefox | MS| link|
 -|-------| -------| --------| --|------|
-|[]|[]|[]| [] Donate
-|[]|[]|[]| [] FB
-|[]|[]|[]| [] Twitter
-|[]|[]|[]| [] Youtube
-|[]|[]|[]| [] instagram
+|[x]|[]|[]| [] Donate
+|[x]|[]|[]| [] FB
+|[x]|[]|[]| [] Twitter
+|[x]|[]|[]| [] Youtube
+|[x]|[]|[]| [] instagram
 
 ![Desktop demonstration of hovers, random links and features working on the site](https://i.imgur.com/3Ho8z6k.gifv)
 
@@ -426,46 +426,46 @@ new tab/correct URL
 - [x] instagram
 
 ##### Nav bar
-- [] mailing list
-- [] Donate
-- [] FB
-- [] Twitter
-- [] Youtube
-- [] instagram
+- [x] mailing list
+- [x] Donate
+- [x] FB
+- [x] Twitter
+- [x] Youtube
+- [x] instagram
 
 ##### Welcome
-- [] video
+- [x] video
 
 ##### Shows
-- [] video
-- [] video
-- [] video
+- [x] video
+- [x] video
+- [x] video
 
 ##### Stories
-- [] All videos play
+- [x] All videos play
 
 ##### Projects
-- [ ] Project 1 video 1
-- [ ] Project 1 video 2
-- [ ] Project 1 video 3
-- [ ] Project 1 video 4
-- [ ] Project 1 video 5
-- [ ] Project 1 video 6
-- [ ] Project 1 video 7
-- [ ] Project 1 video 8
-- [ ] Project 1 video 9
-- [ ] Project 1 video 10
-- [ ] Project 1 video 11
-- [ ] Project 2 video 1
-- [ ] Project 2 video 2
-- [ ] Project 2 video 3
-- [ ] Project 2 download 1
-- [ ] Project 2 download 2
-- [ ] Project 2 download 3
-- [ ] Project 2 download 4
+- [x] Project 1 video 1
+- [x] Project 1 video 2
+- [x] Project 1 video 3
+- [x] Project 1 video 4
+- [x] Project 1 video 5
+- [x] Project 1 video 6
+- [x] Project 1 video 7
+- [x] Project 1 video 8
+- [x] Project 1 video 9
+- [x] Project 1 video 10
+- [x] Project 1 video 11
+- [x] Project 2 video 1
+- [x] Project 2 video 2
+- [x] Project 2 video 3
+- [x] Project 2 download 1
+- [x] Project 2 download 2
+- [x] Project 2 download 3
+- [x] Project 2 download 4
 
 ##### Activities
-- [ ] mailto
+- [x] mailto
 
 
 ##### Activities cards (x31)
@@ -474,47 +474,47 @@ new tab/correct URL
 - [ ] download link
 
 ##### Footer
-- [] Donate
-- [] FB
-- [] Twitter
-- [] Youtube
-- [] instagram
+- [x] Donate
+- [x] FB
+- [x] Twitter
+- [x] Youtube
+- [x] instagram
 
 ### Links - Internal
 correct URL
 ##### Nav bar
-- [ ] Home
-- [ ] Shows
-- [ ] Stories
-- [ ] Projects
-- [ ] Makes
+- [x] Home
+- [x] Shows
+- [x] Stories
+- [x] Projects
+- [x] Makes
 
 ##### Shows
  |Chrome | Safari | Firefox | MS|ios |link|
 -|-------| -------| --------| --|----|--|
-|[]|[]|[]|[]|[]| Forward
-|[]|[]|[]|[]|[]| Background
+- [x]]|[]|[]|[]|[]| Forward
+- [x]|[]|[]|[]|[]| Background
 Played video pauses on pressing:
  |Chrome | Safari | Firefox | MS|ios |link|
 -|-------| -------| --------| --|----|--|
-|[]|[]|[]|[]|[]| Forward
-|[]|[]|[]|[]|[]| Background
+- [x]|[]|[]|[]|[]| Forward
+- [x]|[]|[]|[]|[]| Background
 Scroll stops on
  |Chrome | Safari | Firefox | MS|ios |link|
 -|-------| -------| --------| --|----|--|
-|[]|[]|[]|[]|[]| Hover
-|[]|[]|[]|[]|[]| video play
+- [x]|[]|[]|[]|[]| Hover
+- [x]|[]|[]|[]|[]| video play
 
 ##### Projects
-- [ ] Project 1
-- [ ] Project 2
-- [ ] Project 3
+- [x] Project 1
+- [x] Project 2
+- [x] Project 3
 
 ##### Activities
-|[]|[]|[]|[ ] Filter
-|[]|[]|[]|[ ] Filter
-|[]|[]|[]|[ ] Filter
-|[]|[]|[]|[ ] Filter
+|[x]|[]|[]|[ ] Filter
+|[x]|[]|[]|[ ] Filter
+|[x]|[]|[]|[ ] Filter
+|[x]|[]|[]|[ ] Filter
 
 ##### Activities cards (x31)
 - [ ] Younger tag 
@@ -541,15 +541,20 @@ Aesthetics/Content
 ### Edge
 Aesthetics/Content
 
+## 4.4 Testing on network speeds
 
-## 4.4 Bugs
+## 4.5 Bugs
 
 ### Active Bugs
 - [ ] bad crop on goldilocks bear image
 - [ ] carousel chevrons cover text
 - [ ] carousel chevrons active  border looks ugly
-- [ ] Makes filter tracks to begininning of activities
+- [x] Makes filter tracks to begininning of activities
 - [ ] Project 2 card 1 size
+- [x] Projects download shouldn't underline on hover
+- [x] Filter tags download shouldn't underline on hover
+- [x] Filter tags shouldn't link to home
+- [x] Filter tags should center
 
 ### Squashed Bugs
 - [x] A [script was found](https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video) to prevent carousel scrolling while video was playing and to pause the video on manual control to the next page. However it required Bootstrap 4.4.1, which broke other Bootstrap functionality on the page. Ideally a fix can be found.
