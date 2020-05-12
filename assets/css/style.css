@@ -302,7 +302,7 @@ a.calendar-top-link {
     transition-timing-function: ease-in-out;
 }
 /* end of sourced code */
-
+/* Firefox only phone number styling */
 @-moz-document url-prefix() {
     .phone,
     .top-links strong a {
