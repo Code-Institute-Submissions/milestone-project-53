@@ -14,20 +14,20 @@ Check internal links work and reference correctly
 
 | Chrome | Safari | Firefox | MS  | ios | link       |
 | ------ | ------ | ------- | --- | --- | ---------- |
-| - [x]  | [x]    | []      | []  | [x] | Forward    |
-| - [x]  | [x]    | []      | []  | [x] | Background |
+| - [x]  | [x]    | [x]      | []  | [x] | Forward    |
+| - [x]  | [x]    | [x]      | []  | [x] | Background |
 
 Played video pauses on pressing:
 Chrome | Safari | Firefox | MS|ios |link|
 -------| -------| --------| --|----|--|
-[x]|[x]| [] |[] |[x] | Forward|
-[x]|[x]| [] |[] |[x] | Background|
+[x]|[x]| [x] |[] |[x] | Forward|
+[x]|[x]| [x] |[] |[x] | Background|
 
 Scroll stops on
 |Chrome | Safari | Firefox | MS|ios |link|
 |-------| -------| --------| --|----|--|
-[x]|[x] |[] |[] |[x]| Hover|
-[x]|[x] |[] |[] |[x]| video play|
+[x]|[x] |[x]| [ ]  |[x]| Hover|
+[x]|[x] |[x] |[ ] |[x]| video play|
 
 ##### Projects
 
@@ -39,10 +39,10 @@ Scroll stops on
 
 | Chrome | Safari | Firefox | MS  | ios | link   |
 | ------ | ------ | ------- | --- | --- | ------ |
-| [x]    | [x]    | []      | [ ] | [x] | Filter |
-| [x]    | [x]    | []      | [ ] | [x] | Filter |
-| [x]    | [x]    | []      | [ ] | [x] | Filter |
-| [x]    | [x]    | []      | [ ] | [x] | Filter |
+| [x]    | [x]    | [x]      | [ ] | [x] | Filter |
+| [x]    | [x]    | [x]      | [ ] | [x] | Filter |
+| [x]    | [x]    | [x]      | [ ] | [x] | Filter |
+| [x]    | [x]    | [x]      | [ ] | [x] | Filter |
 
 ##### Activities cards (x31)
 

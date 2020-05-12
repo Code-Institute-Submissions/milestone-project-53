@@ -341,10 +341,12 @@ Checking links show correct colour and use correct transition timings
 
 [Progress report here](docs/hover-testing.md)
 
-Desktop demonstration of hovers, random links and features working on the site using Chrome:
 [Desktop demonstration of hovers, random links and features working on the site using Chrome](https://imgur.com/3Ho8z6k)
 
 [Desktop demonstration of hovers, random links and features working on the site using Safari](https://imgur.com/PS6CwFS)
+
+
+[Desktop demonstration of hovers, random links and features working on the site using Firefox](https://imgur.com/W57TBed)
 
 ### Links - Internal
 
@@ -391,9 +393,8 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 ## 4.6 Bugs
 
 ### Active Bugs
-
-- [ ] Project 2 card 1 size
 - [ ] on iphone background image not sticky
+- [x] on firefox header phone number wraps
 
 ### Squashed Bugs
 
@@ -413,6 +414,7 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 - [x] iframes lacking titles for screen readers
 - [x] href telephone number
 - [x] bad crop on goldilocks bear image
+- [x] on firefox header phone number wraps
 
 # 5. Deployment
 
