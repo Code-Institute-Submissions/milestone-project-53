@@ -350,7 +350,7 @@
       <div class="trackback-link" id="welcome-link"></div>
       <section id="welcome" class="container-fluid jumbotron welcome">
         <div class="row">
-          <h2 class="heading">Welcome</h2>
+          <h1 class="heading">Welcome</h1>
         </div>
         <div class="row">
           <p class="lato col-md-6">
@@ -400,7 +400,7 @@
       <div class="trackback-link" id="shows-link"></div>
       <section id="shows" class="container-fluid jumbotron shows">
         <div class="row">
-          <h2 class="col heading">Streaming shows</h2>
+          <h1 class="col heading">Streaming shows</h1>
         </div>
 
         <div class="row">
@@ -647,7 +647,7 @@
       <div class="trackback-link" id="stories-link"></div>
       <section id="stories" class="container-fluid jumbotron stories">
         <div class="row">
-          <h2 class="heading">Stories</h2>
+          <h1 class="heading">Stories</h1>
         </div>
         <div class="row">
           <p class="col lato">
@@ -1006,18 +1006,18 @@
         id="accordion"
         class="jumbotron projects accordion container-fluid card"
       >
-        <h2 class="heading">Projects</h2>
+        <h1 class="heading projects-heading">Projects</h1>
         <p class="lato">
           Here we can find longer term projects spend an hour each day with
           children to make a small-scale puppet shows. You can follow their
           process – and even give it a go yourself!
         </p>
         <button
-          class="card-header collapsed card-title btn btn-success"
+          class="card-header collapsed card-title btn btn-success text-wrap"
           data-toggle="collapse"
           data-target="#collapseOne"
-        >
-          Make a Puppet Show with Samantha Lane
+        ><span class="text-wrap">
+          Make a Puppet Show with Samantha Lane</span>
         </button>
 
         <div
@@ -1410,12 +1410,12 @@
           <!--/Project 1 field-->
         </div>
         <button
-          class="card-header collapsed card-title btn btn-success"
+          class="card-header collapsed card-title btn btn-success inline-block"
           data-toggle="collapse"
           data-parent="#accordion"
           data-target="#collapseTwo"
-        >
-          Shadow Puppetry with Joni-Rae Carrack
+        > <span class="text-wrap">
+          Shadow Puppetry with Joni-Rae Carrack </span>
         </button>
         <div
           id="collapseTwo"
@@ -1621,12 +1621,13 @@
           <!--/Project 2 field-->
         </div>
         <button
-          class="card-header collapsed card-title btn btn-success"
+          class="card-header collapsed card-title btn btn-success .
+          text-wrap"
           data-toggle="collapse"
           data-parent="#accordion"
           data-target="#collapseThree"
-        >
-          Project Coming Soon!
+        ><span class="text-wrap">
+          Project Coming Soon!</span>
         </button>
         <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body lato">
@@ -1640,7 +1641,7 @@
       <div class="trackback-link" id="makes-link"></div>
       <section id="makes" class="container-fluid jumbotron makes">
         <div class="row">
-          <h2 class="heading">Activities</h2>
+          <h1 class="heading">Activities</h1>
         </div>
         <div class="row">
           <p class="col-12 lato">
@@ -1739,6 +1740,8 @@
           <input type="radio" id="video" name="categories" value="video" />
           <!-- /Radio button selectors for filter -->
           <!-- Radio button lables act as filter buttons -->
+          <div class="row flex-box container-fluid">
+          <div class="col justify-content-center">
           <ol class="filters">
             <li>
               <label for="all">All</label>
@@ -1752,7 +1755,8 @@
             <li>
               <label for="video">Video Tutorial</label>
             </li>
-          </ol>
+          </ol></div>
+          </div>
           <!-- /Radio button lables act as filter buttons -->
           <!-- List of cards -->
           <ol class="posts card-columns list-unstyled">
