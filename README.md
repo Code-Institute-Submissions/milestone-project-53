@@ -377,7 +377,8 @@ Expected responsive features:
 - [x] No body text on make cards
 - [x] No donate footer at bottom of page
 
-### Testing Responsive Features: Mobile version (iphone 8)
+### Testing Responsive Features: Mobile version (iphone 8)
+
 
 [iphone responsiveness testing](https://imgur.com/o7sNLsc)
 
@@ -392,7 +393,7 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 ### Active Bugs
 
 - [ ] Project 2 card 1 size
-- []on iphone background image not sticky
+- [ ]on iphone background image not sticky
 
 ### Squashed Bugs
 
