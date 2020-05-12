@@ -32,6 +32,43 @@
 
 [2.11 Future improvements](###-2.11-Future-improvements)
 
+## [3. Technologies Used](#-3.-Technologies-Used)
+
+[3.1 Languages](##-3.1-Languages)
+
+[3.2 Frameworks](##-3.2-Frameworks)
+
+[3.3 Integrated Development Environment](##-3.3-Integrated-Development-Environment)
+
+[3.4 External Hostings](##-3.4-Externa-Hostings)
+
+[3.5 Other Tools](##-3.5-Other-Tools)
+
+## [4. Testing](#-4.-Testing)
+
+[4.1 Validation](##-4.1-Validation)
+
+[4.2 UX Stories](##-4.2-UX-Stories)
+
+[4.3 Manual Testing](##-4.3-Manual-Testing)
+
+[4.4 Responsive Features](##-4.4-Responsive-Features)
+
+[4.5 Testing on network speeds](##-4.5-Testing-on-network-speeds)
+
+[4.6 Bugs](##-4.6-Bugs)
+
+## [5. Deployment](#-5.-Deployment)
+
+## [6. Credits](#-6.-Credits)
+
+[6.1 Code-snippets](##-6.1-Code-snippets)
+
+[6.2 Content](##-6.2-Content)
+
+[6.3 Media](##-6.3-Media)
+
+[6.4 Acknowledgements](##-6.4-Acknowledgements)
 # 1. UX
 
 ## 1.1 Who is this website for?
@@ -193,7 +230,7 @@ Icons are from https://fontawesome.com/
 
 Images used on this site were run through http://tinypng.com for compression.
 
-# 4 Testing
+# 4. Testing
 
 ## 4.1 Validation
 
@@ -321,7 +358,7 @@ Check internal links work and reference correctly
 - [x] Spelling checked via https://www.internetmarketingninjas.com/online-spell-checker.php
 - [x] Maually Proof read
 
-### Responsive Features
+## 4.4 Responsive Features
 
 All responsive features are working. The gif below deomnstrates testing on iphone 8.
 Expected responsive features:
@@ -348,13 +385,11 @@ Expected responsive features:
 
 A bug was found that `background-attachment: fixed` is disabled on iOS. This has been added to the bugs list.
 
-## 4.4 Testing on network speeds
+## 4.5 Testing on network speeds
 
-## 4.5 Bugs
+## 4.6 Bugs
 
 ### Active Bugs
-
-- [ ] bad crop on goldilocks bear image
 - [ ] Project 2 card 1 size
 - []on iphone background image not sticky
 
@@ -375,12 +410,21 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 - [x] carousel chevrons active border looks ugly
 - [x] iframes lacking titles for screen readers
 - [x] href telephone number
+- [x] bad crop on goldilocks bear image
 
-# Deployment
+# 5. Deployment
+  
+Repo URL: https://github.com/c-marsh/milestone-project-1.
+1. Using Gitpod's Chrome extension, the project was launched from within the repository, based on [CodeInstitutes template](https://github.com/Code-Institute-Org/gitpod-full-template).
+1. Code was developed through Gitpod’s IDE, and develpoments regularly commited and pushed to the Github repository.
+1. A branch was created to experiment with some code conflicts, and was merged back into the master branch once bugs were ironed out.
 
-# Credits
+The project be viewed by following this URL: https://c-marsh.github.io/milestone-project-1/, or run locally by following [these instructions](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-## Code snippets
+
+# 6. Credits
+
+## 6.1 Code snippets
 
 - Little Angel Header: https://littleangeltheatre.com/
 - Sticky Header: https://css-tricks.com/creating-sliding-effects-using-sticky-positioning/
@@ -389,16 +433,16 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 - Card Filter: https://webdesign.tutsplus.com/tutorials/how-to-build-a-filtering-component-in-pure-css--cms-33111
 - Youtube stop carousel JS script: https://stackoverflow.com/questions/47079195/youtube-video-iframe-in-a-bootstrap-carousel-stop-carousel-from-sliding-when-v
 
-## Content
+## 6.2 Content
 
 Content is taken from various pages and press releases on https://littleangeltheatre.com/
 
-## Media
+## 6.3 Media
 
 Media has all come from Little Angel Theatre.
 Background photo of Little Angel's 2018 production of Angelo. Photo by Ellie Kurttz.
 
-## Acknowledgements
+## 6.4 Acknowledgements
 
 I received inspiration for this project from Little Angel Theatre, and would like to thank Sophie Waddy for providing resources and a remit.
 
