@@ -1,15 +1,17 @@
 # Table of Contents
-## [# 1. UX](#1.-UX)
 
- [1.1 Who is this website for?](##1.1-Who-is-this-website-for?)
+## [1. UX](#1.-UX)
 
- [1.2 What is it that they want to achieve?](##1.2-What-is-it-that-they-want-to-achieve?)
+[1.1 Who is this website for?](##1.1-Who-is-this-website-for?)
+
+[1.2 What is it that they want to achieve?](##1.2-What-is-it-that-they-want-to-achieve?)
 
 [1.3 How my project is the best way to help them achieve those things?](##-1.3-How-my-project-is-the-best-way-to-help-them-achieve-those-things?)
 
 [1.4 Website Planning and Wireframes](##-1.4-Website-Planning-and-Wireframes)
 
 ## [2. Features](#2.-Features)
+
 [2.1 Top Section](##-2.1-Top-Section)
 
 [2.2 Nav Bar](##-2.2-Nav-Bar)
@@ -173,7 +175,6 @@ Imgur service to hosts images and screen shots for the ReadME.
 
 Giphy makes and hosts giphs for the ReadME.
 
-
 ## 3.5 Other Tools
 
 ### Balsamiq Wireframes
@@ -201,52 +202,52 @@ The HTML validator throws up a warning about a double hyphen in a comment, howev
 ![Screenshot of HTML warning](https://i.imgur.com/71C5dCI.png)
 
 ### [Image validation](https://validator.w3.org/)
+
 Additional validation from confirms all images have "alt" caption:
 
-Image textual alternative|Location
--|-
-Little Angel Logo|From line 44, column 12; to line 49, column 10
-Little Angel Logo	|From line 55, column 12; to line 60, column 10
-Book tickets button	|From line 140, column 13; to line 145, column 14
-join our mailing list button	|From line 153, column 13; to line 158, column 14
-facebook logo	|From line 167, column 13; to line 172, column 14
-twitter logo	|From line 180, column 13; to line 185, column 14
-youtube logo	|From line 193, column 13; to line 198, column 14
-Intstagram logo	|From line 206, column 13; to line 211, column 14
-picture of a shadow theatre	|From line 1495, column 25; to line 1499, column 26
-goldilocks bear puppet	|From line 1710, column 21; to line 1713, column 22
-Paper Plate Hatching Chicks	|From line 1753, column 21; to line 1756, column 22
-Paper Mache Easter Eggs	|From line 1800, column 21; to line 1803, column 22
-Troll puppet	|From line 1851, column 21; to line 1851, column 76
-Woven Paper Basket|From line 1895, column 21; to line 1898, column 22
-Star Mobile	|From line 1944, column 21; to line 1944, column 76
-Origami pig puppet	|From line 1990, column 21; to line 1993, column 22
-Little Red Hen	|From line 2034, column 21; to line 2034, column 80
-Fish puppet	|From line 2081, column 21; to line 2081, column 74
-gingerbread man puppet	|From line 2126, column 21; to line 2129, column 22
-Paper Frog puppet	|From line 2174, column 21; to line 2174, column 80
-egg box hen puppet	|From line 2220, column 21; to line 2220, column 80
-spider headband	|From line 2262, column 21; to line 2265, column 22
-Frog Fly Catcher	|From line 2305, column 21; to line 2308, column 22
-paper doll elves around a show	|From line 2348, column 21; to line 2351, column 22
-crocodile hand puppet	|From line 2391, column 21; to line 2394, column 22
-Sock Bunny	|From line 2431, column 21; to line 2431, column 79
-a woodland setting make	|From line 2467, column 21; to line 2470, column 22
-hare and tortoise puppets	|From line 2508, column 21; to line 2511, column 22
-ugly duckling make	|From line 2552, column 21; to line 2555, column 22
-a puppet princess	|From line 2597, column 21; to line 2600, column 22
-lion mask	|From line 2638, column 21; to line 2638, column 77
-easter wreath	|From line 2673, column 21; to line 2676, column 22
-pop out chick card	|From line 2712, column 21; to line 2715, column 22
-paper daffodil	|From line 2752, column 21; to line 2755, column 22
-magic beastalk make	|From line 2794, column 21; to line 2797, column 22
-cinderlellas wand make	|From line 2836, column 21; to line 2839, column 22
-mouse finger puppet	|From line 2876, column 21; to line 2879, column 22
-a cauldron sun cather	|From line 2916, column 21; to line 2919, column 22
-decorated porridge with a bear face	|From line 2955, column 21; to line 2958, column 22
-rapunzels tower make	|From line 2998, column 21; to line 3001, column 22
-homemade guitar	|From line 3040, column 21; to line 3040, column 80
-
+| Image textual alternative           | Location                                           |
+| ----------------------------------- | -------------------------------------------------- |
+| Little Angel Logo                   | From line 44, column 12; to line 49, column 10     |
+| Little Angel Logo                   | From line 55, column 12; to line 60, column 10     |
+| Book tickets button                 | From line 140, column 13; to line 145, column 14   |
+| join our mailing list button        | From line 153, column 13; to line 158, column 14   |
+| facebook logo                       | From line 167, column 13; to line 172, column 14   |
+| twitter logo                        | From line 180, column 13; to line 185, column 14   |
+| youtube logo                        | From line 193, column 13; to line 198, column 14   |
+| Intstagram logo                     | From line 206, column 13; to line 211, column 14   |
+| picture of a shadow theatre         | From line 1495, column 25; to line 1499, column 26 |
+| goldilocks bear puppet              | From line 1710, column 21; to line 1713, column 22 |
+| Paper Plate Hatching Chicks         | From line 1753, column 21; to line 1756, column 22 |
+| Paper Mache Easter Eggs             | From line 1800, column 21; to line 1803, column 22 |
+| Troll puppet                        | From line 1851, column 21; to line 1851, column 76 |
+| Woven Paper Basket                  | From line 1895, column 21; to line 1898, column 22 |
+| Star Mobile                         | From line 1944, column 21; to line 1944, column 76 |
+| Origami pig puppet                  | From line 1990, column 21; to line 1993, column 22 |
+| Little Red Hen                      | From line 2034, column 21; to line 2034, column 80 |
+| Fish puppet                         | From line 2081, column 21; to line 2081, column 74 |
+| gingerbread man puppet              | From line 2126, column 21; to line 2129, column 22 |
+| Paper Frog puppet                   | From line 2174, column 21; to line 2174, column 80 |
+| egg box hen puppet                  | From line 2220, column 21; to line 2220, column 80 |
+| spider headband                     | From line 2262, column 21; to line 2265, column 22 |
+| Frog Fly Catcher                    | From line 2305, column 21; to line 2308, column 22 |
+| paper doll elves around a show      | From line 2348, column 21; to line 2351, column 22 |
+| crocodile hand puppet               | From line 2391, column 21; to line 2394, column 22 |
+| Sock Bunny                          | From line 2431, column 21; to line 2431, column 79 |
+| a woodland setting make             | From line 2467, column 21; to line 2470, column 22 |
+| hare and tortoise puppets           | From line 2508, column 21; to line 2511, column 22 |
+| ugly duckling make                  | From line 2552, column 21; to line 2555, column 22 |
+| a puppet princess                   | From line 2597, column 21; to line 2600, column 22 |
+| lion mask                           | From line 2638, column 21; to line 2638, column 77 |
+| easter wreath                       | From line 2673, column 21; to line 2676, column 22 |
+| pop out chick card                  | From line 2712, column 21; to line 2715, column 22 |
+| paper daffodil                      | From line 2752, column 21; to line 2755, column 22 |
+| magic beastalk make                 | From line 2794, column 21; to line 2797, column 22 |
+| cinderlellas wand make              | From line 2836, column 21; to line 2839, column 22 |
+| mouse finger puppet                 | From line 2876, column 21; to line 2879, column 22 |
+| a cauldron sun cather               | From line 2916, column 21; to line 2919, column 22 |
+| decorated porridge with a bear face | From line 2955, column 21; to line 2958, column 22 |
+| rapunzels tower make                | From line 2998, column 21; to line 3001, column 22 |
+| homemade guitar                     | From line 3040, column 21; to line 3040, column 80 |
 
 ### CSS validator
 
@@ -273,6 +274,7 @@ One issue was found on the site, but on further eximanation, it references a hid
 [Colour Contrast result](https://i.imgur.com/LguREGJ.png)
 
 ## 4.2 UX Stories
+
 ### A Parent wants to homeschool and is looking for an educational project
 
 1.  Click on projects in menu bar
@@ -281,11 +283,11 @@ One issue was found on the site, but on further eximanation, it references a hid
 
 ![Desktop demonstration](https://media.giphy.com/media/XEs5aQIcdZEUr9903y/giphy.gif)
 
-
 ### A Parent wants to find out more about the shows streaming.
+
 1.  Click on shows or stories in the menu bar
 1.  They will be presented either a selection of short shows which are being streamed, or an array of stories which are being added to daily.
-1. The show tiles include credits for information.
+1.  The show tiles include credits for information.
 
 ![Desktop example](https://media0.giphy.com/media/Yrfk9mYHKNVAq0Jsz6/giphy.gif)
 
@@ -293,9 +295,9 @@ One issue was found on the site, but on further eximanation, it references a hid
 
 1.  Click on shows or stories in the menu bar
 1.  They will be presented either a selection of short shows which are being streamed, or an array of stories which are being added to daily.
-1. The child can then peruse at will and hopefully remain preoccupied.
+1.  The child can then peruse at will and hopefully remain preoccupied.
 
-
+![Desktop Example](https://i.imgur.com/8sYsS4U.gifv)
 
 ### A Parent is looking for inspiration for a craft/activity with their child to spend quality time with their child
 
@@ -305,114 +307,38 @@ One issue was found on the site, but on further eximanation, it references a hid
 
 ### A Parent wants to donate to the organisation.
 
-1. Click on donate in the menu bar (or on desktop the dontate button at the bottom of the screen). 
+1. Click on donate in the menu bar (or on desktop the dontate button at the bottom of the screen).
 1. This will open the doantion page of the main Little Angel Theatre website where donations can be made through the ticketing system.
 
 ![Desktop demonstration](https://media2.giphy.com/media/Y34vGpX1cHP22uTw9M/giphy.gif)
 
 ### A Parent wants to find out more about the shows streaming.
-A child wants
-- to find something to do
--- so that they’re not bored
-- to find something to watch
--- so that they’re not bored
-- to find inspiration
--- to play
-- to make something
--- so I have an activity for quality time with my child
 
+A child wants
+
+- to find something to do
+  -- so that they’re not bored
+- to find something to watch
+  -- so that they’re not bored
+- to find inspiration
+  -- to play
+- to make something
+  -- so I have an activity for quality time with my child
 
 // Write about how each part of your responsive website behaves on different screen sizes.
 And if you want to knock the grade for testing all the way up to the max:
 
 ## 4.3 Manual Testing
-### Chrome
-#### Hovers
-Checking links show correct colour and use correct transition timings
-##### Header:
- |Chrome | Safari | Firefox | MS| link|
--|-------| -------| --------| --|------|
- |[x]|[]|[]|[]| What's on
- |[x]|[]|[]|[]| Courses and classes
- |[x]|[]|[]|[]| Schools
- |[x]|[]|[]|[]| Support us
- |[x]|[]|[]|[]| About us
- |[x]|[]|[]|[]| Visiting us
- |[x]|[]|[]|[]| shop
- |[x]|[]|[]|[]| book tickets
- |[x]|[]|[]|[]| mailing list
- |[x]|[]|[]|[]| FB
- |[x]|[]|[]|[]| Twitter
- |[x]|[]|[]|[]| Youtube
- |[x]|[]|[]|[]| instagram
-
-##### Nav bar
- |Chrome | Safari | Firefox | MS| link|
--|-------| -------| --------| --|------|
-|[x]|[]|[]| [ ] Home
-|[x]|[]|[]| [ ] Shows
-|[x]|[]|[]| [ ] Stories
-|[x]|[]|[]| [ ] Projects
-|[x]|[]|[]| [ ] Makes
-|[x]|[]|[]| [ ] mailing list
-|[x]|[]|[]| [ ] Donate
-|[x]|[]|[]| [ ] FB
-|[x]|[]|[]| [ ] Twitter
-|[x]|[]|[]| [ ] Youtube
-|[x]|[]|[]| [ ] instagram
-
-##### Shows
- |Chrome | Safari | Firefox | MS| link|
--|-------| -------| --------| --|------|
-|[x]|[]|[]| [ ] Right Chevron
-|[x]|[]|[]| [ ] Left Chevron
-
-##### Projects
- |Chrome | Safari | Firefox | MS| link|
--|-------| -------| --------| --|------|
-|[x]|[]|[]| [ ] Project 1
-|[x]|[]|[]| [ ] Project 2
-|[x]|[]|[]| [ ] Project 3
-|[x]|[]|[]| [ ] Project 2 download 1
-|[x]|[]|[]| [ ] Project 2 download 2
-|[x]|[]|[]| [ ] Project 2 download 3
-|[x]|[]|[]| [ ] Project 2 download 4
-
-##### Activities
- |Chrome | Safari | Firefox | MS| link|
--|-------| -------| --------| --|------|
-|[x]|[]|[]| [ ] mailto
-|[x]|[]|[]| [ ] Filter
-|[x]|[]|[]| [ ] Filter
-|[x]|[]|[]| [ ] Filter
-|[x]|[]|[]| [ ] Filter
-
-##### Activities cards (x31)
- |Chrome | Safari | Firefox | MS| link|
--|-------| -------| --------| --|------|
-|[x]|[]|[]| [ ] title hover
-|[x]|[]|[]| [ ] Younger tag hover
-|[x]|[]|[]| [ ] older tag hover
-|[x]|[]|[]| [ ] video tag hover
-|[x]|[]|[]| [ ] download hover
-
-##### Footer
- |Chrome | Safari | Firefox | MS| link|
--|-------| -------| --------| --|------|
-|[x]|[]|[]| [] Donate
-|[x]|[]|[]| [] FB
-|[x]|[]|[]| [] Twitter
-|[x]|[]|[]| [] Youtube
-|[x]|[]|[]| [] instagram
-
-![Desktop demonstration of hovers, random links and features working on the site](https://i.imgur.com/3Ho8z6k.gifv)
 
 ### Links - External
-new tab/correct URL
+
+Check external links open in new tabs and link to correct URL
+
 ##### Header:
+
 - [x] news
 - [x] What's on
-- [x]  Courses and classes
+- [x] Courses and classes
 - [x] Schools
 - [x] Support us
 - [x] About us
@@ -426,6 +352,7 @@ new tab/correct URL
 - [x] instagram
 
 ##### Nav bar
+
 - [x] mailing list
 - [x] Donate
 - [x] FB
@@ -434,17 +361,21 @@ new tab/correct URL
 - [x] instagram
 
 ##### Welcome
+
 - [x] video
 
 ##### Shows
+
 - [x] video
 - [x] video
 - [x] video
 
 ##### Stories
+
 - [x] All videos play
 
 ##### Projects
+
 - [x] Project 1 video 1
 - [x] Project 1 video 2
 - [x] Project 1 video 3
@@ -465,24 +396,122 @@ new tab/correct URL
 - [x] Project 2 download 4
 
 ##### Activities
+
 - [x] mailto
 
-
 ##### Activities cards (x31)
+
 - [x] title link
 - [x] image link
 - [x] download link
 
 ##### Footer
+
 - [x] Donate
 - [x] FB
 - [x] Twitter
 - [x] Youtube
 - [x] instagram
 
-### Links - Internal
-correct URL
+### Compatibility
+
+#### Hovers
+
+Checking links show correct colour and use correct transition timings
+
+##### Header:
+
+| Chrome | Safari | Firefox | MS  | link                |
+| ------ | ------ | ------- | --- | ------------------- |
+| [x]    | [x]    | []      | []  | What's on           |
+| [x]    | [x]    | []      | []  | Courses and classes |
+| [x]    | [x]    | []      | []  | Schools             |
+| [x]    | [x]    | []      | []  | Support us          |
+| [x]    | [x]    | []      | []  | About us            |
+| [x]    | [x]    | []      | []  | Visiting us         |
+| [x]    | [x]    | []      | []  | shop                |
+| [x]    | [x]    | []      | []  | book tickets        |
+| [x]    | [x]    | []      | []  | mailing list        |
+| [x]    | [x]    | []      | []  | FB                  |
+| [x]    | [x]    | []      | []  | Twitter             |
+| [x]    | [x]    | []      | []  | Youtube             |
+| [x]    | [x]    | []      | []  | instagram           |
+
 ##### Nav bar
+
+| Chrome | Safari | Firefox | MS  | link         |
+| ------ | ------ | ------- | --- | ------------ |
+| [x]    | [x]    | []      | [ ] | Home         |
+| [x]    | [x]    | []      | [ ] | Shows        |
+| [x]    | [x]    | []      | [ ] | Stories      |
+| [x]    | [x]    | []      | [ ] | Projects     |
+| [x]    | [x]    | []      | [ ] | Makes        |
+| [x]    | [x]    | []      | [ ] | mailing list |
+| [x]    | [x]    | []      | [ ] | Donate       |
+| [x]    | [x]    | []      | [ ] | FB           |
+| [x]    | [x]    | []      | [ ] | Twitter      |
+| [x]    | [x]    | []      | [ ] | Youtube      |
+| [x]    | [x]    | []      | [ ] | instagram    |
+
+##### Shows
+
+| Chrome | Safari | Firefox | MS  | link          |
+| ------ | ------ | ------- | --- | ------------- |
+| [x]    | [x]    | []      | [ ] | Right Chevron |
+| [x]    | [x]    | []      | [ ] | Left Chevron  |
+
+##### Projects
+
+| Chrome | Safari | Firefox | MS  | link                 |
+| ------ | ------ | ------- | --- | -------------------- |
+| [x]    | [x]    | []      | [ ] | Project 1            |
+| [x]    | [x]    | []      | [ ] | Project 2            |
+| [x]    | [x]    | []      | [ ] | Project 3            |
+| [x]    | [x]    | []      | [ ] | Project 2 download 1 |
+| [x]    | [x]    | []      | [ ] | Project 2 download 2 |
+| [x]    | [x]    | []      | [ ] | Project 2 download 3 |
+| [x]    | [x]    | []      | [ ] | Project 2 download 4 |
+
+##### Activities
+
+| Chrome | Safari | Firefox | MS  | link   |
+| ------ | ------ | ------- | --- | ------ |
+| [x]    | [x]    | []      | [ ] | mailto |
+| [x]    | [x]    | []      | [ ] | Filter |
+| [x]    | [x]    | []      | [ ] | Filter |
+| [x]    | [x]    | []      | [ ] | Filter |
+| [x]    | [x]    | []      | [ ] | Filter |
+
+##### Activities cards (x31)
+
+| Chrome | Safari | Firefox | MS  | link              |
+| ------ | ------ | ------- | --- | ----------------- |
+| [x]    | [x]    | []      | [ ] | title hover       |
+| [x]    | [x]    | []      | [ ] | Younger tag hover |
+| [x]    | [x]    | []      | [ ] | older tag hover   |
+| [x]    | [x]    | []      | [ ] | video tag hover   |
+| [x]    | [x]    | []      | [ ] | download hover    |
+
+##### Footer
+
+| Chrome | Safari | Firefox | MS  | link      |
+| ------ | ------ | ------- | --- | --------- |
+| [x]    | [x]    | []      | []  | Donate    |
+| [x]    | [x]    | []      | []  | FB        |
+| [x]    | [x]    | []      | []  | Twitter   |
+| [x]    | [x]    | []      | []  | Youtube   |
+| [x]    | [x]    | []      | []  | instagram |
+
+![Desktop demonstration of hovers, random links and features working on the site using Chrome](https://i.imgur.com/3Ho8z6k.gifv)
+
+![Desktop demonstration of hovers, random links and features working on the site using Safari]()
+
+### Links - Internal
+
+Check internal links work and reference correctly
+
+##### Nav bar
+
 - [x] Home
 - [x] Shows
 - [x] Stories
@@ -490,68 +519,85 @@ correct URL
 - [x] Makes
 
 ##### Shows
- |Chrome | Safari | Firefox | MS|ios |link|
--|-------| -------| --------| --|----|--|
-- [x]|[]|[]|[]|[]| Forward
-- [x]|[]|[]|[]|[]| Background
+
+| Chrome | Safari | Firefox | MS  | ios | link       |
+| ------ | ------ | ------- | --- | --- | ---------- |
+| - [x]  | [x]     | []      | []  | [x] | Forward    |
+| - [x]  | [x]     | []      | []  | [x] | Background |
+
 Played video pauses on pressing:
- |Chrome | Safari | Firefox | MS|ios |link|
--|-------| -------| --------| --|----|--|
-- [x]|[]|[]|[]|[]| Forward
-- [x]|[]|[]|[]|[]| Background
+Chrome | Safari | Firefox | MS|ios |link|
+-------| -------| --------| --|----|--|
+[x]|[x]| [] |[] |[x] | Forward|
+[x]|[x]| [] |[] |[x] | Background|
+
 Scroll stops on
- |Chrome | Safari | Firefox | MS|ios |link|
--|-------| -------| --------| --|----|--|
-- [x]|[]|[]|[]|[]| Hover
-- [x]|[]|[]|[]|[]| video play
+|Chrome | Safari | Firefox | MS|ios |link|
+|-------| -------| --------| --|----|--|
+[x]|[x] |[] |[] |[x]| Hover|
+[x]|[x] |[] |[] |[x]| video play|
 
 ##### Projects
+
 - [x] Project 1
 - [x] Project 2
 - [x] Project 3
 
 ##### Activities
-|[x]|[]|[]|[ ] Filter
-|[x]|[]|[]|[ ] Filter
-|[x]|[]|[]|[ ] Filter
-|[x]|[]|[]|[ ] Filter
+
+| Chrome | Safari | Firefox | MS  | ios | link   |
+| ------ | ------ | ------- | --- | --- | ------ |
+| [x]    | [x]    | []      | [ ] | [x] | Filter |
+| [x]    | [x]    | []      | [ ] | [x] | Filter |
+| [x]    | [x]    | []      | [ ] | [x] | Filter |
+| [x]    | [x]    | []      | [ ] | [x] | Filter |
 
 ##### Activities cards (x31)
-- [x] Younger tag 
-- [x] older tag 
-- [x] video tag 
 
+- [x] Younger tag
+- [x] older tag
+- [x] video tag
 
 ### Proofread
+
 - [x] Spelling checked via https://www.internetmarketingninjas.com/online-spell-checker.php
 - [x] Maually Proof read
 
 ### Mobile version (iphone 8)
-Aesthetics/Content
 
-## Platform testing
-### Chrome
-Aesthetics/Content
+All responsive features are working. The gif below deomnstrates testing on iphone 8.
+Expected responsive features:
 
-### Safari
-Aesthetics/Content
+- [x] Header logo central
+- [x] navbar Logos only
+- [x] navbar no social media links
+- [x] Dismissable donate alert
+- [x] welcome video below text
+- [x] Curtailed welcome text
+- [x] shows carousel functioning
+- [x] shows text below videos
+- [x] Project episode headings cutailed to before the colon
+- [x] Project episode body text hidden
+- [x] Abridged Activities introduction text
+- [x] Responsive number of make tile columns
+- [x] No body text on make cards
+- [x] No donate footer at bottom of page
 
-### Firefox
-Aesthetics/Content
-
-### Edge
-Aesthetics/Content
+[iphone responsiveness testing]()
+[Safari browser respnsive demonstation](https://i.imgur.com/8M4Icpq.gifv)
 
 ## 4.4 Testing on network speeds
 
 ## 4.5 Bugs
 
 ### Active Bugs
+
 - [ ] bad crop on goldilocks bear image
 - [ ] Project 2 card 1 size
-
+- []on iphone background image not sticky
 
 ### Squashed Bugs
+
 - [x] A [script was found](https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video) to prevent carousel scrolling while video was playing and to pause the video on manual control to the next page. However it required Bootstrap 4.4.1, which broke other Bootstrap functionality on the page. Ideally a fix can be found.
 - [x] Projects download shouldn't underline on hover
 - [x] Filter tags download shouldn't underline on hover
@@ -560,11 +606,11 @@ Aesthetics/Content
 - [x] Project download links
 - [x] Borders on story videos
 - [x] Story video size
-- [x] No video makes 
+- [x] No video makes
 - [x] Sticky carousel arrows
 - [x] Makes filter tracks to begininning of activities
 - [x] carousel chevrons cover text
-- [x] carousel chevrons active  border looks ugly
+- [x] carousel chevrons active border looks ugly
 
 # Deployment
 
