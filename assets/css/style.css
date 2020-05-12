@@ -267,7 +267,7 @@ a.calendar-top-link {
 
 .top-links strong {
   position: absolute;
-      bottom: -7px;
+      bottom: -12px;
   left: 0px;
   width: 199px;
 }
@@ -499,6 +499,9 @@ h1.heading.projects-heading {
 .accordion .card-title {
   font-size: 1.5em;
 }
+.accordion .card-body h5{
+    margin-bottom: 0;
+}
 .accordion button {
   text-align: left;
   font-size: 1.5em;
@@ -624,6 +627,10 @@ ol.filters {
   display: inline-block;
 }
 
+.posts p{
+    margin-bottom: 0;
+}
+
 .posts .card {
   display: inline-block;
 }
@@ -647,11 +654,11 @@ ol.filters {
 }
 
 .posts .post-categories {
-  margin-bottom: 0.75rem;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  justify-content: center;
-  padding: 0;
+      margin-bottom: 0.75rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 0;
 }
 
 .posts .post-categories * {
@@ -680,11 +687,6 @@ ol.filters {
 }
 /* responsive masonry grid */
 
-@media screen and (max-width: 1200px) {
-  .card-columns {
-    column-count: 6;
-  }
-}
 
 @media screen and (max-width: 900px) {
   .card-columns {
@@ -717,7 +719,7 @@ ol.filters {
 
 @media screen and (min-width: 1200px) {
   .card-columns {
-    column-count: 7;
+    column-count: 6;
   }
 }
 
