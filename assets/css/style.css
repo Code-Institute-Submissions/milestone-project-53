@@ -23,7 +23,10 @@
 h2.heading {
   padding-left: 15px;
 }
-
+h1.heading {
+  padding-left: 15px;
+  font-size: 4em;
+}
 .nav {
   font-family: "OSPDINDIN", sans-serif;
   font-weight: normal;
@@ -442,6 +445,10 @@ a.calendar-top-link {
 #projects > * :focus {
   outline-color: #33cc99;
 }
+h1.heading.projects-heading {
+     padding-left: 0px; 
+    font-size: 4em;
+}
 
 /* Acordian */
 .accordion .card-header:after {
@@ -561,10 +568,14 @@ btn-success.focus,
   --white: #fff;
   --teal: #0ebde8;
 }
-
+ol.filters {
+    padding: 0;
+    margin-bottom: 1rem;
+}
 .filters {
   text-align: center;
   margin-bottom: 2rem;
+  position: center;
 }
 
 .filters * {
