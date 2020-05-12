@@ -297,7 +297,7 @@ One issue was found on the site, but on further eximanation, it references a hid
 1.  They will be presented either a selection of short shows which are being streamed, or an array of stories which are being added to daily.
 1.  The child can then peruse at will and hopefully remain preoccupied.
 
-![Desktop Example](https://i.imgur.com/8sYsS4U.gif) [external host link[(https://imgur.com/8sYsS4U)
+[external host link of walkthrough](https://imgur.com/8sYsS4U)
 
 ### A Parent is looking for inspiration for a craft/activity with their child to spend quality time with their child
 
@@ -342,11 +342,9 @@ Checking links show correct colour and use correct transition timings
 [Progress report here](docs/hover-testing.md)
 
 Desktop demonstration of hovers, random links and features working on the site using Chrome:
-![Desktop demonstration of hovers, random links and features working on the site using Chrome](https://i.imgur.com/3Ho8z6k.gif)
-[external host link](https://imgur.com/3Ho8z6k)
+[Desktop demonstration of hovers, random links and features working on the site using Chrome](https://imgur.com/3Ho8z6k)
 
-![Desktop demonstration of hovers, random links and features working on the site using Safari](https://i.imgur.com/PS6CwFS.gif)
-[external host link](https://imgur.com/PS6CwFS)
+[Desktop demonstration of hovers, random links and features working on the site using Safari](https://imgur.com/PS6CwFS)
 
 ### Links - Internal
 
@@ -381,11 +379,9 @@ Expected responsive features:
 
 ### Testing Responsive Features: Mobile version (iphone 8)
 
-![iphone responsiveness testing](https://i.imgur.com/o7sNLsc.gif)
-[external host link](https://imgur.com/o7sNLsc)
+[iphone responsiveness testing](https://imgur.com/o7sNLsc)
 
-![Safari browser respnsive demonstation](https://i.imgur.com/8M4Icpq.gifv)
-[external host link](https://imgur.com/8M4Icpq)
+[Safari browser respnsive demonstation](https://imgur.com/8M4Icpq)
 
 A bug was found that `background-attachment: fixed` is disabled on iOS. This has been added to the bugs list.
 
