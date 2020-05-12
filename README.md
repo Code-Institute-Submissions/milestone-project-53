@@ -469,9 +469,9 @@ new tab/correct URL
 
 
 ##### Activities cards (x31)
-- [ ] title link
-- [ ] image link
-- [ ] download link
+- [x] title link
+- [x] image link
+- [x] download link
 
 ##### Footer
 - [x] Donate
@@ -492,7 +492,7 @@ correct URL
 ##### Shows
  |Chrome | Safari | Firefox | MS|ios |link|
 -|-------| -------| --------| --|----|--|
-- [x]]|[]|[]|[]|[]| Forward
+- [x]|[]|[]|[]|[]| Forward
 - [x]|[]|[]|[]|[]| Background
 Played video pauses on pressing:
  |Chrome | Safari | Firefox | MS|ios |link|
@@ -517,13 +517,14 @@ Scroll stops on
 |[x]|[]|[]|[ ] Filter
 
 ##### Activities cards (x31)
-- [ ] Younger tag 
-- [ ] older tag 
-- [ ] video tag 
+- [x] Younger tag 
+- [x] older tag 
+- [x] video tag 
 
 
 ### Proofread
-Spelling/Content
+- [x] Spelling checked via https://www.internetmarketingninjas.com/online-spell-checker.php
+- [x] Maually Proof read
 
 ### Mobile version (iphone 8)
 Aesthetics/Content
@@ -547,22 +548,23 @@ Aesthetics/Content
 
 ### Active Bugs
 - [ ] bad crop on goldilocks bear image
-- [ ] carousel chevrons cover text
-- [ ] carousel chevrons active  border looks ugly
-- [x] Makes filter tracks to begininning of activities
 - [ ] Project 2 card 1 size
+
+
+### Squashed Bugs
+- [x] A [script was found](https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video) to prevent carousel scrolling while video was playing and to pause the video on manual control to the next page. However it required Bootstrap 4.4.1, which broke other Bootstrap functionality on the page. Ideally a fix can be found.
 - [x] Projects download shouldn't underline on hover
 - [x] Filter tags download shouldn't underline on hover
 - [x] Filter tags shouldn't link to home
 - [x] Filter tags should center
-
-### Squashed Bugs
-- [x] A [script was found](https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video) to prevent carousel scrolling while video was playing and to pause the video on manual control to the next page. However it required Bootstrap 4.4.1, which broke other Bootstrap functionality on the page. Ideally a fix can be found.
 - [x] Project download links
 - [x] Borders on story videos
 - [x] Story video size
 - [x] No video makes 
 - [x] Sticky carousel arrows
+- [x] Makes filter tracks to begininning of activities
+- [x] carousel chevrons cover text
+- [x] carousel chevrons active  border looks ugly
 
 # Deployment
 
