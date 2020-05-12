@@ -380,6 +380,7 @@ Expected responsive features:
 - [x] No donate footer at bottom of page
 
 ### Testing Responsive Features: Mobile version (iphone 8)
+
 ![iphone responsiveness testing](https://i.imgur.com/o7sNLsc.gif)
 [external host link](https://imgur.com/o7sNLsc)
 
