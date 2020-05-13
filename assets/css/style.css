@@ -433,6 +433,11 @@ a.calendar-top-link {
     border-radius: 0;
 }
 
+.expiry {
+    display: block;
+    margin-top: 0.5em;
+}
+
 #stories .card {
     position: relative;
     display: -ms-flexbox;
@@ -647,6 +652,7 @@ ol.filters {
 }
 .posts .post-title {
     font-size: 1.5em;
+    padding-top: 0.25em;
 }
 
 .posts .post-title:hover {
@@ -792,6 +798,11 @@ footer {
 footer a {
     font-family: "OSPDINDIN", sans-serif;
     color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
