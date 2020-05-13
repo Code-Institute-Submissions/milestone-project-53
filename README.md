@@ -394,10 +394,14 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 
 ### Active Bugs
 - [ ] on iphone background image not sticky
-- [x] on firefox header phone number wraps
+- [ ] spacing around card tags
+- [ ] heading margins on project cards
+- [ ] stories "added" padding
+
+
 
 ### Squashed Bugs
-
+- [x] on firefox header phone number wraps
 - [x] A [script was found](https://stackoverflow.com/questions/52924820/pause-bootstrap-carousel-when-playing-youtube-video) to prevent carousel scrolling while video was playing and to pause the video on manual control to the next page. However it required Bootstrap 4.4.1, which broke other Bootstrap functionality on the page. Ideally a fix can be found.
 - [x] Projects download shouldn't underline on hover
 - [x] Filter tags download shouldn't underline on hover
