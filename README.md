@@ -54,9 +54,7 @@
 
 [4.4 Responsive Features](##-4.4-Responsive-Features)
 
-[4.5 Testing on network speeds](##-4.5-Testing-on-network-speeds)
-
-[4.6 Bugs](##-4.6-Bugs)
+[4.5 Bugs](##-4.5-Bugs)
 
 ## [5. Deployment](#-5.-Deployment)
 
@@ -388,18 +386,11 @@ Expected responsive features:
 
 A bug was found that `background-attachment: fixed` is disabled on iOS. This has been added to the bugs list.
 
-## 4.5 Testing on network speeds
 
-## 4.6 Bugs
+## 4.5 Bugs
 
 ### Active Bugs
 - [ ] on iphone background image not sticky
-- [ ] spacing around card tags
-- [ ] heading margins on project cards
-- [ ] stories "added" padding
-- [ ] footer a underline
-
-
 
 
 ### Squashed Bugs
@@ -421,6 +412,10 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 - [x] href telephone number
 - [x] bad crop on goldilocks bear image
 - [x] on firefox header phone number wraps
+- [x] spacing around card tags
+- [x] heading margins on project cards
+- [x] stories "added" padding
+- [x] footer a underline
 
 # 5. Deployment
 
