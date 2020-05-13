@@ -397,6 +397,8 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 - [ ] spacing around card tags
 - [ ] heading margins on project cards
 - [ ] stories "added" padding
+- [ ] footer a underline
+
 
 
 
