@@ -390,8 +390,7 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 ## 4.5 Bugs
 
 ### Active Bugs
-- [ ] on iphone background image not sticky
-
+None
 
 ### Squashed Bugs
 - [x] on firefox header phone number wraps
@@ -416,6 +415,7 @@ A bug was found that `background-attachment: fixed` is disabled on iOS. This has
 - [x] heading margins on project cards
 - [x] stories "added" padding
 - [x] footer a underline
+- [x] on iphone background image not sticky
 
 # 5. Deployment
 
